@@ -15,22 +15,25 @@ groups:
     paths:
       - app/styles
     concat:
-      "/styles/app.css": "app/styles/**/[a-z]*.{css,scss,sass}"
+      "/styles/app.css": "{app,vendor}/**/[a-z]*.{css,scss,sass}"
   images:
     paths:
       - app/images
     sprite:
-      "../app/images/icons.scss": "app/images/**/*.png"
+      "../app/styles/icons.scss": "app/images/**/*.png"
   views:
     paths:
       - app/views
     copy:
-      "/": "app/views/**/*.html"
+      "/": "app/views/**/*.{hbs,html}"
   templates:
     paths:
       - app/templates
     precompile:
-      "/scripts/templates.js": "app/templates/**/*.hbs"
+      "../vendor/templates.js": "{app/templates/**/*.hbs,app/components/**/*.hbs}"
+  components:
+    paths:
+      - app/components
 modules:
   wrapper: cmd
   ignored: vendor/**/*
@@ -39,7 +42,9 @@ sprites:
   url: /images/
   path: /images/
   selector: .icon-
-revision: index.html
+revision:
+  files:
+    - index.html
 notification: true
 bundles:
   jquery.js:
@@ -48,4 +53,12 @@ bundles:
   handlebars.js:
     version: 1.0.0
     url: https://raw.github.com/wycats/handlebars.js/1.0.0/dist/handlebars.runtime.js
-
+  pokeball.js:
+    version: master
+    url: http://git.terminus.io:9099/terminus/pokeball/raw/master/public/pokeball.js
+  essage.js:
+    version: 0.1.0
+    url: https://raw.githubusercontent.com/sofish/essage/master/src/essage.js
+  essage.css:
+    version: 0.1.0
+    url: https://raw.githubusercontent.com/sofish/essage/master/src/essage.css
