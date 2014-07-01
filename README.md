@@ -1,4 +1,9 @@
-Terminus, Inc
-=============
+Personal blog
 
-The Homepage of Terminus, Inc
+Powered by:
+
+- Jekyll
+- Linner
+- Google Fonts
+- Font Awesome
+- DISQUS

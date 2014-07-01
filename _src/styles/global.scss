@@ -1,0 +1,40 @@
+@import "compass/reset";
+@import "common";
+
+html, body {
+  font-size: 15px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  @include transition(all 0.2s);
+}
+
+.row {
+  @include clearfloat;
+  width: 960px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.btn {
+  border-radius: 3px;
+  padding: 8px 20px;
+
+  &.reverse-btn {
+    border: 1px solid white;
+
+    &:hover {
+      background-color: rgba(white, 0.3);
+    }
+  }
+}

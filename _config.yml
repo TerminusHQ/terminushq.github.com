@@ -1,0 +1,26 @@
+name: "Terminus, Inc"
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables", "strikethrough", "footnotes"]
+pygments: true
+exclude: ['Linnerfile']
+
+paginate: 5
+paginate_path: "/page/:num"
+
+author:
+  name: "Anson"
+  fullname: "Anson Chan"
+  position: "Hangzhou"
+  email: "anson0370@gmail.com"
+  github: "anson0370"
+  weibo:
+    name: "@叫你不戴帽子"
+    url: "http://www.weibo.com/anson0370"
+  twitter:
+    name: "@anson0370"
+    url: "https://twitter.com/anson0370"
+
+powered:
+  disqus:
+    shortname: "anson0370githubio"

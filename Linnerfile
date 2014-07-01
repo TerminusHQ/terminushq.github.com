@@ -1,0 +1,29 @@
+paths:
+  app: "_src"
+  vendor: "_vendor"
+  public: "public"
+groups:
+  scripts:
+    paths:
+      - "_src/scripts"
+      - "_vendor"
+    concat:
+      "js/vendor.js": "{_vendor/**/*.{js,coffee}}"
+      "js/app.js": "{_src/scripts/**/*.{js,coffee}}"
+  styles:
+    paths:
+      - "_src/styles"
+      - "_vendor"
+    concat:
+      "css/vendor.css": "{_vendor/**/*.{css,scss,sass}}"
+      "css/app.css": "{_src/styles/**/[a-z]*.{css,scss,sass}}"
+    order:
+      - "_src/styles/global.scss"
+modules:
+  wrapper: "CMD"
+  definition: "js/app.js"
+  ignored: "_vendor/**/*"
+sprites:
+  selector: ".icon-"
+  path: "/img/"
+notification: true
