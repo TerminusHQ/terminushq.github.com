@@ -121,23 +121,23 @@ a {
 .btn.reverse-btn:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-/* line 1, _src/styles/index.scss */
+/* line 3, _src/styles/index.scss */
 .index {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-/* line 6, _src/styles/index.scss */
+/* line 8, _src/styles/index.scss */
 .index .top {
   position: relative;
   width: 100%;
   height: 100%;
   min-height: 530px;
-  background-color: #eee;
+  background-color: black;
   background: url("/img/index-top-bg3.jpg") 50% 50% no-repeat;
   color: white;
 }
-/* line 15, _src/styles/index.scss */
+/* line 17, _src/styles/index.scss */
 .index .top-mask {
   position: absolute;
   display: block;
@@ -148,29 +148,30 @@ a {
   background-color: #666;
   opacity: 0.4;
 }
-/* line 25, _src/styles/index.scss */
+/* line 27, _src/styles/index.scss */
 .index .top-header {
   padding-top: 40px;
   width: 960px;
   margin: 0 auto;
   line-height: 2rem;
 }
-/* line 31, _src/styles/index.scss */
+/* line 33, _src/styles/index.scss */
 .index .top-header .logo {
   font-weight: bold;
   font-size: 2rem;
 }
-/* line 37, _src/styles/index.scss */
+/* line 39, _src/styles/index.scss */
 .index .top-header .menu li {
   float: left;
   margin-left: 50px;
 }
-/* line 42, _src/styles/index.scss */
+/* line 44, _src/styles/index.scss */
 .index .top-header .menu a:hover {
   color: #ddd;
 }
-/* line 47, _src/styles/index.scss */
+/* line 49, _src/styles/index.scss */
 .index .top-logo {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   position: absolute;
   top: 0;
@@ -183,7 +184,7 @@ a {
   text-align: center;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
-/* line 57, _src/styles/index.scss */
+/* line 59, _src/styles/index.scss */
 .index .top-logo .logo {
   display: block;
   width: 140px;
@@ -192,16 +193,16 @@ a {
   border-radius: 50% 10px 50% 50%;
   border: 2px solid white;
 }
-/* line 67, _src/styles/index.scss */
+/* line 69, _src/styles/index.scss */
 .index .top-logo h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
 }
-/* line 71, _src/styles/index.scss */
+/* line 73, _src/styles/index.scss */
 .index .top-logo h2 {
   font-size: 1.5rem;
 }
-/* line 75, _src/styles/index.scss */
+/* line 77, _src/styles/index.scss */
 .index .top-footer {
   position: absolute;
   left: 0;
@@ -210,60 +211,60 @@ a {
   text-align: center;
   font-size: 4rem;
 }
-/* line 84, _src/styles/index.scss */
+/* line 86, _src/styles/index.scss */
 .index .screen {
   padding: 100px 0;
   text-align: center;
 }
-/* line 88, _src/styles/index.scss */
+/* line 90, _src/styles/index.scss */
 .index .screen .paragraph {
   margin-top: 40px;
   margin-bottom: 40px;
   line-height: 1.5em;
 }
-/* line 94, _src/styles/index.scss */
+/* line 96, _src/styles/index.scss */
 .index .screen h2 {
   font-size: 2rem;
   line-height: 1.5em;
   color: #3e0900;
 }
-/* line 100, _src/styles/index.scss */
+/* line 102, _src/styles/index.scss */
 .index .screen p {
   line-height: 1.5em;
 }
-/* line 105, _src/styles/index.scss */
+/* line 107, _src/styles/index.scss */
 .index .section-logo {
   color: #cdcdcd;
 }
-/* line 108, _src/styles/index.scss */
+/* line 110, _src/styles/index.scss */
 .index .section-logo i {
   display: block;
   margin-bottom: 10px;
   font-size: 5rem;
 }
-/* line 115, _src/styles/index.scss */
+/* line 117, _src/styles/index.scss */
 .index .summary {
   width: 100%;
   background-color: white;
 }
-/* line 120, _src/styles/index.scss */
+/* line 122, _src/styles/index.scss */
 .index .summary-spec {
   text-align: left;
 }
-/* line 123, _src/styles/index.scss */
+/* line 125, _src/styles/index.scss */
 .index .summary-spec .key {
   text-align: right;
   width: 400px;
 }
-/* line 129, _src/styles/index.scss */
+/* line 131, _src/styles/index.scss */
 .index .intro {
   background-color: #f7f7f7;
 }
-/* line 133, _src/styles/index.scss */
+/* line 135, _src/styles/index.scss */
 .index .intro-example {
   position: relative;
 }
-/* line 136, _src/styles/index.scss */
+/* line 138, _src/styles/index.scss */
 .index .intro-example .example-logo {
   position: absolute;
   left: 50%;
@@ -274,43 +275,43 @@ a {
   background-color: #e5973a;
   color: white;
 }
-/* line 147, _src/styles/index.scss */
+/* line 149, _src/styles/index.scss */
 .index .intro-example .rrs {
   line-height: 70px;
   font-size: 1.7rem;
   color: #cc003a;
 }
-/* line 152, _src/styles/index.scss */
+/* line 154, _src/styles/index.scss */
 .index .intro-example .ddbao {
   line-height: 70px;
   font-size: 1.7rem;
   color: #e84c36;
 }
-/* line 159, _src/styles/index.scss */
+/* line 161, _src/styles/index.scss */
 .index .intro-divider {
   width: 960px;
   margin: 40px auto;
   border-top: 1px solid #d0d0d0;
 }
-/* line 166, _src/styles/index.scss */
+/* line 168, _src/styles/index.scss */
 .index .customer-list {
   height: 200px;
 }
-/* line 170, _src/styles/index.scss */
+/* line 172, _src/styles/index.scss */
 .index .bottom {
   color: white;
-  background-color: #eee;
+  background-color: black;
   background: url("/img/index-top-bg3.jpg") 50% 100% no-repeat;
 }
-/* line 175, _src/styles/index.scss */
+/* line 177, _src/styles/index.scss */
 .index .bottom .copyright {
   opacity: 0.8;
 }
-/* line 177, _src/styles/index.scss */
+/* line 179, _src/styles/index.scss */
 .index .bottom .copyright strong {
   font-weight: bold;
 }
-/* line 181, _src/styles/index.scss */
+/* line 183, _src/styles/index.scss */
 .index .bottom .faith {
   opacity: 0.6;
   font-size: 0.8rem;
