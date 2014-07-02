@@ -175,13 +175,13 @@
     background: url("/img/index-top-bg3.jpg") 50% 100% no-repeat;
 
     .copyright {
-      opacity: 0.8;
+      @include opacity(0.8);
       strong {
         font-weight: bold;
       }
     }
     .faith {
-      opacity: 0.6;
+      @include opacity(0.6);
       font-size: 0.8em;
     }
   }

@@ -305,6 +305,7 @@ a {
 }
 /* line 177, _src/styles/index.scss */
 .index .bottom .copyright {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
 /* line 179, _src/styles/index.scss */
@@ -313,6 +314,7 @@ a {
 }
 /* line 183, _src/styles/index.scss */
 .index .bottom .faith {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   font-size: 0.8em;
 }
