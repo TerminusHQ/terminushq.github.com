@@ -153,12 +153,12 @@ a {
   padding-top: 40px;
   width: 960px;
   margin: 0 auto;
-  line-height: 2rem;
+  line-height: 2em;
 }
 /* line 33, _src/styles/index.scss */
 .index .top-header .logo {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2em;
 }
 /* line 39, _src/styles/index.scss */
 .index .top-header .menu li {
@@ -195,12 +195,12 @@ a {
 }
 /* line 69, _src/styles/index.scss */
 .index .top-logo h1 {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   margin-bottom: 15px;
 }
 /* line 73, _src/styles/index.scss */
 .index .top-logo h2 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 /* line 77, _src/styles/index.scss */
 .index .top-footer {
@@ -209,7 +209,7 @@ a {
   bottom: 10px;
   width: 100%;
   text-align: center;
-  font-size: 4rem;
+  font-size: 4em;
 }
 /* line 86, _src/styles/index.scss */
 .index .screen {
@@ -224,7 +224,7 @@ a {
 }
 /* line 96, _src/styles/index.scss */
 .index .screen h2 {
-  font-size: 2rem;
+  font-size: 2em;
   line-height: 1.5em;
   color: #3e0900;
 }
@@ -240,7 +240,7 @@ a {
 .index .section-logo i {
   display: block;
   margin-bottom: 10px;
-  font-size: 5rem;
+  font-size: 5em;
 }
 /* line 117, _src/styles/index.scss */
 .index .summary {
@@ -271,20 +271,20 @@ a {
   margin-left: -230px;
   width: 70px;
   line-height: 70px;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   background-color: #e5973a;
   color: white;
 }
 /* line 149, _src/styles/index.scss */
 .index .intro-example .rrs {
   line-height: 70px;
-  font-size: 1.7rem;
+  font-size: 1.7em;
   color: #cc003a;
 }
 /* line 154, _src/styles/index.scss */
 .index .intro-example .ddbao {
   line-height: 70px;
-  font-size: 1.7rem;
+  font-size: 1.7em;
   color: #e84c36;
 }
 /* line 161, _src/styles/index.scss */
@@ -314,5 +314,5 @@ a {
 /* line 183, _src/styles/index.scss */
 .index .bottom .faith {
   opacity: 0.6;
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
