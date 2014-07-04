@@ -156,45 +156,63 @@ a {
     -o-transform: translate(0, -20px);
     transform: translate(0, -20px);
   }
+
+  /* line 25, _src/styles/index.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    opacity: 0.4;
+  }
 }
 
 @-webkit-keyframes learnMoreBlink {
-  /* line 28, _src/styles/index.scss */
-  35% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-    opacity: 0.6;
+  /* line 31, _src/styles/index.scss */
+  0% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    opacity: 0.4;
   }
 
-  /* line 31, _src/styles/index.scss */
+  /* line 34, _src/styles/index.scss */
+  40% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    opacity: 0.4;
+  }
+
+  /* line 37, _src/styles/index.scss */
   50% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 
-  /* line 34, _src/styles/index.scss */
-  65% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-    opacity: 0.6;
+  /* line 40, _src/styles/index.scss */
+  60% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    opacity: 0.4;
+  }
+
+  /* line 43, _src/styles/index.scss */
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    opacity: 0.4;
   }
 }
 
-/* line 39, _src/styles/index.scss */
+/* line 48, _src/styles/index.scss */
 .index {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-/* line 44, _src/styles/index.scss */
+/* line 53, _src/styles/index.scss */
 .index .top {
   position: relative;
   width: 100%;
   height: 100%;
   min-height: 530px;
-  background: url("/img/index-top-bg4.png") 50% 50% no-repeat;
+  background: url("/img/index-top-bg6.jpg") 50% 50% no-repeat;
   background-color: black;
   color: white;
 }
-/* line 53, _src/styles/index.scss */
+/* line 62, _src/styles/index.scss */
 .index .top-mask {
   position: absolute;
   display: block;
@@ -205,28 +223,28 @@ a {
   background-color: #666;
   opacity: 0.4;
 }
-/* line 63, _src/styles/index.scss */
+/* line 72, _src/styles/index.scss */
 .index .top-header {
   padding-top: 40px;
   width: 960px;
   margin: 0 auto;
   line-height: 2em;
 }
-/* line 69, _src/styles/index.scss */
+/* line 78, _src/styles/index.scss */
 .index .top-header .logo {
   font-weight: bold;
   font-size: 2em;
 }
-/* line 75, _src/styles/index.scss */
+/* line 84, _src/styles/index.scss */
 .index .top-header .menu li {
   float: left;
   margin-left: 50px;
 }
-/* line 80, _src/styles/index.scss */
+/* line 89, _src/styles/index.scss */
 .index .top-header .menu a:hover {
   color: #ddd;
 }
-/* line 85, _src/styles/index.scss */
+/* line 94, _src/styles/index.scss */
 .index .top-logo {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
@@ -242,7 +260,7 @@ a {
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   -webkit-animation: topLogoFadeIn 0.8s ease-out;
 }
-/* line 97, _src/styles/index.scss */
+/* line 106, _src/styles/index.scss */
 .index .top-logo .logo {
   display: block;
   width: 140px;
@@ -251,16 +269,16 @@ a {
   border-radius: 50% 10px 50% 50%;
   border: 2px solid white;
 }
-/* line 107, _src/styles/index.scss */
+/* line 116, _src/styles/index.scss */
 .index .top-logo h1 {
   font-size: 2.5em;
   margin-bottom: 15px;
 }
-/* line 111, _src/styles/index.scss */
+/* line 120, _src/styles/index.scss */
 .index .top-logo h2 {
   font-size: 1.5em;
 }
-/* line 115, _src/styles/index.scss */
+/* line 124, _src/styles/index.scss */
 .index .top-footer {
   position: absolute;
   left: 0;
@@ -269,66 +287,66 @@ a {
   text-align: center;
   font-size: 4em;
 }
-/* line 123, _src/styles/index.scss */
+/* line 132, _src/styles/index.scss */
 .index .top-footer .learn-more {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
-  -webkit-animation: learnMoreFadeIn 0.8s ease-out 0.4s, learnMoreBlink 3s linear 0.8s infinite;
+  -webkit-animation: learnMoreFadeIn 0.8s ease-out 0.6s, learnMoreBlink 4s linear 1.4s infinite;
 }
-/* line 129, _src/styles/index.scss */
+/* line 138, _src/styles/index.scss */
 .index .screen {
   padding: 100px 0;
   text-align: center;
 }
-/* line 133, _src/styles/index.scss */
+/* line 142, _src/styles/index.scss */
 .index .screen .paragraph {
   margin-top: 40px;
   margin-bottom: 40px;
   line-height: 1.5em;
 }
-/* line 139, _src/styles/index.scss */
+/* line 148, _src/styles/index.scss */
 .index .screen h2 {
   font-size: 2em;
   line-height: 1.5em;
   color: #060411;
 }
-/* line 145, _src/styles/index.scss */
+/* line 154, _src/styles/index.scss */
 .index .screen p {
   line-height: 1.5em;
 }
-/* line 150, _src/styles/index.scss */
+/* line 159, _src/styles/index.scss */
 .index .section-logo {
   color: #cdcdcd;
 }
-/* line 153, _src/styles/index.scss */
+/* line 162, _src/styles/index.scss */
 .index .section-logo i {
   display: block;
   margin-bottom: 10px;
   font-size: 5em;
 }
-/* line 160, _src/styles/index.scss */
+/* line 169, _src/styles/index.scss */
 .index .summary {
   width: 100%;
   background-color: white;
 }
-/* line 165, _src/styles/index.scss */
+/* line 174, _src/styles/index.scss */
 .index .summary-spec {
   text-align: left;
 }
-/* line 168, _src/styles/index.scss */
+/* line 177, _src/styles/index.scss */
 .index .summary-spec .key {
   text-align: right;
   width: 400px;
 }
-/* line 174, _src/styles/index.scss */
+/* line 183, _src/styles/index.scss */
 .index .intro {
   background-color: #f7f7f7;
 }
-/* line 178, _src/styles/index.scss */
+/* line 187, _src/styles/index.scss */
 .index .intro-example {
   position: relative;
 }
-/* line 181, _src/styles/index.scss */
+/* line 190, _src/styles/index.scss */
 .index .intro-example .example-logo {
   position: absolute;
   left: 50%;
@@ -339,44 +357,44 @@ a {
   background-color: #1d4f94;
   color: white;
 }
-/* line 192, _src/styles/index.scss */
+/* line 201, _src/styles/index.scss */
 .index .intro-example .rrs {
   line-height: 70px;
   font-size: 1.7em;
   color: #cc003a;
 }
-/* line 197, _src/styles/index.scss */
+/* line 206, _src/styles/index.scss */
 .index .intro-example .ddbao {
   line-height: 70px;
   font-size: 1.7em;
   color: #e84c36;
 }
-/* line 204, _src/styles/index.scss */
+/* line 213, _src/styles/index.scss */
 .index .intro-divider {
   width: 960px;
   margin: 40px auto;
   border-top: 1px solid #d0d0d0;
 }
-/* line 211, _src/styles/index.scss */
+/* line 220, _src/styles/index.scss */
 .index .customer-list {
   height: 200px;
 }
-/* line 215, _src/styles/index.scss */
+/* line 224, _src/styles/index.scss */
 .index .bottom {
   color: white;
-  background: url("/img/index-top-bg4.png") 50% 100% no-repeat;
+  background: url("/img/index-top-bg6.jpg") 50% 100% no-repeat;
   background-color: black;
 }
-/* line 220, _src/styles/index.scss */
+/* line 229, _src/styles/index.scss */
 .index .bottom .copyright {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 222, _src/styles/index.scss */
+/* line 231, _src/styles/index.scss */
 .index .bottom .copyright strong {
   font-weight: bold;
 }
-/* line 226, _src/styles/index.scss */
+/* line 235, _src/styles/index.scss */
 .index .bottom .faith {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;

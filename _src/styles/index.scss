@@ -1,6 +1,6 @@
 @import "common";
 
-$background-url: "/img/index-top-bg4.png";
+$background-url: "/img/index-top-bg6.jpg";
 // $title-color: rgb(62, 9, 0);
 $title-color: rgb(6, 4, 17);
 // $example-color: rgb(229, 151, 58);
@@ -22,17 +22,26 @@ $example-color: rgb(29, 79, 148);
     @include opacity(0);
     @include translate(0, -20px);
   }
+  100% {
+    @include opacity(0.4);
+  }
 }
 
 @-webkit-keyframes learnMoreBlink {
-  35% {
-    @include opacity(0.6);
+  0% {
+    @include opacity(0.4);
+  }
+  40% {
+    @include opacity(0.4);
   }
   50% {
     @include opacity(1);
   }
-  65% {
-    @include opacity(0.6);
+  60% {
+    @include opacity(0.4);
+  }
+  100% {
+    @include opacity(0.4);
   }
 }
 
@@ -122,7 +131,7 @@ $example-color: rgb(29, 79, 148);
 
     .learn-more {
       @include opacity(0.6);
-      -webkit-animation: learnMoreFadeIn 0.8s ease-out 0.4s, learnMoreBlink 3s linear 0.8s infinite;
+      -webkit-animation: learnMoreFadeIn 0.8s ease-out 0.6s, learnMoreBlink 4s linear 1.4s infinite;
     }
   }
 
