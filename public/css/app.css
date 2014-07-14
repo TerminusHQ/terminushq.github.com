@@ -121,6 +121,89 @@ a {
 .btn.reverse-btn:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+/* line 1, _src/styles/icons.scss */
+.icon-rrs-example {
+  width: 1220px;
+  height: 320px;
+  background: url(public/img/icons.png) 0px 0px no-repeat;
+}
+
+/* line 6, _src/styles/icons.scss */
+.icon-ddbao-example {
+  width: 1220px;
+  height: 200px;
+  background: url(public/img/icons.png) 0px -320px no-repeat;
+}
+
+/* line 11, _src/styles/icons.scss */
+.icon-ddbao-ad {
+  width: 1092px;
+  height: 92px;
+  background: url(public/img/icons.png) 0px -520px no-repeat;
+}
+
+/* line 16, _src/styles/icons.scss */
+.icon-ddbao-logo {
+  width: 300px;
+  height: 40px;
+  background: url(public/img/icons.png) 0px -612px no-repeat;
+}
+
+/* line 21, _src/styles/icons.scss */
+.icon-team {
+  width: 168px;
+  height: 220px;
+  background: url(public/img/icons.png) 0px -652px no-repeat;
+}
+
+/* line 26, _src/styles/icons.scss */
+.icon-yizhifu-logo {
+  width: 167px;
+  height: 65px;
+  background: url(public/img/icons.png) -168px -652px no-repeat;
+}
+
+/* line 31, _src/styles/icons.scss */
+.icon-dianxin-logo {
+  width: 164px;
+  height: 69px;
+  background: url(public/img/icons.png) -168px -717px no-repeat;
+}
+
+/* line 36, _src/styles/icons.scss */
+.icon-shangmeng-logo {
+  width: 159px;
+  height: 48px;
+  background: url(public/img/icons.png) -335px -652px no-repeat;
+}
+
+/* line 41, _src/styles/icons.scss */
+.icon-haier-logo {
+  width: 157px;
+  height: 70px;
+  background: url(public/img/icons.png) -168px -786px no-repeat;
+}
+
+/* line 46, _src/styles/icons.scss */
+.icon-friends {
+  width: 100px;
+  height: 116px;
+  background: url(public/img/icons.png) 0px -872px no-repeat;
+}
+
+/* line 51, _src/styles/icons.scss */
+.icon-remind {
+  width: 100px;
+  height: 100px;
+  background: url(public/img/icons.png) -100px -872px no-repeat;
+}
+
+/* line 56, _src/styles/icons.scss */
+.icon-comments {
+  width: 100px;
+  height: 95px;
+  background: url(public/img/icons.png) -200px -872px no-repeat;
+}
 @-webkit-keyframes topLogoFadeIn {
   /* line 10, _src/styles/index.scss */
   0% {
@@ -358,45 +441,114 @@ a {
   color: white;
 }
 /* line 201, _src/styles/index.scss */
-.index .intro-example .rrs {
+.index .intro-example .logo-rrs {
   line-height: 70px;
   font-size: 1.7em;
   color: #cc003a;
 }
 /* line 206, _src/styles/index.scss */
-.index .intro-example .ddbao {
-  line-height: 70px;
-  font-size: 1.7em;
-  color: #e84c36;
+.index .intro-example .logo-ddbao {
+  display: inline-block;
+  width: 300px;
+  height: 40px;
+  margin: 15px 0;
+  background: url("/img/ddbao-logo.png") no-repeat;
 }
-/* line 213, _src/styles/index.scss */
+/* line 215, _src/styles/index.scss */
+.index .rrs-desc {
+  font-size: 0.9em;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+/* line 223, _src/styles/index.scss */
 .index .intro-divider {
   width: 960px;
   margin: 40px auto;
   border-top: 1px solid #d0d0d0;
 }
-/* line 220, _src/styles/index.scss */
+/* line 230, _src/styles/index.scss */
 .index .customer-list {
-  height: 200px;
+  width: 1100px;
+  margin: 0 auto;
 }
-/* line 224, _src/styles/index.scss */
+/* line 234, _src/styles/index.scss */
+.index .customer-list th {
+  padding-bottom: 1.5em;
+  vertical-align: middle;
+}
+/* line 239, _src/styles/index.scss */
+.index .customer-list td, .index .customer-list th {
+  text-align: center;
+}
+/* line 244, _src/styles/index.scss */
+.index .img-haier-logo {
+  display: inline-block;
+  width: 157px;
+  height: 70px;
+  background: url("/img/haier-logo.png") no-repeat;
+}
+/* line 251, _src/styles/index.scss */
+.index .img-dianxin-logo {
+  display: inline-block;
+  width: 164px;
+  height: 69px;
+  background: url("/img/dianxin-logo.png") no-repeat;
+}
+/* line 258, _src/styles/index.scss */
+.index .img-bestpay-logo {
+  display: inline-block;
+  width: 167px;
+  height: 65px;
+  background: url("/img/bestpay-logo.png") no-repeat;
+}
+/* line 265, _src/styles/index.scss */
+.index .img-sumpay-logo {
+  display: inline-block;
+  width: 159px;
+  height: 48px;
+  background: url("/img/sumpay-logo.png") no-repeat;
+}
+/* line 272, _src/styles/index.scss */
 .index .bottom {
   color: white;
   background: url("/img/index-top-bg6.jpg") 50% 100% no-repeat;
   background-color: black;
 }
-/* line 229, _src/styles/index.scss */
+/* line 277, _src/styles/index.scss */
 .index .bottom .copyright {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 231, _src/styles/index.scss */
+/* line 279, _src/styles/index.scss */
 .index .bottom .copyright strong {
   font-weight: bold;
 }
-/* line 235, _src/styles/index.scss */
+/* line 283, _src/styles/index.scss */
 .index .bottom .faith {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   font-size: 0.8em;
+}
+/* line 289, _src/styles/index.scss */
+.index .img-rrs-example {
+  display: inline-block;
+  width: 1275px;
+  height: 363px;
+  background: url("/img/rrs-example.png") no-repeat;
+}
+/* line 295, _src/styles/index.scss */
+.index .img-ddbao-ad {
+  display: inline-block;
+  width: 1092px;
+  height: 92px;
+  background: url("/img/ddbao-ad.png") no-repeat;
+}
+/* line 301, _src/styles/index.scss */
+.index .img-ddbao-example {
+  display: inline-block;
+  width: 1275px;
+  height: 265px;
+  background: url("/img/ddbao-example.png") no-repeat;
 }

@@ -23,7 +23,4 @@ modules:
   wrapper: "CMD"
   definition: "js/app.js"
   ignored: "_vendor/**/*"
-sprites:
-  selector: ".icon-"
-  path: "/img/"
 notification: true

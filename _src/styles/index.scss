@@ -198,16 +198,26 @@ $example-color: rgb(29, 79, 148);
       color: white;
     }
 
-    .rrs {
+    .logo-rrs {
       line-height: 70px;
       font-size: 1.7em;
       color: rgb(204, 0, 58);
     }
-    .ddbao {
-      line-height: 70px;
-      font-size: 1.7em;
-      color: rgb(232, 76, 54);
+    .logo-ddbao {
+      display: inline-block;
+      width: 300px;
+      height: 40px;
+      margin: 15px 0;
+      background: url("/img/ddbao-logo.png") no-repeat;
     }
+  }
+
+  .rrs-desc {
+    font-size: 0.9em;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
   }
 
   .intro-divider {
@@ -218,7 +228,45 @@ $example-color: rgb(29, 79, 148);
   }
 
   .customer-list {
-    height: 200px;
+    width: 1100px;
+    margin: 0 auto;
+
+    th {
+      padding-bottom: 1.5em;
+      vertical-align: middle;
+    }
+
+    td, th {
+      text-align: center;
+    }
+  }
+
+  .img-haier-logo {
+    display: inline-block;
+    width: 157px;
+    height: 70px;
+    background: url("/img/haier-logo.png") no-repeat;
+  }
+
+  .img-dianxin-logo {
+    display: inline-block;
+    width: 164px;
+    height: 69px;
+    background: url("/img/dianxin-logo.png") no-repeat;
+  }
+
+  .img-bestpay-logo {
+    display: inline-block;
+    width: 167px;
+    height: 65px;
+    background: url("/img/bestpay-logo.png") no-repeat;
+  }
+
+  .img-sumpay-logo {
+    display: inline-block;
+    width: 159px;
+    height: 48px;
+    background: url("/img/sumpay-logo.png") no-repeat;
   }
 
   .bottom {
@@ -236,5 +284,24 @@ $example-color: rgb(29, 79, 148);
       @include opacity(0.6);
       font-size: 0.8em;
     }
+  }
+
+  .img-rrs-example {
+    display: inline-block;
+    width: 1275px;
+    height: 363px;
+    background: url("/img/rrs-example.png") no-repeat;
+  }
+  .img-ddbao-ad {
+    display: inline-block;
+    width: 1092px;
+    height: 92px;
+    background: url("/img/ddbao-ad.png") no-repeat;
+  }
+  .img-ddbao-example {
+    display: inline-block;
+    width: 1275px;
+    height: 265px;
+    background: url("/img/ddbao-example.png") no-repeat;
   }
 }
