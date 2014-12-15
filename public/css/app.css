@@ -63,6 +63,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 17, _src/styles/_common.scss */
+.hide {
+  display: none;
+}
+
 /* line 4, _src/styles/global.scss */
 html, body {
   font-size: 15px;
@@ -121,6 +126,11 @@ a {
 .btn.reverse-btn:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+/* line 17, _src/styles/_common.scss */
+.hide {
+  display: none;
+}
+
 @-webkit-keyframes topLogoFadeIn {
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
