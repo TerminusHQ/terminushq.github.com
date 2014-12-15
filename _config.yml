@@ -2,7 +2,7 @@ name: "Terminus, Inc"
 markdown: redcarpet
 redcarpet:
   extensions: ["tables", "strikethrough", "footnotes"]
-pygments: true
+highlighter: true
 exclude: ['Linnerfile']
 
 paginate: 5

@@ -1,4 +1,4 @@
-/* line 17, /Users/anson/.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, /Users/saito/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,46 +20,46 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, /Users/anson/.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/saito/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, /Users/anson/.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/saito/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, /Users/anson/.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/saito/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, /Users/anson/.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/saito/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, /Users/anson/.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/saito/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, /Users/anson/.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, /Users/saito/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, /Users/anson/.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, /Users/saito/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, /Users/anson/.rvm/gems/ruby-2.0.0-p195/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, /Users/saito/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -74,9 +74,9 @@ html, body {
 a {
   color: inherit;
   text-decoration: none;
-  -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
@@ -121,164 +121,60 @@ a {
 .btn.reverse-btn:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-/* line 1, _src/styles/icons.scss */
-.icon-rrs-example {
-  width: 1220px;
-  height: 320px;
-  background: url(public/img/icons.png) 0px 0px no-repeat;
-}
-
-/* line 6, _src/styles/icons.scss */
-.icon-ddbao-example {
-  width: 1220px;
-  height: 200px;
-  background: url(public/img/icons.png) 0px -320px no-repeat;
-}
-
-/* line 11, _src/styles/icons.scss */
-.icon-ddbao-ad {
-  width: 1092px;
-  height: 92px;
-  background: url(public/img/icons.png) 0px -520px no-repeat;
-}
-
-/* line 16, _src/styles/icons.scss */
-.icon-ddbao-logo {
-  width: 300px;
-  height: 40px;
-  background: url(public/img/icons.png) 0px -612px no-repeat;
-}
-
-/* line 21, _src/styles/icons.scss */
-.icon-team {
-  width: 168px;
-  height: 220px;
-  background: url(public/img/icons.png) 0px -652px no-repeat;
-}
-
-/* line 26, _src/styles/icons.scss */
-.icon-yizhifu-logo {
-  width: 167px;
-  height: 65px;
-  background: url(public/img/icons.png) -168px -652px no-repeat;
-}
-
-/* line 31, _src/styles/icons.scss */
-.icon-dianxin-logo {
-  width: 164px;
-  height: 69px;
-  background: url(public/img/icons.png) -168px -717px no-repeat;
-}
-
-/* line 36, _src/styles/icons.scss */
-.icon-shangmeng-logo {
-  width: 159px;
-  height: 48px;
-  background: url(public/img/icons.png) -335px -652px no-repeat;
-}
-
-/* line 41, _src/styles/icons.scss */
-.icon-haier-logo {
-  width: 157px;
-  height: 70px;
-  background: url(public/img/icons.png) -168px -786px no-repeat;
-}
-
-/* line 46, _src/styles/icons.scss */
-.icon-friends {
-  width: 100px;
-  height: 116px;
-  background: url(public/img/icons.png) 0px -872px no-repeat;
-}
-
-/* line 51, _src/styles/icons.scss */
-.icon-remind {
-  width: 100px;
-  height: 100px;
-  background: url(public/img/icons.png) -100px -872px no-repeat;
-}
-
-/* line 56, _src/styles/icons.scss */
-.icon-comments {
-  width: 100px;
-  height: 95px;
-  background: url(public/img/icons.png) -200px -872px no-repeat;
-}
 @-webkit-keyframes topLogoFadeIn {
-  /* line 10, _src/styles/index.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
-    -webkit-transform: scale(1.3, 1.3);
     -moz-transform: scale(1.3, 1.3);
     -ms-transform: scale(1.3, 1.3);
-    -o-transform: scale(1.3, 1.3);
+    -webkit-transform: scale(1.3, 1.3);
     transform: scale(1.3, 1.3);
   }
-
-  /* line 14, _src/styles/index.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
-    -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
 }
-
 @-webkit-keyframes learnMoreFadeIn {
-  /* line 21, _src/styles/index.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
-    -webkit-transform: translate(0, -20px);
     -moz-transform: translate(0, -20px);
     -ms-transform: translate(0, -20px);
-    -o-transform: translate(0, -20px);
+    -webkit-transform: translate(0, -20px);
     transform: translate(0, -20px);
   }
-
-  /* line 25, _src/styles/index.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
     opacity: 0.4;
   }
 }
-
 @-webkit-keyframes learnMoreBlink {
-  /* line 31, _src/styles/index.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
     opacity: 0.4;
   }
-
-  /* line 34, _src/styles/index.scss */
   40% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
     opacity: 0.4;
   }
-
-  /* line 37, _src/styles/index.scss */
   50% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
-
-  /* line 40, _src/styles/index.scss */
   60% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
     opacity: 0.4;
   }
-
-  /* line 43, _src/styles/index.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
     opacity: 0.4;
   }
 }
-
 /* line 48, _src/styles/index.scss */
 .index {
   position: absolute;
@@ -539,13 +435,20 @@ a {
   background: url("/img/rrs-example.png") no-repeat;
 }
 /* line 295, _src/styles/index.scss */
+.index .img-daqihui-example {
+  display: inline-block;
+  width: 1275px;
+  height: 363px;
+  background: url("/img/daqihui-example.png") no-repeat;
+}
+/* line 301, _src/styles/index.scss */
 .index .img-ddbao-ad {
   display: inline-block;
   width: 1092px;
   height: 92px;
   background: url("/img/ddbao-ad.png") no-repeat;
 }
-/* line 301, _src/styles/index.scss */
+/* line 307, _src/styles/index.scss */
 .index .img-ddbao-example {
   display: inline-block;
   width: 1275px;
