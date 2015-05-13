@@ -1,0 +1,111 @@
+@import "compass/css3/inline-block";
+@import "compass/utilities/general/clearfix";
+@import "compass/typography/links/link-colors";
+@import "compass/typography/lists/horizontal-list";
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+
+.navbar {
+  padding-top: 20px;
+  @include clearfix();
+
+  .nav-header {
+    font-size: 32px;
+  }
+
+  ul.menu {
+    @include horizontal-list-container();
+
+    li {
+      @include horizontal-list-item(8px, left);
+
+      a {
+        @include inline-block();
+        @include link-colors(#646464, #949494);
+        padding: 6px 14px;
+        border: 1px solid #fff;
+        text-decoration: none;
+
+        &.btn {
+          border: 1px solid #333;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
+
+.section {
+  padding: 20px 0;
+}
+
+.hero-unit {
+  text-align: center;
+  padding-top: 200px;
+  height: 314px;
+  border-bottom: 1px solid #dedede;
+}
+
+.heading {
+  text-align: center;
+  border-bottom: 1px solid #dedede;
+}
+
+.products {
+  padding: 20px 0;
+}
+
+.cases {
+  padding: 20px 0;
+
+  .case {
+    border: 1px solid #dedede;
+    margin-bottom: 40px;
+
+    .screen-shot {
+      height: 280px;
+    }
+
+    .description {
+      @include clearfix();
+      padding: 20px 8px;
+    }
+  }
+}
+
+.solutions {
+  .solution {
+    padding-top: 200px;
+    text-align: center;
+    height: 300px;
+  }
+}
+
+.links {
+  .link-heading {
+    @include inline-block();
+    padding: 8px 0;
+    border-bottom: 1px solid #dedede;
+  }
+
+  ul.link-list {
+    margin-top: 20px;
+    list-style: none;
+
+    li.link {
+      margin-bottom: 4px;
+
+      a {
+        font-size: 13px;
+        text-decoration: none;
+        @include inline-block();
+        @include link-colors(#646464, #949494);
+      }
+    }
+  }
+}

@@ -8,7 +8,6 @@ groups:
       - "_src/scripts"
       - "_vendor"
     concat:
-      "js/vendor.js": "{_vendor/**/*.{js,coffee}}"
       "js/app.js": "{_src/scripts/**/*.{js,coffee}}"
   styles:
     paths:
@@ -18,9 +17,16 @@ groups:
       "css/vendor.css": "{_vendor/**/*.{css,scss,sass}}"
       "css/app.css": "{_src/styles/**/[a-z]*.{css,scss,sass}}"
     order:
-      - "_src/styles/global.scss"
+      - "_vendor/normalize.css"
 modules:
   wrapper: "CMD"
   definition: "js/app.js"
   ignored: "_vendor/**/*"
 notification: true
+bundles:
+  normalize.css:
+    version: 3.0.3
+    url: https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css
+  skeleton.css:
+    version: 2.0.4
+    url: https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css
