@@ -1,11 +1,18 @@
 @font-face {
+  font-family: "Raleway";
+  src: url("/public/fonts/ralewayfont.eot");
+  /* IE9 */
+  src: url("/public/fonts/ralewayfont.eot?#iefix") format("embedded-opentype"), url("/public/fonts/ralewayfont.woff") format("woff"), url("/public/fonts/ralewayfont.ttf") format("truetype"), url("/public/fonts/ralewayfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+@font-face {
   font-family: "iconfont";
   src: url("/public/fonts/iconfont.eot");
   /* IE9 */
   src: url("/public/fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("/public/fonts/iconfont.woff") format("woff"), url("/public/fonts/iconfont.ttf") format("truetype"), url("/public/fonts/iconfont.svg#iconfont") format("svg");
   /* iOS 4.1- */
 }
-/* line 10, _src/styles/modules/_fonts.scss */
+/* line 19, _src/styles/modules/_fonts.scss */
 .icon {
   font-size: 40px;
   font-style: normal;

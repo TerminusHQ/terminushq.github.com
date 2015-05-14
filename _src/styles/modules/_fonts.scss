@@ -1,4 +1,13 @@
 @font-face {
+  font-family: "Raleway";
+  src: url("/public/fonts/ralewayfont.eot"); /* IE9 */
+  src: url("/public/fonts/ralewayfont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("/public/fonts/ralewayfont.woff") format("woff"), /* chrome、firefox */
+  url("/public/fonts/ralewayfont.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+  url("/public/fonts/ralewayfont.svg#iconfont") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
   font-family: "iconfont";
   src: url("/public/fonts/iconfont.eot"); /* IE9 */
   src: url("/public/fonts/iconfont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
