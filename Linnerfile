@@ -8,19 +8,29 @@ groups:
       - "_src/scripts"
       - "_vendor"
     concat:
-      "js/app.js": "{_src/scripts/**/*.{js,coffee}}"
+      "scripts/app.js": "_src/scripts/**/*.{js,coffee}"
   styles:
     paths:
       - "_src/styles"
       - "_vendor"
     concat:
-      "css/vendor.css": "{_vendor/**/*.{css,scss,sass}}"
-      "css/app.css": "{_src/styles/**/[a-z]*.{css,scss,sass}}"
+      "styles/vendor.css": "_vendor/**/*.{css,scss,sass}"
+      "styles/app.css": "_src/styles/**/[a-z]*.{css,scss,sass}"
     order:
       - "_vendor/normalize.css"
+  fonts:
+    paths:
+      - "_src/fonts"
+    copy:
+      "fonts/": "_src/fonts/**/*"
+  images:
+    paths:
+      - "_src/images"
+    copy:
+      "images/": "_src/images/**/*"
 modules:
   wrapper: "CMD"
-  definition: "js/app.js"
+  definition: "scripts/app.js"
   ignored: "_vendor/**/*"
 notification: true
 bundles:
