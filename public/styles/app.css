@@ -28,24 +28,31 @@ body {
 }
 
 /* line 13, _src/styles/app.scss */
+.top-header {
+  color: white;
+  background: url("/public/images/focus.png");
+}
+
+/* line 18, _src/styles/app.scss */
 .navbar {
-  padding-top: 20px;
+  padding-top: 25px;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 17, _src/styles/app.scss */
+/* line 22, _src/styles/app.scss */
 .navbar .nav-header {
   font-size: 32px;
 }
-/* line 21, _src/styles/app.scss */
+/* line 26, _src/styles/app.scss */
 .navbar ul.menu {
+  margin-top: 2px;
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 24, _src/styles/app.scss */
+/* line 30, _src/styles/app.scss */
 .navbar ul.menu li {
   list-style-image: none;
   list-style-type: none;
@@ -67,81 +74,126 @@ body {
 .navbar ul.menu li.last {
   padding-right: 0;
 }
-/* line 27, _src/styles/app.scss */
+/* line 33, _src/styles/app.scss */
 .navbar ul.menu li a {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  color: #646464;
+  color: #eaeaea;
   padding: 6px 14px;
   border: 1px solid transparent;
   text-decoration: none;
 }
 /* line 24, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar ul.menu li a:hover {
-  color: #949494;
+  color: #FFF;
 }
-/* line 34, _src/styles/app.scss */
+/* line 40, _src/styles/app.scss */
 .navbar ul.menu li a.btn {
-  border: 1px solid #333;
+  border: 1px solid #FFF;
   border-radius: 4px;
 }
+/* line 44, _src/styles/app.scss */
+.navbar ul.menu li a.btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 
-/* line 43, _src/styles/app.scss */
+/* line 53, _src/styles/app.scss */
 .section {
   padding: 20px 0;
 }
 
-/* line 47, _src/styles/app.scss */
+/* line 57, _src/styles/app.scss */
 .hero-unit {
   text-align: center;
-  padding-top: 200px;
-  height: 314px;
+  padding-top: 100px;
+  height: 514px;
   border-bottom: 1px solid #dedede;
 }
+/* line 63, _src/styles/app.scss */
+.hero-unit .logo {
+  margin: 60px;
+}
+/* line 67, _src/styles/app.scss */
+.hero-unit h3 {
+  letter-spacing: 2px;
+}
 
-/* line 54, _src/styles/app.scss */
+/* line 72, _src/styles/app.scss */
 .heading {
   text-align: center;
   border-bottom: 1px solid #dedede;
 }
 
-/* line 59, _src/styles/app.scss */
+/* line 78, _src/styles/app.scss */
+.product-section {
+  background-color: #fdfdfd;
+}
+
+/* line 82, _src/styles/app.scss */
 .products {
   padding: 20px 0;
 }
+/* line 85, _src/styles/app.scss */
+.products .product {
+  padding: 40px 0;
+}
+/* line 88, _src/styles/app.scss */
+.products .product .icon-box {
+  text-align: center;
+  padding: 8px;
+  border: 2px solid #eee;
+  border-radius: 64px;
+  width: 64px;
+}
 
-/* line 63, _src/styles/app.scss */
+/* line 98, _src/styles/app.scss */
+.case-section {
+  background: url("/public/images/case-bg.png") #eaeaea;
+}
+
+/* line 102, _src/styles/app.scss */
 .cases {
   padding: 20px 0;
 }
-/* line 66, _src/styles/app.scss */
+/* line 105, _src/styles/app.scss */
 .cases .case {
   border: 1px solid #dedede;
   margin-bottom: 40px;
 }
-/* line 70, _src/styles/app.scss */
+/* line 109, _src/styles/app.scss */
 .cases .case .screen-shot {
   height: 280px;
 }
-/* line 74, _src/styles/app.scss */
+/* line 113, _src/styles/app.scss */
 .cases .case .description {
   overflow: hidden;
   *zoom: 1;
   padding: 20px 20px;
 }
 
-/* line 82, _src/styles/app.scss */
+/* line 120, _src/styles/app.scss */
+.solution-section {
+  background: url("/public/images/solution-bg.png");
+}
+
+/* line 125, _src/styles/app.scss */
 .solutions .solution {
   padding-top: 200px;
   text-align: center;
   height: 300px;
+  background-color: #eaeaea;
+  margin-bottom: 60px;
 }
 
-/* line 90, _src/styles/app.scss */
-.links .link-heading {
+/* line 135, _src/styles/app.scss */
+.link-section {
+  background: url(/public/images/map.png);
+}
+/* line 139, _src/styles/app.scss */
+.link-section .links .link-heading {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
@@ -150,17 +202,17 @@ body {
   padding: 8px 0;
   border-bottom: 1px solid #dedede;
 }
-/* line 96, _src/styles/app.scss */
-.links ul.link-list {
+/* line 145, _src/styles/app.scss */
+.link-section .links ul.link-list {
   margin-top: 20px;
   list-style: none;
 }
-/* line 100, _src/styles/app.scss */
-.links ul.link-list li.link {
+/* line 149, _src/styles/app.scss */
+.link-section .links ul.link-list li.link {
   margin-bottom: 4px;
 }
-/* line 103, _src/styles/app.scss */
-.links ul.link-list li.link a {
+/* line 152, _src/styles/app.scss */
+.link-section .links ul.link-list li.link a {
   text-decoration: none;
   display: inline-block;
   vertical-align: middle;
@@ -170,12 +222,18 @@ body {
   color: #646464;
 }
 /* line 24, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
-.links ul.link-list li.link a:hover {
+.link-section .links ul.link-list li.link a:hover {
   color: #949494;
 }
 
-/* line 112, _src/styles/app.scss */
+/* line 162, _src/styles/app.scss */
 .copyright {
   margin: 0;
   padding: 20px 0;
+}
+
+/* line 167, _src/styles/app.scss */
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
