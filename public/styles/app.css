@@ -39,19 +39,18 @@ body {
   color: white;
   background: url("/public/images/focus.png");
 }
-
-/* line 18, _src/styles/app.scss */
-.navbar {
+/* line 17, _src/styles/app.scss */
+.top-header .navbar {
   padding-top: 25px;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 22, _src/styles/app.scss */
-.navbar .nav-header {
+/* line 21, _src/styles/app.scss */
+.top-header .navbar .nav-header {
   font-size: 32px;
 }
-/* line 26, _src/styles/app.scss */
-.navbar ul.menu {
+/* line 25, _src/styles/app.scss */
+.top-header .navbar ul.menu {
   margin-top: 2px;
   margin: 0;
   padding: 0;
@@ -59,8 +58,8 @@ body {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 30, _src/styles/app.scss */
-.navbar ul.menu li {
+/* line 29, _src/styles/app.scss */
+.top-header .navbar ul.menu li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -70,19 +69,19 @@ body {
   padding-right: 8px;
 }
 /* line 49, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.navbar ul.menu li:first-child {
+.top-header .navbar ul.menu li:first-child {
   padding-left: 0;
 }
 /* line 50, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.navbar ul.menu li:last-child {
+.top-header .navbar ul.menu li:last-child {
   padding-right: 0;
 }
 /* line 52, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.navbar ul.menu li.last {
+.top-header .navbar ul.menu li.last {
   padding-right: 0;
 }
-/* line 33, _src/styles/app.scss */
-.navbar ul.menu li a {
+/* line 32, _src/styles/app.scss */
+.top-header .navbar ul.menu li a {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
@@ -94,61 +93,58 @@ body {
   text-decoration: none;
 }
 /* line 24, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
-.navbar ul.menu li a:hover {
+.top-header .navbar ul.menu li a:hover {
   color: #FFF;
 }
-/* line 40, _src/styles/app.scss */
-.navbar ul.menu li a.btn {
+/* line 39, _src/styles/app.scss */
+.top-header .navbar ul.menu li a.btn {
   border: 1px solid #FFF;
   border-radius: 4px;
 }
-/* line 44, _src/styles/app.scss */
-.navbar ul.menu li a.btn:hover {
+/* line 43, _src/styles/app.scss */
+.top-header .navbar ul.menu li a.btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-
-/* line 53, _src/styles/app.scss */
-.section {
-  padding: 20px 0;
-}
-
-/* line 57, _src/styles/app.scss */
-.hero-unit {
+/* line 52, _src/styles/app.scss */
+.top-header .hero-unit {
   text-align: center;
   padding-top: 100px;
   height: 514px;
   border-bottom: 1px solid #dedede;
 }
-/* line 63, _src/styles/app.scss */
-.hero-unit .logo {
+/* line 58, _src/styles/app.scss */
+.top-header .hero-unit .logo {
   margin: 60px;
 }
-/* line 67, _src/styles/app.scss */
-.hero-unit h3 {
+/* line 62, _src/styles/app.scss */
+.top-header .hero-unit h3 {
   letter-spacing: 2px;
 }
 
-/* line 72, _src/styles/app.scss */
-.heading {
+/* line 68, _src/styles/app.scss */
+.section {
+  padding: 20px 0;
+}
+/* line 71, _src/styles/app.scss */
+.section .heading {
   text-align: center;
   border-bottom: 1px solid #dedede;
 }
 
-/* line 78, _src/styles/app.scss */
+/* line 77, _src/styles/app.scss */
 .product-section {
   background-color: #fdfdfd;
 }
-
-/* line 82, _src/styles/app.scss */
-.products {
+/* line 80, _src/styles/app.scss */
+.product-section .products {
   padding: 20px 0;
 }
-/* line 85, _src/styles/app.scss */
-.products .product {
+/* line 83, _src/styles/app.scss */
+.product-section .products .product {
   padding: 40px 0;
 }
-/* line 88, _src/styles/app.scss */
-.products .product .icon-box {
+/* line 86, _src/styles/app.scss */
+.product-section .products .product .icon-box {
   text-align: center;
   padding: 8px;
   border: 2px solid #eee;
@@ -156,38 +152,36 @@ body {
   width: 64px;
 }
 
-/* line 98, _src/styles/app.scss */
+/* line 97, _src/styles/app.scss */
 .case-section {
   background: url("/public/images/case-bg.png") #eaeaea;
 }
-
-/* line 102, _src/styles/app.scss */
-.cases {
+/* line 100, _src/styles/app.scss */
+.case-section .cases {
   padding: 20px 0;
 }
-/* line 105, _src/styles/app.scss */
-.cases .case {
+/* line 103, _src/styles/app.scss */
+.case-section .cases .case {
   border: 1px solid #dedede;
   margin-bottom: 40px;
 }
-/* line 109, _src/styles/app.scss */
-.cases .case .screen-shot {
+/* line 107, _src/styles/app.scss */
+.case-section .cases .case .screen-shot {
   height: 280px;
 }
-/* line 113, _src/styles/app.scss */
-.cases .case .description {
+/* line 111, _src/styles/app.scss */
+.case-section .cases .case .description {
   overflow: hidden;
   *zoom: 1;
   padding: 20px 20px;
 }
 
-/* line 120, _src/styles/app.scss */
+/* line 119, _src/styles/app.scss */
 .solution-section {
   background: url("/public/images/solution-bg.png");
 }
-
-/* line 125, _src/styles/app.scss */
-.solutions .solution {
+/* line 123, _src/styles/app.scss */
+.solution-section .solutions .solution {
   padding-top: 200px;
   text-align: center;
   height: 300px;
@@ -195,11 +189,11 @@ body {
   margin-bottom: 60px;
 }
 
-/* line 135, _src/styles/app.scss */
+/* line 134, _src/styles/app.scss */
 .link-section {
   background: url(/public/images/map.png);
 }
-/* line 139, _src/styles/app.scss */
+/* line 138, _src/styles/app.scss */
 .link-section .links .link-heading {
   display: inline-block;
   vertical-align: middle;
@@ -209,16 +203,16 @@ body {
   padding: 8px 0;
   border-bottom: 1px solid #dedede;
 }
-/* line 145, _src/styles/app.scss */
+/* line 144, _src/styles/app.scss */
 .link-section .links ul.link-list {
   margin-top: 20px;
   list-style: none;
 }
-/* line 149, _src/styles/app.scss */
+/* line 148, _src/styles/app.scss */
 .link-section .links ul.link-list li.link {
   margin-bottom: 4px;
 }
-/* line 152, _src/styles/app.scss */
+/* line 151, _src/styles/app.scss */
 .link-section .links ul.link-list li.link a {
   text-decoration: none;
   display: inline-block;
@@ -233,14 +227,13 @@ body {
   color: #949494;
 }
 
-/* line 162, _src/styles/app.scss */
-.copyright {
+/* line 161, _src/styles/app.scss */
+.footer {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* line 165, _src/styles/app.scss */
+.footer .copyright {
   margin: 0;
   padding: 20px 0;
-}
-
-/* line 167, _src/styles/app.scss */
-.footer {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
 }
