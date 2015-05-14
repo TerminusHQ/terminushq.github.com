@@ -1,26 +1,36 @@
-@media (min-width: 1200px) {
-  /* line 7, _src/styles/app.scss */
-  .container {
-    width: 100%;
-    max-width: 1200px;
-  }
-}
-/* line 13, _src/styles/app.scss */
+/* line 6, _src/styles/app.scss */
 body {
   font-size: 13px;
 }
 
-/* line 17, _src/styles/app.scss */
+@font-face {
+  font-family: "iconfont";
+  src: url("iconfont.eot");
+  /* IE9 */
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+/* line 18, _src/styles/app.scss */
+.icon {
+  font-size: 40px;
+  font-style: normal;
+  font-family: "iconfont" !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 27, _src/styles/app.scss */
 .navbar {
   padding-top: 20px;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 21, _src/styles/app.scss */
+/* line 31, _src/styles/app.scss */
 .navbar .nav-header {
   font-size: 32px;
 }
-/* line 25, _src/styles/app.scss */
+/* line 35, _src/styles/app.scss */
 .navbar ul.menu {
   margin: 0;
   padding: 0;
@@ -28,7 +38,7 @@ body {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 28, _src/styles/app.scss */
+/* line 38, _src/styles/app.scss */
 .navbar ul.menu li {
   list-style-image: none;
   list-style-type: none;
@@ -50,7 +60,7 @@ body {
 .navbar ul.menu li.last {
   padding-right: 0;
 }
-/* line 31, _src/styles/app.scss */
+/* line 41, _src/styles/app.scss */
 .navbar ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -66,18 +76,18 @@ body {
 .navbar ul.menu li a:hover {
   color: #949494;
 }
-/* line 38, _src/styles/app.scss */
+/* line 48, _src/styles/app.scss */
 .navbar ul.menu li a.btn {
   border: 1px solid #333;
   border-radius: 4px;
 }
 
-/* line 47, _src/styles/app.scss */
+/* line 57, _src/styles/app.scss */
 .section {
   padding: 20px 0;
 }
 
-/* line 51, _src/styles/app.scss */
+/* line 61, _src/styles/app.scss */
 .hero-unit {
   text-align: center;
   padding-top: 200px;
@@ -85,45 +95,45 @@ body {
   border-bottom: 1px solid #dedede;
 }
 
-/* line 58, _src/styles/app.scss */
+/* line 68, _src/styles/app.scss */
 .heading {
   text-align: center;
   border-bottom: 1px solid #dedede;
 }
 
-/* line 63, _src/styles/app.scss */
+/* line 73, _src/styles/app.scss */
 .products {
   padding: 20px 0;
 }
 
-/* line 67, _src/styles/app.scss */
+/* line 77, _src/styles/app.scss */
 .cases {
   padding: 20px 0;
 }
-/* line 70, _src/styles/app.scss */
+/* line 80, _src/styles/app.scss */
 .cases .case {
   border: 1px solid #dedede;
   margin-bottom: 40px;
 }
-/* line 74, _src/styles/app.scss */
+/* line 84, _src/styles/app.scss */
 .cases .case .screen-shot {
   height: 280px;
 }
-/* line 78, _src/styles/app.scss */
+/* line 88, _src/styles/app.scss */
 .cases .case .description {
   overflow: hidden;
   *zoom: 1;
   padding: 20px 20px;
 }
 
-/* line 86, _src/styles/app.scss */
+/* line 96, _src/styles/app.scss */
 .solutions .solution {
   padding-top: 200px;
   text-align: center;
   height: 300px;
 }
 
-/* line 94, _src/styles/app.scss */
+/* line 104, _src/styles/app.scss */
 .links .link-heading {
   display: inline-block;
   vertical-align: middle;
@@ -133,16 +143,16 @@ body {
   padding: 8px 0;
   border-bottom: 1px solid #dedede;
 }
-/* line 100, _src/styles/app.scss */
+/* line 110, _src/styles/app.scss */
 .links ul.link-list {
   margin-top: 20px;
   list-style: none;
 }
-/* line 104, _src/styles/app.scss */
+/* line 114, _src/styles/app.scss */
 .links ul.link-list li.link {
   margin-bottom: 4px;
 }
-/* line 107, _src/styles/app.scss */
+/* line 117, _src/styles/app.scss */
 .links ul.link-list li.link a {
   text-decoration: none;
   display: inline-block;
@@ -157,8 +167,16 @@ body {
   color: #949494;
 }
 
-/* line 116, _src/styles/app.scss */
+/* line 126, _src/styles/app.scss */
 .copyright {
   margin: 0;
   padding: 20px 0;
+}
+
+@media (min-width: 1200px) {
+  /* line 132, _src/styles/app.scss */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+  }
 }

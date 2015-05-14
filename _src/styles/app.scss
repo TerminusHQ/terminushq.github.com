@@ -1,14 +1,10 @@
+@import "modules/font";
+@import "modules/media";
+
 @import "compass/css3/inline-block";
 @import "compass/utilities/general/clearfix";
 @import "compass/typography/links/link-colors";
 @import "compass/typography/lists/horizontal-list";
-
-@media (min-width: 1200px) {
-  .container {
-    width: 100%;
-    max-width: 1200px;
-  }
-}
 
 body {
   font-size: 13px;

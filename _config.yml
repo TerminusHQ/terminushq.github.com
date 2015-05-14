@@ -3,7 +3,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables", "strikethrough", "footnotes"]
 highlighter: true
-exclude: ['Linnerfile']
+exclude: ["Linnerfile"]
 
 paginate: 5
 paginate_path: "/page/:num"
