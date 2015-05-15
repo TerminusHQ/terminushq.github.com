@@ -1,3 +1,5 @@
+@import "modules/variables";
+
 @import "modules/fonts";
 @import "modules/media";
 
@@ -8,6 +10,7 @@
 
 body {
   font-size: 13px;
+  color: $body-color;
 }
 
 .top-header{
@@ -53,7 +56,6 @@ body {
     text-align: center;
     padding-top: 100px;
     height: 514px;
-    border-bottom: 1px solid #dedede;
 
     .logo {
       margin: 60px;
@@ -69,6 +71,11 @@ body {
   padding: 20px 0;
 
   .heading {
+    .icon {
+      color: $p-color;
+    }
+
+    padding: 20px 0 28px 0;
     text-align: center;
     border-bottom: 1px solid #dedede;
   }
@@ -78,10 +85,10 @@ body {
   background-color: #fdfdfd;
 
   .products {
-    padding: 20px 0;
+    padding: 60px 0 0 0;
 
     .product {
-      padding: 40px 0;
+      padding: 8px 0;
 
       .icon-box {
         text-align: center;
@@ -89,6 +96,17 @@ body {
         border: 2px solid #eee;
         border-radius: 64px;
         width: 64px;
+      }
+
+      h5 {
+        margin-bottom: 18px;
+      }
+
+      p {
+        color: $p-color;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 1px;
       }
     }
   }
@@ -101,16 +119,26 @@ body {
     padding: 20px 0;
 
     .case {
-      border: 1px solid #dedede;
       margin-bottom: 40px;
 
       .screen-shot {
         height: 280px;
       }
 
+      @for $i from 1 through 6 {
+        .screen-shot-#{$i} {
+          background: url("/public/images/cases/#{$i}.png") no-repeat 50% 50%;
+        }
+      }
+
       .description {
         @include clearfix();
         padding: 20px 20px;
+        background-color: white;
+
+        .website {
+          color: $p-color;
+        }
       }
     }
   }
@@ -132,21 +160,23 @@ body {
 
 
 .link-section {
+  height: 270px;
+  padding: 30px 0 0 0;
   background: url(/public/images/map.png);
 
   .links {
     .link-heading {
       @include inline-block();
       padding: 8px 0;
-      border-bottom: 1px solid #dedede;
+      border-bottom: 1px solid #000;
     }
 
     ul.link-list {
-      margin-top: 20px;
       list-style: none;
+      margin-top: 30px;
 
       li.link {
-        margin-bottom: 4px;
+        margin-bottom: 8px;
 
         a {
           text-decoration: none;
@@ -160,10 +190,10 @@ body {
 
 .footer {
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(8, 8, 8, 0.8);
 
   .copyright {
     margin: 0;
-    padding: 20px 0;
+    padding: 12px 0;
   }
 }
