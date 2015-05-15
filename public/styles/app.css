@@ -38,7 +38,7 @@ body {
 /* line 16, _src/styles/app.scss */
 .top-header {
   color: white;
-  background: url("/public/images/focus.png");
+  background: url("/public/images/focus.png") no-repeat 50% 50%;
 }
 /* line 20, _src/styles/app.scss */
 .top-header .navbar {
