@@ -180,40 +180,46 @@ body {
 .case-section .cases .case .screen-shot {
   height: 280px;
 }
-/* line 125, _src/styles/app.scss */
-.case-section .cases .case .screen-shot-1 {
-  background: url("/public/images/cases/1.png") no-repeat 50% 50%;
-}
-/* line 125, _src/styles/app.scss */
-.case-section .cases .case .screen-shot-2 {
-  background: url("/public/images/cases/2.png") no-repeat 50% 50%;
-}
-/* line 125, _src/styles/app.scss */
-.case-section .cases .case .screen-shot-3 {
-  background: url("/public/images/cases/3.png") no-repeat 50% 50%;
-}
-/* line 125, _src/styles/app.scss */
-.case-section .cases .case .screen-shot-4 {
-  background: url("/public/images/cases/4.png") no-repeat 50% 50%;
-}
-/* line 125, _src/styles/app.scss */
-.case-section .cases .case .screen-shot-5 {
-  background: url("/public/images/cases/5.png") no-repeat 50% 50%;
-}
-/* line 125, _src/styles/app.scss */
-.case-section .cases .case .screen-shot-6 {
-  background: url("/public/images/cases/6.png") no-repeat 50% 50%;
-}
-/* line 130, _src/styles/app.scss */
+/* line 124, _src/styles/app.scss */
 .case-section .cases .case .description {
   overflow: hidden;
   *zoom: 1;
   padding: 20px 20px;
   background-color: white;
 }
-/* line 135, _src/styles/app.scss */
+/* line 129, _src/styles/app.scss */
 .case-section .cases .case .description .website {
   color: #aeaeae;
+}
+
+/* line 138, _src/styles/app.scss */
+.screen-shot-1 {
+  background: url("/public/images/cases/1.png") no-repeat 50% 50%;
+}
+
+/* line 138, _src/styles/app.scss */
+.screen-shot-2 {
+  background: url("/public/images/cases/2.png") no-repeat 50% 50%;
+}
+
+/* line 138, _src/styles/app.scss */
+.screen-shot-3 {
+  background: url("/public/images/cases/3.png") no-repeat 50% 50%;
+}
+
+/* line 138, _src/styles/app.scss */
+.screen-shot-4 {
+  background: url("/public/images/cases/4.png") no-repeat 50% 50%;
+}
+
+/* line 138, _src/styles/app.scss */
+.screen-shot-5 {
+  background: url("/public/images/cases/5.png") no-repeat 50% 50%;
+}
+
+/* line 138, _src/styles/app.scss */
+.screen-shot-6 {
+  background: url("/public/images/cases/6.png") no-repeat 50% 50%;
 }
 
 /* line 143, _src/styles/app.scss */
@@ -270,11 +276,29 @@ body {
 }
 
 /* line 187, _src/styles/app.scss */
+.cases-container {
+  padding: 60px 0 80px 0;
+  background: url("/public/images/case-bg.png") #fdfdfd;
+}
+/* line 191, _src/styles/app.scss */
+.cases-container .cases-table {
+  border-collapse: collapse;
+}
+/* line 194, _src/styles/app.scss */
+.cases-container .cases-table td {
+  border: 1px solid #eaeaea;
+}
+/* line 197, _src/styles/app.scss */
+.cases-container .cases-table td .screen-shot {
+  height: 330px;
+}
+
+/* line 204, _src/styles/app.scss */
 .footer {
   color: white;
   background-color: rgba(8, 8, 8, 0.8);
 }
-/* line 191, _src/styles/app.scss */
+/* line 208, _src/styles/app.scss */
 .footer .copyright {
   margin: 0;
   padding: 12px 0;

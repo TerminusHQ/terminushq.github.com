@@ -121,12 +121,6 @@ body {
         height: 280px;
       }
 
-      @for $i from 1 through 6 {
-        .screen-shot-#{$i} {
-          background: url("/public/images/cases/#{$i}.png") no-repeat 50% 50%;
-        }
-      }
-
       .description {
         @include clearfix();
         padding: 20px 20px;
@@ -137,6 +131,12 @@ body {
         }
       }
     }
+  }
+}
+
+@for $i from 1 through 6 {
+  .screen-shot-#{$i} {
+    background: url("/public/images/cases/#{$i}.png") no-repeat 50% 50%;
   }
 }
 
@@ -179,6 +179,23 @@ body {
           @include inline-block();
           @include link-colors($body-color, darken($body-color, 10%));
         }
+      }
+    }
+  }
+}
+
+.cases-container {
+  padding: 60px 0 80px 0;
+  background: url("/public/images/case-bg.png") $bg-color;
+
+  .cases-table {
+    border-collapse: collapse;
+
+    td {
+      border: 1px solid $darken-bg-color;
+
+      .screen-shot {
+        height: 330px;
       }
     }
   }
