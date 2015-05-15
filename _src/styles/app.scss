@@ -34,13 +34,13 @@ body {
 
         a {
           @include inline-block();
-          @include link-colors(#eaeaea, #FFF);
+          @include link-colors($darken-bg-color, $reverse-color);
           padding: 6px 14px;
           border: 1px solid transparent;
           text-decoration: none;
 
           &.btn {
-            border: 1px solid #FFF;
+            border: 1px solid $reverse-color;
             border-radius: 4px;
 
             &:hover {
@@ -71,18 +71,14 @@ body {
   padding: 20px 0;
 
   .heading {
-    .icon {
-      color: $p-color;
-    }
-
     padding: 20px 0 28px 0;
     text-align: center;
-    border-bottom: 1px solid #dedede;
+    border-bottom: 1px solid $darken-bg-color;
   }
 }
 
 .product-section {
-  background-color: #fdfdfd;
+  background-color: $bg-color;
 
   .products {
     padding: 60px 0 0 0;
@@ -93,7 +89,7 @@ body {
       .icon-box {
         text-align: center;
         padding: 8px;
-        border: 2px solid #eee;
+        border: 2px solid $darken-bg-color;
         border-radius: 64px;
         width: 64px;
       }
@@ -113,7 +109,7 @@ body {
 }
 
 .case-section {
-  background: url("/public/images/case-bg.png") #eaeaea;
+  background: url("/public/images/case-bg.png") $darken-bg-color;
 
   .cases {
     padding: 20px 0;
@@ -152,7 +148,7 @@ body {
       padding-top: 200px;
       text-align: center;
       height: 300px;
-      background-color: #eaeaea;
+      background-color: $darken-bg-color;
       margin-bottom: 60px;
     }
   }
@@ -168,7 +164,7 @@ body {
     .link-heading {
       @include inline-block();
       padding: 8px 0;
-      border-bottom: 1px solid #000;
+      border-bottom: 1px solid $body-color;
     }
 
     ul.link-list {
@@ -181,7 +177,7 @@ body {
         a {
           text-decoration: none;
           @include inline-block();
-          @include link-colors(#646464, #949494);
+          @include link-colors($body-color, darken($body-color, 10%));
         }
       }
     }
@@ -190,7 +186,7 @@ body {
 
 .footer {
   color: white;
-  background-color: rgba(8, 8, 8, 0.8);
+  background-color: $footer-bg-color;
 
   .copyright {
     margin: 0;
