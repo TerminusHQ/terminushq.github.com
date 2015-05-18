@@ -5,10 +5,12 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Terminus{% if page.title %} - {{ page.title }}{% endif %}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="Terminus,电商">
       <meta name="description" content="面向大型企业的电子商务解决方案">
 
       <!--[if lt IE 9]>
-      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="/public/scripts/html5shiv.min.js"></script>
+      <script src="/public/scripts/rem.min.js"></script>
       <![endif]-->
 
       <!-- Custom CSS -->
@@ -20,5 +22,13 @@
     {% include footer.html %}
     <script src="/public/scripts/app.js"></script>
     <script>require("app")</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-63071680-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>

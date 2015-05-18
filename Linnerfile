@@ -9,6 +9,8 @@ groups:
       - "_vendor"
     concat:
       "scripts/app.js": "_src/scripts/**/*.{js,coffee}"
+    copy:
+      "scripts/": "_vendor/rem.js"
   styles:
     paths:
       - "_src/styles"
@@ -40,3 +42,9 @@ bundles:
   skeleton.css:
     version: 2.0.4
     url: https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css
+  html5shiv.min.js:
+    version: 3.7.2
+    url: http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js
+  rem.min.js:
+    version: 1.3.3
+    url: https://raw.githubusercontent.com/chuckcarpenter/REM-unit-polyfill/v1.3.3/js/rem.min.js
