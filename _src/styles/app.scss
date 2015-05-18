@@ -3,6 +3,7 @@
 @import "modules/fonts";
 @import "modules/media";
 
+@import "compass/css3/transition";
 @import "compass/css3/inline-block";
 @import "compass/utilities/general/clearfix";
 @import "compass/typography/links/link-colors";
@@ -116,13 +117,28 @@ body {
     padding: 20px 0;
 
     .case {
+      position: relative;
       margin-bottom: 40px;
 
+      &:hover {
+        .description {
+          visibility: hidden;
+        }
+
+        .more {
+          visibility: visible;
+          @include transition(all 0.2s ease-in-out);
+        }
+      }
+
       .screen-shot {
-        height: 280px;
+        height: 340px;
       }
 
       .description {
+        position: absolute;
+        bottom: 0;
+        width: 328px;
         @include clearfix();
         padding: 20px 20px;
         background-color: white;
@@ -131,13 +147,44 @@ body {
           color: $p-color;
         }
       }
+
+      .more {
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        padding: 20px;
+        height: 294px;
+        width: 328px;
+        color: white;
+        border-top: 6px solid $primary-color;
+        background: $footer-bg-color;
+
+        .logo {
+          text-align: center;
+        }
+
+        .introduce {
+          font-size: 14px;
+        }
+
+        .readmore {
+          font-size: 18px;
+          text-align: center;
+
+          a {
+            text-decoration: none;
+            @include inline-block();
+            @include link-colors($primary-color, lighten($primary-color, 10%));
+          }
+        }
+      }
     }
   }
 }
 
 @for $i from 1 through 6 {
   .screen-shot-#{$i} {
-    background: url("/public/images/cases/#{$i}.png") no-repeat 50% 50%;
+    background: url("/public/images/cases/#{$i}.png") no-repeat top;
   }
 }
 
