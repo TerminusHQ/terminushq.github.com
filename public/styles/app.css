@@ -42,7 +42,7 @@ body {
 }
 /* line 21, _src/styles/app.scss */
 .top-header .navbar {
-  padding-top: 25px;
+  padding-top: 40px;
   overflow: hidden;
   *zoom: 1;
 }
@@ -110,7 +110,7 @@ body {
 .top-header .hero-unit {
   text-align: center;
   padding-top: 100px;
-  height: 514px;
+  height: 598px;
 }
 /* line 61, _src/styles/app.scss */
 .top-header .hero-unit .logo {
@@ -212,6 +212,7 @@ body {
 .case-section .cases .case .more {
   visibility: hidden;
   position: absolute;
+  cursor: pointer;
   top: 0;
   padding: 20px;
   height: 294px;
@@ -220,20 +221,20 @@ body {
   border-top: 6px solid #85c058;
   background: rgba(8, 8, 8, 0.8);
 }
-/* line 162, _src/styles/app.scss */
+/* line 163, _src/styles/app.scss */
 .case-section .cases .case .more .logo {
   text-align: center;
 }
-/* line 166, _src/styles/app.scss */
+/* line 167, _src/styles/app.scss */
 .case-section .cases .case .more .introduce {
   font-size: 14px;
 }
-/* line 170, _src/styles/app.scss */
+/* line 171, _src/styles/app.scss */
 .case-section .cases .case .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 174, _src/styles/app.scss */
+/* line 175, _src/styles/app.scss */
 .case-section .cases .case .more .readmore a {
   text-decoration: none;
   display: inline-block;
@@ -248,41 +249,41 @@ body {
   color: #a0ce7d;
 }
 
-/* line 186, _src/styles/app.scss */
+/* line 187, _src/styles/app.scss */
 .screen-shot-1 {
   background: url("/public/images/cases/1.png") no-repeat top;
 }
 
-/* line 186, _src/styles/app.scss */
+/* line 187, _src/styles/app.scss */
 .screen-shot-2 {
   background: url("/public/images/cases/2.png") no-repeat top;
 }
 
-/* line 186, _src/styles/app.scss */
+/* line 187, _src/styles/app.scss */
 .screen-shot-3 {
   background: url("/public/images/cases/3.png") no-repeat top;
 }
 
-/* line 186, _src/styles/app.scss */
+/* line 187, _src/styles/app.scss */
 .screen-shot-4 {
   background: url("/public/images/cases/4.png") no-repeat top;
 }
 
-/* line 186, _src/styles/app.scss */
+/* line 187, _src/styles/app.scss */
 .screen-shot-5 {
   background: url("/public/images/cases/5.png") no-repeat top;
 }
 
-/* line 186, _src/styles/app.scss */
+/* line 187, _src/styles/app.scss */
 .screen-shot-6 {
   background: url("/public/images/cases/6.png") no-repeat top;
 }
 
-/* line 191, _src/styles/app.scss */
+/* line 192, _src/styles/app.scss */
 .solution-section {
   background: url("/public/images/solution-bg.png");
 }
-/* line 195, _src/styles/app.scss */
+/* line 196, _src/styles/app.scss */
 .solution-section .solutions .solution {
   padding-top: 200px;
   text-align: center;
@@ -291,13 +292,13 @@ body {
   margin-bottom: 60px;
 }
 
-/* line 206, _src/styles/app.scss */
+/* line 207, _src/styles/app.scss */
 .link-section {
   height: 270px;
   padding: 30px 0 0 0;
   background: url(/public/images/map.png);
 }
-/* line 212, _src/styles/app.scss */
+/* line 213, _src/styles/app.scss */
 .link-section .links .link-heading {
   display: inline-block;
   vertical-align: middle;
@@ -307,16 +308,16 @@ body {
   padding: 8px 0;
   border-bottom: 1px solid #484848;
 }
-/* line 218, _src/styles/app.scss */
+/* line 219, _src/styles/app.scss */
 .link-section .links ul.link-list {
   list-style: none;
   margin-top: 30px;
 }
-/* line 222, _src/styles/app.scss */
+/* line 223, _src/styles/app.scss */
 .link-section .links ul.link-list li.link {
   margin-bottom: 8px;
 }
-/* line 225, _src/styles/app.scss */
+/* line 226, _src/styles/app.scss */
 .link-section .links ul.link-list li.link a {
   text-decoration: none;
   display: inline-block;
@@ -331,30 +332,30 @@ body {
   color: #2f2f2f;
 }
 
-/* line 235, _src/styles/app.scss */
+/* line 236, _src/styles/app.scss */
 .cases-container {
   padding: 60px 0 80px 0;
   background: url("/public/images/case-bg.png") #fdfdfd;
 }
-/* line 239, _src/styles/app.scss */
+/* line 240, _src/styles/app.scss */
 .cases-container .cases-table {
   border-collapse: collapse;
 }
-/* line 242, _src/styles/app.scss */
+/* line 243, _src/styles/app.scss */
 .cases-container .cases-table td {
   border: 1px solid #eaeaea;
 }
-/* line 245, _src/styles/app.scss */
+/* line 246, _src/styles/app.scss */
 .cases-container .cases-table td .screen-shot {
   height: 330px;
 }
 
-/* line 252, _src/styles/app.scss */
+/* line 253, _src/styles/app.scss */
 .footer {
   color: white;
   background-color: rgba(8, 8, 8, 0.8);
 }
-/* line 256, _src/styles/app.scss */
+/* line 257, _src/styles/app.scss */
 .footer .copyright {
   margin: 0;
   padding: 12px 0;
