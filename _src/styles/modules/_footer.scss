@@ -1,0 +1,37 @@
+.link-section {
+  height: 270px;
+  padding: 30px 0 0 0;
+  background: url(/public/images/map.png);
+
+  .links {
+    .link-heading {
+      @include inline-block();
+      padding: 8px 0;
+      border-bottom: 1px solid $body-color;
+    }
+
+    ul.link-list {
+      list-style: none;
+      margin-top: 30px;
+
+      li.link {
+        margin-bottom: 8px;
+
+        a {
+          @include inline-block();
+          @include link-colors($body-color, darken($body-color, 10%));
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  color: white;
+  background-color: $footer-bg-color;
+
+  .copyright {
+    margin: 0;
+    padding: 12px 0;
+  }
+}

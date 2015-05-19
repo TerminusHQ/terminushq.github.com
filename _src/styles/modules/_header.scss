@@ -1,0 +1,56 @@
+.top-header{
+  color: white;
+  background: url("/public/images/focus.png") no-repeat 50% 50%;
+
+  .navbar {
+    padding-top: 40px;
+    @include clearfix();
+
+    .nav-header {
+      font-size: 32px;
+      a {
+        @include link-colors($darken-bg-color, $reverse-color);
+      }
+    }
+
+    ul.menu {
+      margin-top: 2px;
+      @include horizontal-list-container();
+
+      li {
+        @include horizontal-list-item(8px, left);
+
+        a {
+          @include inline-block();
+          @include link-colors($darken-bg-color, $reverse-color);
+          padding: 6px 14px;
+          border: 1px solid transparent;
+
+          &.btn {
+            border: 1px solid $reverse-color;
+            border-radius: 4px;
+
+            &:hover {
+              background-color: rgba(255, 255, 255, 0.1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hero-unit {
+    text-align: center;
+    padding-top: 100px;
+    height: 598px;
+
+    .logo {
+      margin: 60px;
+    }
+
+    h2 {
+      font-size: 3.6rem;
+      letter-spacing: 2px;
+    }
+  }
+}

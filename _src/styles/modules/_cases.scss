@@ -1,0 +1,143 @@
+@for $i from 1 through 6 {
+  .screen-shot-#{$i} {
+    background: url("/public/images/cases/#{$i}.png") no-repeat top;
+  }
+}
+
+.screen-shot-lg {
+  height: 660px;
+}
+
+.case-section {
+  background: url("/public/images/case-bg.png") $darken-bg-color;
+
+  .cases {
+    padding: 20px 0;
+
+    .case {
+      position: relative;
+      margin-bottom: 40px;
+
+      &:hover {
+        .description {
+          visibility: hidden;
+        }
+
+        .more {
+          visibility: visible;
+          @include transition(all 0.2s ease-in-out);
+        }
+      }
+
+      .screen-shot {
+        height: 340px;
+      }
+
+      .description {
+        position: absolute;
+        bottom: 0;
+        width: 328px;
+        @include clearfix();
+        padding: 20px 20px;
+        background-color: white;
+
+        .website {
+          color: $p-color;
+        }
+      }
+
+      .more {
+        visibility: hidden;
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        padding: 20px;
+        height: 294px;
+        width: 328px;
+        color: white;
+        border-top: 6px solid $primary-color;
+        background: $footer-bg-color;
+
+        .logo {
+          text-align: center;
+        }
+
+        .introduce {
+          font-size: 14px;
+        }
+
+        .readmore {
+          font-size: 18px;
+          text-align: center;
+
+          a {
+            @include inline-block();
+            @include link-colors($primary-color, lighten($primary-color, 10%));
+          }
+        }
+      }
+    }
+  }
+}
+
+.case-section {
+  padding: 60px 0 80px 0;
+
+  .cases-table {
+    border-collapse: collapse;
+
+    td {
+      padding: 0;
+      border: 1px solid $bg-color;
+
+      .screen-shot {
+        height: 330px;
+
+        &:hover {
+
+          .more {
+            visibility: visible;
+            @include transition(all 0.2s ease-in-out);
+          }
+        }
+
+        .more {
+          height: 290px;
+          color: white;
+          padding: 20px;
+          visibility: hidden;
+          background: $footer-bg-color;
+
+          .logo {
+            text-align: center;
+          }
+
+          .readmore {
+            font-size: 18px;
+            text-align: center;
+
+            a {
+              @include inline-block();
+              @include link-colors($primary-color, lighten($primary-color, 10%));
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.case-section {
+  .case-detail {
+    background: white;
+
+    .case-article {
+      padding: 20px 20px 40px 0;
+
+      p {
+        font-size: 14px;
+        margin-bottom: 12px;
+      }
+    }
+  }
+}

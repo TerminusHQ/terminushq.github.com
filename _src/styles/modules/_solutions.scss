@@ -1,0 +1,13 @@
+.solution-section {
+  background: url("/public/images/solution-bg.png");
+
+  .solutions {
+    .solution {
+      padding-top: 200px;
+      text-align: center;
+      height: 300px;
+      background-color: $darken-bg-color;
+      margin-bottom: 60px;
+    }
+  }
+}
