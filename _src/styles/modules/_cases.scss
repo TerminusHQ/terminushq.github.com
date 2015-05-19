@@ -96,6 +96,10 @@
       padding: 0;
       border: 1px solid $bg-color;
 
+      @media (max-width: 550px) {
+        display: block;
+      }
+
       .screen-shot {
         height: 330px;
 
@@ -139,6 +143,10 @@
 
     .case-article {
       padding: 20px 20px 40px 0;
+
+      @media (max-width: 550px) {
+        padding-left: 20px;
+      }
 
       p {
         font-size: 14px;
