@@ -8,11 +8,13 @@
       padding: 8px 0;
 
       .icon-box {
-        text-align: center;
+        width: 64px;
         padding: 8px;
+        margin: 0 auto;
+        margin-bottom: 20px;
         border: 2px solid $darken-bg-color;
         border-radius: 64px;
-        width: 64px;
+        text-align: center;
       }
 
       h5 {
@@ -26,5 +28,11 @@
         letter-spacing: 1px;
       }
     }
+  }
+}
+
+@media (max-width: 550px) {
+  .product-section .products .product .icon-box {
+
   }
 }

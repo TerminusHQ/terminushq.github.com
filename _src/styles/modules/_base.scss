@@ -18,3 +18,10 @@ a {
     border-bottom: 1px solid $darken-bg-color;
   }
 }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 1200px;
+  }
+}

@@ -1,35 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "Raleway";
-  src: url("/public/fonts/ralewayfont.eot");
-  /* IE9 */
-  src: url("/public/fonts/ralewayfont.eot?#iefix") format("embedded-opentype"), url("/public/fonts/ralewayfont.woff") format("woff"), url("/public/fonts/ralewayfont.ttf") format("truetype"), url("/public/fonts/ralewayfont.svg#iconfont") format("svg");
-  /* iOS 4.1- */
-}
-@font-face {
-  font-family: "iconfont";
-  src: url("/public/fonts/iconfont.eot");
-  /* IE9 */
-  src: url("/public/fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("/public/fonts/iconfont.woff") format("woff"), url("/public/fonts/iconfont.ttf") format("truetype"), url("/public/fonts/iconfont.svg#iconfont") format("svg");
-  /* iOS 4.1- */
-}
-/* line 19, _src/styles/modules/_fonts.scss */
-.icon {
-  font-size: 40px;
-  font-style: normal;
-  font-family: "iconfont" !important;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: 0.2px;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-@media (min-width: 1200px) {
-  /* line 2, _src/styles/modules/_media.scss */
-  .container {
-    width: 100%;
-    max-width: 1200px;
-  }
-}
 /* line 1, _src/styles/modules/_base.scss */
 body {
   font-size: 13px;
@@ -54,6 +23,13 @@ a {
   border-bottom: 1px solid #eaeaea;
 }
 
+@media (min-width: 1200px) {
+  /* line 23, _src/styles/modules/_base.scss */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+  }
+}
 /* line 1, _src/styles/modules/_header.scss */
 .top-header {
   color: white;
@@ -78,15 +54,25 @@ a {
   color: #ffffff;
 }
 /* line 16, _src/styles/modules/_header.scss */
+.top-header .navbar i.icon {
+  visibility: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  margin-top: -10px;
+}
+/* line 22, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu {
-  margin-top: 2px;
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
   *zoom: 1;
+  margin-top: 5px;
 }
-/* line 20, _src/styles/modules/_header.scss */
+/* line 26, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li {
   list-style-image: none;
   list-style-type: none;
@@ -108,7 +94,7 @@ a {
 .top-header .navbar ul.menu li.last {
   padding-right: 0;
 }
-/* line 23, _src/styles/modules/_header.scss */
+/* line 29, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -123,31 +109,41 @@ a {
 .top-header .navbar ul.menu li a:hover {
   color: #ffffff;
 }
-/* line 29, _src/styles/modules/_header.scss */
+/* line 35, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a.btn {
   border: 1px solid #ffffff;
   border-radius: 4px;
 }
-/* line 33, _src/styles/modules/_header.scss */
+/* line 39, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a.btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* line 42, _src/styles/modules/_header.scss */
+/* line 48, _src/styles/modules/_header.scss */
 .top-header .hero-unit {
   text-align: center;
   padding-top: 100px;
   height: 598px;
 }
-/* line 47, _src/styles/modules/_header.scss */
+/* line 53, _src/styles/modules/_header.scss */
 .top-header .hero-unit .logo {
   margin: 60px;
 }
-/* line 51, _src/styles/modules/_header.scss */
+/* line 57, _src/styles/modules/_header.scss */
 .top-header .hero-unit h2 {
   font-size: 3.6rem;
   letter-spacing: 2px;
 }
 
+@media (max-width: 1024px) {
+  /* line 67, _src/styles/modules/_header.scss */
+  .top-header .navbar ul.menu {
+    display: none;
+  }
+  /* line 71, _src/styles/modules/_header.scss */
+  .top-header .navbar i.icon {
+    visibility: visible;
+  }
+}
 /* line 1, _src/styles/modules/_footer.scss */
 .link-section {
   height: 270px;
@@ -406,17 +402,19 @@ a {
 }
 /* line 10, _src/styles/modules/_products.scss */
 .product-section .products .product .icon-box {
-  text-align: center;
+  width: 64px;
   padding: 8px;
+  margin: 0 auto;
+  margin-bottom: 20px;
   border: 2px solid #eaeaea;
   border-radius: 64px;
-  width: 64px;
+  text-align: center;
 }
-/* line 18, _src/styles/modules/_products.scss */
+/* line 20, _src/styles/modules/_products.scss */
 .product-section .products .product h5 {
   margin-bottom: 18px;
 }
-/* line 22, _src/styles/modules/_products.scss */
+/* line 24, _src/styles/modules/_products.scss */
 .product-section .products .product p {
   color: #aeaeae;
   font-size: 14px;
@@ -435,4 +433,28 @@ a {
   height: 300px;
   background-color: #eaeaea;
   margin-bottom: 60px;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/public/fonts/ralewayfont.eot");
+  /* IE9 */
+  src: url("/public/fonts/ralewayfont.eot?#iefix") format("embedded-opentype"), url("/public/fonts/ralewayfont.woff") format("woff"), url("/public/fonts/ralewayfont.ttf") format("truetype"), url("/public/fonts/ralewayfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+@font-face {
+  font-family: "iconfont";
+  src: url("/public/fonts/iconfont.eot");
+  /* IE9 */
+  src: url("/public/fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("/public/fonts/iconfont.woff") format("woff"), url("/public/fonts/iconfont.ttf") format("truetype"), url("/public/fonts/iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+/* line 19, _src/styles/modules/_fonts.scss */
+.icon {
+  font-size: 40px;
+  font-style: normal;
+  font-family: "iconfont" !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
 }
