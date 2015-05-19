@@ -57,7 +57,7 @@ a {
 /* line 1, _src/styles/modules/_header.scss */
 .top-header {
   color: white;
-  background: url("/public/images/focus.png") no-repeat 50% 50%;
+  background: url("/public/images/focus.png") no-repeat top;
 }
 /* line 5, _src/styles/modules/_header.scss */
 .top-header .navbar {
@@ -266,43 +266,49 @@ a {
 .case-section .cases .case .description {
   position: absolute;
   bottom: 0;
-  width: 328px;
+  width: 100%;
+  padding: 20px 0;
   overflow: hidden;
   *zoom: 1;
-  padding: 20px 20px;
   background-color: white;
 }
 /* line 44, _src/styles/modules/_cases.scss */
+.case-section .cases .case .description .name {
+  padding-left: 20px;
+}
+/* line 48, _src/styles/modules/_cases.scss */
 .case-section .cases .case .description .website {
+  padding-right: 20px;
   color: #aeaeae;
 }
-/* line 49, _src/styles/modules/_cases.scss */
+/* line 54, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more {
   visibility: hidden;
   position: absolute;
   cursor: pointer;
   top: 0;
-  padding: 20px;
-  height: 294px;
-  width: 328px;
+  height: 334px;
+  width: 100%;
   color: white;
   border-top: 6px solid #85c058;
   background: rgba(8, 8, 8, 0.8);
 }
-/* line 61, _src/styles/modules/_cases.scss */
+/* line 65, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .logo {
+  padding-top: 20px;
   text-align: center;
 }
-/* line 65, _src/styles/modules/_cases.scss */
+/* line 70, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .introduce {
+  padding: 0 20px;
   font-size: 14px;
 }
-/* line 69, _src/styles/modules/_cases.scss */
+/* line 75, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 73, _src/styles/modules/_cases.scss */
+/* line 79, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .readmore a {
   display: inline-block;
   vertical-align: middle;
@@ -316,24 +322,24 @@ a {
   color: #a0ce7d;
 }
 
-/* line 83, _src/styles/modules/_cases.scss */
+/* line 89, _src/styles/modules/_cases.scss */
 .case-section {
   padding: 60px 0 80px 0;
 }
-/* line 86, _src/styles/modules/_cases.scss */
+/* line 92, _src/styles/modules/_cases.scss */
 .case-section .cases-table {
   border-collapse: collapse;
 }
-/* line 89, _src/styles/modules/_cases.scss */
+/* line 95, _src/styles/modules/_cases.scss */
 .case-section .cases-table td {
   padding: 0;
   border: 1px solid #fdfdfd;
 }
-/* line 93, _src/styles/modules/_cases.scss */
+/* line 99, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot {
   height: 330px;
 }
-/* line 98, _src/styles/modules/_cases.scss */
+/* line 104, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot:hover .more {
   visibility: visible;
   -moz-transition: all 0.2s ease-in-out;
@@ -341,7 +347,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 104, _src/styles/modules/_cases.scss */
+/* line 110, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more {
   height: 290px;
   color: white;
@@ -349,16 +355,16 @@ a {
   visibility: hidden;
   background: rgba(8, 8, 8, 0.8);
 }
-/* line 111, _src/styles/modules/_cases.scss */
+/* line 117, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .logo {
   text-align: center;
 }
-/* line 115, _src/styles/modules/_cases.scss */
+/* line 121, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 119, _src/styles/modules/_cases.scss */
+/* line 125, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .readmore a {
   display: inline-block;
   vertical-align: middle;
@@ -372,15 +378,15 @@ a {
   color: #a0ce7d;
 }
 
-/* line 131, _src/styles/modules/_cases.scss */
+/* line 137, _src/styles/modules/_cases.scss */
 .case-section .case-detail {
   background: white;
 }
-/* line 134, _src/styles/modules/_cases.scss */
+/* line 140, _src/styles/modules/_cases.scss */
 .case-section .case-detail .case-article {
   padding: 20px 20px 40px 0;
 }
-/* line 137, _src/styles/modules/_cases.scss */
+/* line 143, _src/styles/modules/_cases.scss */
 .case-section .case-detail .case-article p {
   font-size: 14px;
   margin-bottom: 12px;

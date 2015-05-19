@@ -36,12 +36,17 @@
       .description {
         position: absolute;
         bottom: 0;
-        width: 328px;
+        width: 100%;
+        padding: 20px 0;
         @include clearfix();
-        padding: 20px 20px;
         background-color: white;
 
+        .name {
+          padding-left: 20px;
+        }
+
         .website {
+          padding-right: 20px;
           color: $p-color;
         }
       }
@@ -51,18 +56,19 @@
         position: absolute;
         cursor: pointer;
         top: 0;
-        padding: 20px;
-        height: 294px;
-        width: 328px;
+        height: 334px;
+        width: 100%;
         color: white;
         border-top: 6px solid $primary-color;
         background: $footer-bg-color;
 
         .logo {
+          padding-top: 20px;
           text-align: center;
         }
 
         .introduce {
+          padding: 0 20px;
           font-size: 14px;
         }
 
