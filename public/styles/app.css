@@ -1223,6 +1223,15 @@ a:hover {
   letter-spacing: 1px;
 }
 
+/* line 34, _src/styles/modules/_products.scss */
+.section-sub .product {
+  margin-top: 80px;
+}
+/* line 37, _src/styles/modules/_products.scss */
+.section-sub .product p {
+  margin-bottom: 1rem;
+}
+
 /* line 1, _src/styles/modules/_solutions.scss */
 .solution-section {
   background: url("/public/images/solution-bg.png");
