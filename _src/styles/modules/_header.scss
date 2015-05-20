@@ -62,6 +62,38 @@
   }
 }
 
+.section-sub {
+  font-size: 14px;
+  line-height: 30px;
+  padding: 60px 0 80px;
+  background: url("/public/images/case-bg.png");
+
+  .navbar-sub {
+    text-align: center;
+
+    ul.menu {
+      @include horizontal-list-container();
+      @include inline-block();
+
+      li {
+        font-size: 14px;
+        @include horizontal-list-item(40px, left);
+
+        a {
+          @include inline-block();
+          padding: 2px 16px;
+
+          &.btn {
+            @include link-colors($reverse-color, $reverse-color);
+            background: $primary-color;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   .top-header {
     .navbar {

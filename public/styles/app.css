@@ -840,12 +840,79 @@ a:hover {
   letter-spacing: 2px;
 }
 
+/* line 65, _src/styles/modules/_header.scss */
+.section-sub {
+  font-size: 14px;
+  line-height: 30px;
+  padding: 60px 0 80px;
+  background: url("/public/images/case-bg.png");
+}
+/* line 71, _src/styles/modules/_header.scss */
+.section-sub .navbar-sub {
+  text-align: center;
+}
+/* line 74, _src/styles/modules/_header.scss */
+.section-sub .navbar-sub ul.menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 78, _src/styles/modules/_header.scss */
+.section-sub .navbar-sub ul.menu li {
+  font-size: 14px;
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* line 49, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.section-sub .navbar-sub ul.menu li:first-child {
+  padding-left: 0;
+}
+/* line 50, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.section-sub .navbar-sub ul.menu li:last-child {
+  padding-right: 0;
+}
+/* line 52, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.section-sub .navbar-sub ul.menu li.last {
+  padding-right: 0;
+}
+/* line 82, _src/styles/modules/_header.scss */
+.section-sub .navbar-sub ul.menu li a {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  padding: 2px 16px;
+}
+/* line 86, _src/styles/modules/_header.scss */
+.section-sub .navbar-sub ul.menu li a.btn {
+  color: #ffffff;
+  background: #85c058;
+  border-radius: 4px;
+}
+/* line 24, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.section-sub .navbar-sub ul.menu li a.btn:hover {
+  color: #ffffff;
+}
+
 @media (max-width: 1024px) {
-  /* line 68, _src/styles/modules/_header.scss */
+  /* line 100, _src/styles/modules/_header.scss */
   .top-header .navbar ul.menu {
     display: none;
   }
-  /* line 72, _src/styles/modules/_header.scss */
+  /* line 104, _src/styles/modules/_header.scss */
   .top-header .navbar i.icon {
     visibility: visible;
   }
@@ -1107,79 +1174,16 @@ a:hover {
   margin-bottom: 12px;
 }
 
-/* line 1, _src/styles/modules/_about.scss */
-.about-section {
-  font-size: 14px;
-  line-height: 30px;
-  padding: 60px 0 80px;
-  background: url("/public/images/case-bg.png");
-}
-/* line 7, _src/styles/modules/_about.scss */
-.about-section .navbar {
-  text-align: center;
-}
-/* line 10, _src/styles/modules/_about.scss */
-.about-section .navbar ul.menu {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1;
-  margin: 0 auto;
-  width: 448px;
-}
-/* line 15, _src/styles/modules/_about.scss */
-.about-section .navbar ul.menu li {
-  font-size: 14px;
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0;
-  white-space: nowrap;
-  float: left;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-/* line 49, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.about-section .navbar ul.menu li:first-child {
-  padding-left: 0;
-}
-/* line 50, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.about-section .navbar ul.menu li:last-child {
-  padding-right: 0;
-}
-/* line 52, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.about-section .navbar ul.menu li.last {
-  padding-right: 0;
-}
-/* line 19, _src/styles/modules/_about.scss */
-.about-section .navbar ul.menu li a {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  padding: 2px 16px;
-}
-/* line 23, _src/styles/modules/_about.scss */
-.about-section .navbar ul.menu li a.btn {
-  color: #ffffff;
-  background: #85c058;
-  border-radius: 4px;
-}
-/* line 24, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
-.about-section .navbar ul.menu li a.btn:hover {
-  color: #ffffff;
-}
-/* line 33, _src/styles/modules/_about.scss */
-.about-section .about-company {
+/* line 2, _src/styles/modules/_about.scss */
+.section-sub .about-company {
   margin-top: 90px;
 }
-/* line 38, _src/styles/modules/_about.scss */
-.about-section .about-team .title {
+/* line 7, _src/styles/modules/_about.scss */
+.section-sub .about-team .title {
   margin-bottom: 16px;
 }
-/* line 41, _src/styles/modules/_about.scss */
-.about-section .about-team .title .translation {
+/* line 10, _src/styles/modules/_about.scss */
+.section-sub .about-team .title .translation {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
