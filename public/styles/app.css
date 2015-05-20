@@ -997,15 +997,17 @@ a {
 }
 /* line 70, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .introduce {
+  height: 120px;
+  overflow: hidden;
   padding: 0 20px;
   font-size: 14px;
 }
-/* line 75, _src/styles/modules/_cases.scss */
+/* line 77, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 79, _src/styles/modules/_cases.scss */
+/* line 81, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .readmore a {
   display: inline-block;
   vertical-align: middle;
@@ -1019,30 +1021,30 @@ a {
   color: #a0ce7d;
 }
 
-/* line 89, _src/styles/modules/_cases.scss */
+/* line 91, _src/styles/modules/_cases.scss */
 .case-section {
   padding: 60px 0 80px 0;
 }
-/* line 92, _src/styles/modules/_cases.scss */
+/* line 94, _src/styles/modules/_cases.scss */
 .case-section .cases-table {
   border-collapse: collapse;
 }
-/* line 95, _src/styles/modules/_cases.scss */
+/* line 97, _src/styles/modules/_cases.scss */
 .case-section .cases-table td {
   padding: 0;
   border: 1px solid #fdfdfd;
 }
 @media (max-width: 550px) {
-  /* line 95, _src/styles/modules/_cases.scss */
+  /* line 97, _src/styles/modules/_cases.scss */
   .case-section .cases-table td {
     display: block;
   }
 }
-/* line 103, _src/styles/modules/_cases.scss */
+/* line 105, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot {
   height: 330px;
 }
-/* line 108, _src/styles/modules/_cases.scss */
+/* line 110, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot:hover .more {
   visibility: visible;
   -moz-transition: all 0.2s ease-in-out;
@@ -1050,7 +1052,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 114, _src/styles/modules/_cases.scss */
+/* line 116, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more {
   height: 290px;
   color: white;
@@ -1058,16 +1060,16 @@ a {
   visibility: hidden;
   background: rgba(8, 8, 8, 0.8);
 }
-/* line 121, _src/styles/modules/_cases.scss */
+/* line 123, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .logo {
   text-align: center;
 }
-/* line 125, _src/styles/modules/_cases.scss */
+/* line 127, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 129, _src/styles/modules/_cases.scss */
+/* line 131, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .readmore a {
   display: inline-block;
   vertical-align: middle;
@@ -1081,21 +1083,21 @@ a {
   color: #a0ce7d;
 }
 
-/* line 141, _src/styles/modules/_cases.scss */
+/* line 143, _src/styles/modules/_cases.scss */
 .case-section .case-detail {
   background: white;
 }
-/* line 144, _src/styles/modules/_cases.scss */
+/* line 146, _src/styles/modules/_cases.scss */
 .case-section .case-detail .case-article {
   padding: 20px 20px 40px 0;
 }
 @media (max-width: 550px) {
-  /* line 144, _src/styles/modules/_cases.scss */
+  /* line 146, _src/styles/modules/_cases.scss */
   .case-section .case-detail .case-article {
     padding-left: 20px;
   }
 }
-/* line 151, _src/styles/modules/_cases.scss */
+/* line 153, _src/styles/modules/_cases.scss */
 .case-section .case-detail .case-article p {
   font-size: 14px;
   margin-bottom: 12px;
