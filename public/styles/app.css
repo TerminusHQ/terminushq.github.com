@@ -656,7 +656,7 @@ hr {
 
 /* line 1, _src/styles/modules/_base.scss */
 body {
-  font-size: 13px;
+  font-size: 14px;
   overflow-x: hidden;
   position: relative;
   left: 0;
@@ -827,7 +827,7 @@ a:hover {
 /* line 49, _src/styles/modules/_header.scss */
 .top-header .hero-unit {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 72px;
   height: 555px;
 }
 /* line 54, _src/styles/modules/_header.scss */
@@ -842,16 +842,15 @@ a:hover {
 
 /* line 65, _src/styles/modules/_header.scss */
 .section-sub {
-  font-size: 14px;
   line-height: 30px;
   padding: 60px 0 80px;
   background: url("/public/images/case-bg.png");
 }
-/* line 71, _src/styles/modules/_header.scss */
+/* line 70, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub {
   text-align: center;
 }
-/* line 74, _src/styles/modules/_header.scss */
+/* line 73, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu {
   margin: 0;
   padding: 0;
@@ -864,9 +863,8 @@ a:hover {
   *zoom: 1;
   *display: inline;
 }
-/* line 78, _src/styles/modules/_header.scss */
+/* line 77, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li {
-  font-size: 14px;
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -887,7 +885,7 @@ a:hover {
 .section-sub .navbar-sub ul.menu li.last {
   padding-right: 0;
 }
-/* line 82, _src/styles/modules/_header.scss */
+/* line 80, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -896,7 +894,7 @@ a:hover {
   *display: inline;
   padding: 2px 16px;
 }
-/* line 86, _src/styles/modules/_header.scss */
+/* line 84, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a.btn {
   color: #ffffff;
   background: #85c058;
@@ -908,11 +906,11 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
-  /* line 100, _src/styles/modules/_header.scss */
+  /* line 98, _src/styles/modules/_header.scss */
   .top-header .navbar ul.menu {
     display: none;
   }
-  /* line 104, _src/styles/modules/_header.scss */
+  /* line 102, _src/styles/modules/_header.scss */
   .top-header .navbar i.icon {
     visibility: visible;
   }
@@ -1071,14 +1069,13 @@ a:hover {
   height: 120px;
   overflow: hidden;
   padding: 0 20px;
-  font-size: 14px;
 }
-/* line 77, _src/styles/modules/_cases.scss */
+/* line 76, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 81, _src/styles/modules/_cases.scss */
+/* line 80, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .readmore a {
   display: inline-block;
   vertical-align: middle;
@@ -1092,30 +1089,30 @@ a:hover {
   color: #a0ce7d;
 }
 
-/* line 91, _src/styles/modules/_cases.scss */
+/* line 90, _src/styles/modules/_cases.scss */
 .case-section {
   padding: 60px 0 80px 0;
 }
-/* line 94, _src/styles/modules/_cases.scss */
+/* line 93, _src/styles/modules/_cases.scss */
 .case-section .cases-table {
   border-collapse: collapse;
 }
-/* line 97, _src/styles/modules/_cases.scss */
+/* line 96, _src/styles/modules/_cases.scss */
 .case-section .cases-table td {
   padding: 0;
   border: 1px solid #fdfdfd;
 }
 @media (max-width: 550px) {
-  /* line 97, _src/styles/modules/_cases.scss */
+  /* line 96, _src/styles/modules/_cases.scss */
   .case-section .cases-table td {
     display: block;
   }
 }
-/* line 105, _src/styles/modules/_cases.scss */
+/* line 104, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot {
   height: 330px;
 }
-/* line 110, _src/styles/modules/_cases.scss */
+/* line 109, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot:hover .more {
   visibility: visible;
   -moz-transition: all 0.2s ease-in-out;
@@ -1123,7 +1120,7 @@ a:hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 116, _src/styles/modules/_cases.scss */
+/* line 115, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more {
   height: 290px;
   color: white;
@@ -1131,16 +1128,16 @@ a:hover {
   visibility: hidden;
   background: rgba(8, 8, 8, 0.8);
 }
-/* line 123, _src/styles/modules/_cases.scss */
+/* line 122, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .logo {
   text-align: center;
 }
-/* line 127, _src/styles/modules/_cases.scss */
+/* line 126, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 131, _src/styles/modules/_cases.scss */
+/* line 130, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .readmore a {
   display: inline-block;
   vertical-align: middle;
@@ -1154,21 +1151,21 @@ a:hover {
   color: #a0ce7d;
 }
 
-/* line 143, _src/styles/modules/_cases.scss */
+/* line 142, _src/styles/modules/_cases.scss */
 .case-section .case-detail {
   background: white;
 }
-/* line 146, _src/styles/modules/_cases.scss */
+/* line 145, _src/styles/modules/_cases.scss */
 .case-section .case-detail .case-article {
   padding: 20px 20px 40px 0;
 }
 @media (max-width: 550px) {
-  /* line 146, _src/styles/modules/_cases.scss */
+  /* line 145, _src/styles/modules/_cases.scss */
   .case-section .case-detail .case-article {
     padding-left: 20px;
   }
 }
-/* line 153, _src/styles/modules/_cases.scss */
+/* line 152, _src/styles/modules/_cases.scss */
 .case-section .case-detail .case-article p {
   font-size: 14px;
   margin-bottom: 12px;
@@ -1180,16 +1177,16 @@ a:hover {
 }
 /* line 7, _src/styles/modules/_about.scss */
 .section-sub .about-team .title {
-  margin-bottom: 16px;
+  font-size: 18px;
+  margin-bottom: 12px;
 }
-/* line 10, _src/styles/modules/_about.scss */
+/* line 11, _src/styles/modules/_about.scss */
 .section-sub .about-team .title .translation {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  font-size: 14px;
   margin-left: 10px;
 }
 
@@ -1222,7 +1219,6 @@ a:hover {
 /* line 24, _src/styles/modules/_products.scss */
 .product-section .products .product p {
   color: #aeaeae;
-  font-size: 14px;
   line-height: 30px;
   letter-spacing: 1px;
 }

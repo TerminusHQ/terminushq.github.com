@@ -5,11 +5,11 @@
 
   .about-team {
     .title {
-      margin-bottom: 16px;
+      font-size: 18px;
+      margin-bottom: 12px;
 
       .translation {
         @include inline-block();
-        font-size: 14px;
         margin-left: 10px;
       }
     }

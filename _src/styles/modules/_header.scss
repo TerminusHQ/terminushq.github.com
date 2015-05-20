@@ -48,7 +48,7 @@
 
   .hero-unit {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 72px;
     height: 555px;
 
     .logo {
@@ -63,7 +63,6 @@
 }
 
 .section-sub {
-  font-size: 14px;
   line-height: 30px;
   padding: 60px 0 80px;
   background: url("/public/images/case-bg.png");
@@ -76,7 +75,6 @@
       @include inline-block();
 
       li {
-        font-size: 14px;
         @include horizontal-list-item(40px, left);
 
         a {
