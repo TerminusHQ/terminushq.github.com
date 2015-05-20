@@ -1,5 +1,6 @@
 .link-section {
-  padding: 30px 0 36px 0;
+  height: 240px;
+  padding: 30px 0;
   background: url(/public/images/map.png);
 
   .links {
@@ -7,14 +8,15 @@
       @include inline-block();
       padding: 8px 0;
       border-bottom: 1px solid $body-color;
+      font-weight: bold;
     }
 
     ul.link-list {
       list-style: none;
-      margin-top: 30px;
+      margin-top: 20px;
 
       li.link {
-        margin-bottom: 8px;
+        margin-bottom: 4px;
 
         a {
           @include inline-block();

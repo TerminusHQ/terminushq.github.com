@@ -917,10 +917,11 @@ a:hover {
 }
 /* line 1, _src/styles/modules/_footer.scss */
 .link-section {
-  padding: 30px 0 36px 0;
+  height: 240px;
+  padding: 30px 0;
   background: url(/public/images/map.png);
 }
-/* line 6, _src/styles/modules/_footer.scss */
+/* line 7, _src/styles/modules/_footer.scss */
 .link-section .links .link-heading {
   display: inline-block;
   vertical-align: middle;
@@ -929,17 +930,18 @@ a:hover {
   *display: inline;
   padding: 8px 0;
   border-bottom: 1px solid #484848;
+  font-weight: bold;
 }
-/* line 12, _src/styles/modules/_footer.scss */
+/* line 14, _src/styles/modules/_footer.scss */
 .link-section .links ul.link-list {
   list-style: none;
-  margin-top: 30px;
+  margin-top: 20px;
 }
-/* line 16, _src/styles/modules/_footer.scss */
+/* line 18, _src/styles/modules/_footer.scss */
 .link-section .links ul.link-list li.link {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
-/* line 19, _src/styles/modules/_footer.scss */
+/* line 21, _src/styles/modules/_footer.scss */
 .link-section .links ul.link-list li.link a {
   display: inline-block;
   vertical-align: middle;
@@ -953,12 +955,12 @@ a:hover {
   color: #2f2f2f;
 }
 
-/* line 28, _src/styles/modules/_footer.scss */
+/* line 30, _src/styles/modules/_footer.scss */
 .footer {
   color: white;
   background-color: rgba(8, 8, 8, 0.8);
 }
-/* line 32, _src/styles/modules/_footer.scss */
+/* line 34, _src/styles/modules/_footer.scss */
 .footer .copyright {
   margin: 0;
   padding: 12px 0;
@@ -1152,23 +1154,23 @@ a:hover {
 }
 
 /* line 142, _src/styles/modules/_cases.scss */
-.case-section .case-detail {
-  background: white;
-}
-/* line 145, _src/styles/modules/_cases.scss */
-.case-section .case-detail .case-article {
+.section-sub .case-article {
   padding: 20px 20px 40px 0;
 }
 @media (max-width: 550px) {
-  /* line 145, _src/styles/modules/_cases.scss */
-  .case-section .case-detail .case-article {
+  /* line 142, _src/styles/modules/_cases.scss */
+  .section-sub .case-article {
     padding-left: 20px;
   }
 }
-/* line 152, _src/styles/modules/_cases.scss */
-.case-section .case-detail .case-article p {
+/* line 149, _src/styles/modules/_cases.scss */
+.section-sub .case-article p {
   font-size: 14px;
   margin-bottom: 12px;
+}
+/* line 155, _src/styles/modules/_cases.scss */
+.section-sub .case {
+  margin-top: 80px;
 }
 
 /* line 2, _src/styles/modules/_about.scss */
@@ -1236,13 +1238,88 @@ a:hover {
 .solution-section {
   background: url("/public/images/solution-bg.png");
 }
-/* line 5, _src/styles/modules/_solutions.scss */
-.solution-section .solutions .solution {
-  padding-top: 200px;
+/* line 4, _src/styles/modules/_solutions.scss */
+.solution-section .solutions {
   text-align: center;
-  height: 300px;
-  background-color: #eaeaea;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
+}
+/* line 8, _src/styles/modules/_solutions.scss */
+.solution-section .solutions .solution-drop {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  padding: 60px 20px;
+  width: 120px;
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+  background: white;
+  border: 3px solid #eaeaea;
+  border-radius: 120px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 20, _src/styles/modules/_solutions.scss */
+.solution-section .solutions .solution-drop:hover {
+  background: #85c058;
+  color: #ffffff;
+}
+/* line 24, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.solution-section .solutions .solution-drop:hover:hover {
+  color: #ffffff;
+}
+/* line 25, _src/styles/modules/_solutions.scss */
+.solution-section .solutions .solution-drop.top-left {
+  margin-left: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* line 28, _src/styles/modules/_solutions.scss */
+.solution-section .solutions .solution-drop.top-left:hover {
+  -moz-transform: translateX(-20px) translateY(-20px);
+  -ms-transform: translateX(-20px) translateY(-20px);
+  -webkit-transform: translateX(-20px) translateY(-20px);
+  transform: translateX(-20px) translateY(-20px);
+}
+/* line 33, _src/styles/modules/_solutions.scss */
+.solution-section .solutions .solution-drop.top-right {
+  margin-left: 16px;
+  border-bottom-left-radius: 4px;
+}
+/* line 36, _src/styles/modules/_solutions.scss */
+.solution-section .solutions .solution-drop.top-right:hover {
+  -moz-transform: translateX(20px) translateY(-20px);
+  -ms-transform: translateX(20px) translateY(-20px);
+  -webkit-transform: translateX(20px) translateY(-20px);
+  transform: translateX(20px) translateY(-20px);
+}
+/* line 41, _src/styles/modules/_solutions.scss */
+.solution-section .solutions .solution-drop.bottom-left {
+  margin-top: 20px;
+  border-top-right-radius: 4px;
+}
+/* line 44, _src/styles/modules/_solutions.scss */
+.solution-section .solutions .solution-drop.bottom-left:hover {
+  -moz-transform: translateX(-20px) translateY(20px);
+  -ms-transform: translateX(-20px) translateY(20px);
+  -webkit-transform: translateX(-20px) translateY(20px);
+  transform: translateX(-20px) translateY(20px);
+}
+/* line 49, _src/styles/modules/_solutions.scss */
+.solution-section .solutions .solution-drop.bottom-right {
+  margin-top: 20px;
+  margin-left: 16px;
+  border-top-left-radius: 4px;
+}
+/* line 53, _src/styles/modules/_solutions.scss */
+.solution-section .solutions .solution-drop.bottom-right:hover {
+  -moz-transform: translateX(20px) translateY(20px);
+  -ms-transform: translateX(20px) translateY(20px);
+  -webkit-transform: translateX(20px) translateY(20px);
+  transform: translateX(20px) translateY(20px);
 }
 
 @font-face {

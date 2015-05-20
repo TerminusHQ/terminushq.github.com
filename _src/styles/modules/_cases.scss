@@ -138,21 +138,21 @@
   }
 }
 
-.case-section {
-  .case-detail {
-    background: white;
+.section-sub {
+  .case-article {
+    padding: 20px 20px 40px 0;
 
-    .case-article {
-      padding: 20px 20px 40px 0;
-
-      @media (max-width: 550px) {
-        padding-left: 20px;
-      }
-
-      p {
-        font-size: 14px;
-        margin-bottom: 12px;
-      }
+    @media (max-width: 550px) {
+      padding-left: 20px;
     }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+  }
+
+  .case {
+    margin-top: 80px;
   }
 }
