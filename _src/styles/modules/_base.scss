@@ -14,7 +14,7 @@ body {
 
 a {
   text-decoration: none;
-  color: $body-color;
+  @include link-colors($body-color, $primary-color);
 }
 
 .navigation {

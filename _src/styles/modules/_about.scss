@@ -1,0 +1,48 @@
+.about-section {
+  font-size: 14px;
+  line-height: 30px;
+  padding: 60px 0 80px;
+  background: url("/public/images/case-bg.png");
+
+  .navbar {
+    text-align: center;
+
+    ul.menu {
+      @include horizontal-list-container();
+      margin: 0 auto;
+      width: 448px;
+
+      li {
+        font-size: 14px;
+        @include horizontal-list-item(40px, left);
+
+        a {
+          @include inline-block();
+          padding: 2px 16px;
+
+          &.btn {
+            @include link-colors($reverse-color, $reverse-color);
+            background: $primary-color;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+
+  .about-company {
+    margin-top: 90px;
+  }
+
+  .about-team {
+    .title {
+      margin-bottom: 16px;
+
+      .translation {
+        @include inline-block();
+        font-size: 14px;
+        margin-left: 10px;
+      }
+    }
+  }
+}

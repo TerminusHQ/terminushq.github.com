@@ -33,7 +33,7 @@ groups:
     paths:
       - "_src/images"
     copy:
-      "images/": "_src/images/{*.png,cases/*.png}"
+      "images/": "_src/images/{*.png,{cases,about}/*.png}"
 modules:
   wrapper: "CMD"
   definition: "scripts/app.js"
