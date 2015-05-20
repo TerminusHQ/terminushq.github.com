@@ -8,9 +8,13 @@ groups:
       - "_src/scripts"
       - "_vendor"
     concat:
-      "scripts/app.js": "_src/scripts/**/*.{js,coffee}"
+      "scripts/app.js": "{_src/scripts/**/*.coffee,_vendor/zepto.js}"
     copy:
       "scripts/": "_vendor/rem.js"
+    order:
+      - "_vendor/zepto.js"
+      - ...
+      - "_src/scripts/app.coffee"
   styles:
     paths:
       - "_src/styles"
@@ -38,10 +42,13 @@ notification: true
 bundles:
   normalize.css:
     version: 3.0.3
-    url: https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css
+    url: https://cdnjs.cloudflare.com/ajax/libs/ndormalize/3.0.3/normalize.css
   _skeleton.scss:
     version: 2.0.4
     url: https://raw.githubusercontent.com/whatsnewsaes/Skeleton-Sass/master/scss/skeleton.scss
+  zepto.js:
+    version: 1.1.6
+    url: http://zeptojs.com/zepto.js
   html5shiv.min.js:
     version: 3.7.2
     url: http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js

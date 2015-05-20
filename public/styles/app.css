@@ -222,7 +222,7 @@ body {
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
   color: #222;
 }
 
@@ -657,21 +657,67 @@ hr {
 /* line 1, _src/styles/modules/_base.scss */
 body {
   font-size: 13px;
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
   color: #484848;
   font-family: "Raleway", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 10, _src/styles/modules/_base.scss */
+body.slide {
+  left: -165px;
 }
 
-/* line 7, _src/styles/modules/_base.scss */
+/* line 15, _src/styles/modules/_base.scss */
 a {
   text-decoration: none;
   color: #484848;
 }
 
-/* line 12, _src/styles/modules/_base.scss */
+/* line 20, _src/styles/modules/_base.scss */
+.navigation {
+  position: fixed;
+  height: 100%;
+  width: 165px;
+  right: -165px;
+  background: rgba(8, 8, 8, 0.8);
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 28, _src/styles/modules/_base.scss */
+.navigation.slide {
+  right: 0;
+}
+/* line 34, _src/styles/modules/_base.scss */
+.navigation ul.menu li {
+  list-style: none;
+  margin-bottom: 0;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  border-top: solid 1px rgba(255, 255, 255, 0.05);
+}
+/* line 40, _src/styles/modules/_base.scss */
+.navigation ul.menu li a {
+  display: block;
+  padding: 15px;
+  font-size: 16px;
+  color: #eaeaea;
+}
+/* line 24, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.navigation ul.menu li a:hover {
+  color: #ffffff;
+}
+
+/* line 50, _src/styles/modules/_base.scss */
 .section {
   padding: 20px 0;
 }
-/* line 15, _src/styles/modules/_base.scss */
+/* line 53, _src/styles/modules/_base.scss */
 .section .heading {
   padding: 20px 0 28px 0;
   text-align: center;
@@ -679,7 +725,7 @@ a {
 }
 
 @media (min-width: 1200px) {
-  /* line 23, _src/styles/modules/_base.scss */
+  /* line 61, _src/styles/modules/_base.scss */
   .container {
     width: 100%;
     max-width: 1200px;
@@ -717,8 +763,9 @@ a {
   *zoom: 1;
   *display: inline;
   margin-top: -10px;
+  cursor: pointer;
 }
-/* line 22, _src/styles/modules/_header.scss */
+/* line 23, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu {
   margin: 0;
   padding: 0;
@@ -727,7 +774,7 @@ a {
   *zoom: 1;
   margin-top: 5px;
 }
-/* line 26, _src/styles/modules/_header.scss */
+/* line 27, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li {
   list-style-image: none;
   list-style-type: none;
@@ -749,7 +796,7 @@ a {
 .top-header .navbar ul.menu li.last {
   padding-right: 0;
 }
-/* line 29, _src/styles/modules/_header.scss */
+/* line 30, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -764,37 +811,37 @@ a {
 .top-header .navbar ul.menu li a:hover {
   color: #ffffff;
 }
-/* line 35, _src/styles/modules/_header.scss */
+/* line 36, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a.btn {
   border: 1px solid #ffffff;
   border-radius: 4px;
 }
-/* line 39, _src/styles/modules/_header.scss */
+/* line 40, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a.btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* line 48, _src/styles/modules/_header.scss */
+/* line 49, _src/styles/modules/_header.scss */
 .top-header .hero-unit {
   text-align: center;
   padding-top: 100px;
-  height: 598px;
+  height: 555px;
 }
-/* line 53, _src/styles/modules/_header.scss */
+/* line 54, _src/styles/modules/_header.scss */
 .top-header .hero-unit .logo {
   margin: 60px;
 }
-/* line 57, _src/styles/modules/_header.scss */
+/* line 58, _src/styles/modules/_header.scss */
 .top-header .hero-unit h2 {
   font-size: 3.6rem;
   letter-spacing: 2px;
 }
 
 @media (max-width: 1024px) {
-  /* line 67, _src/styles/modules/_header.scss */
+  /* line 68, _src/styles/modules/_header.scss */
   .top-header .navbar ul.menu {
     display: none;
   }
-  /* line 71, _src/styles/modules/_header.scss */
+  /* line 72, _src/styles/modules/_header.scss */
   .top-header .navbar i.icon {
     visibility: visible;
   }

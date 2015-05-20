@@ -17,6 +17,7 @@
       visibility: hidden;
       @include inline-block();
       margin-top: -10px;
+      cursor: pointer;
     }
 
     ul.menu {
@@ -48,7 +49,7 @@
   .hero-unit {
     text-align: center;
     padding-top: 100px;
-    height: 598px;
+    height: 555px;
 
     .logo {
       margin: 60px;

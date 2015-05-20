@@ -1,63 +1,4 @@
-(function() {
-  if (!this.require) {
-    var modules = {}, cache = {};
-
-    var require = function(name, root) {
-      var path = expand(root, name), indexPath = expand(path, './index'), module, fn;
-      module   = cache[path] || cache[indexPath];
-      if (module) {
-        return module;
-      } else if (fn = modules[path] || modules[path = indexPath]) {
-        module = {id: path, exports: {}};
-        cache[path] = module.exports;
-        fn(module.exports, function(name) {
-          return require(name, dirname(path));
-        }, module);
-        return cache[path] = module.exports;
-      } else {
-        throw 'module ' + name + ' not found';
-      }
-    };
-
-    var expand = function(root, name) {
-      var results = [], parts, part;
-      // If path is relative
-      if (/^\.\.?(\/|$)/.test(name)) {
-        parts = [root, name].join('/').split('/');
-      } else {
-        parts = name.split('/');
-      }
-      for (var i = 0, length = parts.length; i < length; i++) {
-        part = parts[i];
-        if (part == '..') {
-          results.pop();
-        } else if (part != '.' && part != '') {
-          results.push(part);
-        }
-      }
-      return results.join('/');
-    };
-
-    var dirname = function(path) {
-      return path.split('/').slice(0, -1).join('/');
-    };
-
-    this.require = function(name) {
-      return require(name, '');
-    };
-
-    this.require.define = function(bundle) {
-      for (var key in bundle) {
-        modules[key] = bundle[key];
-      }
-    };
-
-    this.require.modules = modules;
-    this.require.cache   = cache;
-  }
-
-  return this.require;
-}).call(this);/* Zepto v1.1.6 - zepto event ajax form ie - zeptojs.com/license */
+/* Zepto v1.1.6 - zepto event ajax form ie - zeptojs.com/license */
 
 var Zepto = (function() {
   var undefined, key, $, classList, emptyArray = [], slice = emptyArray.slice, filter = emptyArray.filter,
@@ -1644,15 +1585,3 @@ window.$ === undefined && (window.$ = Zepto)
     }
   }
 })(Zepto)
-this.require.define({"app":function(exports, require, module){(function() {
-  $(".slide-menu").on("click touchend", function() {
-    $("body").toggleClass("slide");
-    return $(".navigation").toggleClass("slide");
-  });
-
-  if (console) {
-    console.log("%cWelcome%chttp://terminus.io/joinus", "line-height: 30px; border-radius: 5px 0 0 5px; background-color: #666; color: white; padding: 6px;", "border-radius: 0 5px 5px 0; border: 1px solid #666; color: #666; padding: 5px;");
-  }
-
-}).call(this);
-;}});

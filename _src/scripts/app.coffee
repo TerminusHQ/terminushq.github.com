@@ -1,3 +1,7 @@
+$(".slide-menu").on "click touchend", ->
+  $("body").toggleClass("slide")
+  $(".navigation").toggleClass("slide")
+
 console.log("%cWelcome%chttp://terminus.io/joinus",
   "line-height: 30px;
   border-radius: 5px 0 0 5px;
