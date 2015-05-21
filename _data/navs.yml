@@ -1,0 +1,36 @@
+product:
+  - name: ECP电商平台
+    url: /products.html#section
+  - name: ECP电商平台数据中心
+    url: /products/1.html#section
+  - name: Pampas
+    url: /products/2.html#section
+  - name: Terminus
+    url: /products/3.html#section
+solution:
+  - name: B2C电商平台
+    url: /solutions.html#section
+  - name: B2B2C电商平台
+    url: /solutions/1.html#section
+  - name: 电商数据分析
+    url: /solutions/2.html#section
+  - name: Pampas基础架构
+    url: /solutions/3.html#section
+case:
+  - name: 多多宝
+    url: /cases.html#section
+  - name: 云菜网
+    url: /cases/1.html#section
+  - name: 海达源
+    url: /cases/2.html#section
+  - name: 日日顺
+    url: /cases/3.html#section
+  - name: 大企汇
+    url: /cases/4.html#section
+  - name: 翼支付
+    url: /cases/5.html#section
+about:
+  - name: 公司简介
+    url: /about.html#section
+  - name: 加入我们
+    url: http://www.lagou.com/gongsi/43753.html
