@@ -1,6 +1,6 @@
 .section-sub {
   .about-company {
-    margin-top: 90px;
+    margin-top: 60px;
   }
 
   .title {
@@ -8,7 +8,7 @@
     margin-bottom: 12px;
 
     .translation {
-      @include inline-block();
+      @include inline-block(baseline);
       margin-left: 10px;
     }
   }

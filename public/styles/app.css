@@ -1175,7 +1175,7 @@ a:hover {
 
 /* line 2, _src/styles/modules/_about.scss */
 .section-sub .about-company {
-  margin-top: 90px;
+  margin-top: 60px;
 }
 /* line 6, _src/styles/modules/_about.scss */
 .section-sub .title {
@@ -1185,7 +1185,7 @@ a:hover {
 /* line 10, _src/styles/modules/_about.scss */
 .section-sub .title .translation {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: baseline;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
