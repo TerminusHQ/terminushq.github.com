@@ -5,10 +5,9 @@
         <div class="links">
           <div class="link-heading">产品与服务</div>
           <ul class="link-list">
-            <li class="link"><a href="/products.html" target="_blank">电商平台</a></li>
-            <li class="link"><a href="/products/1.html" target="_blank">数据分析中心</a></li>
-            <li class="link"><a href="/products/2.html" target="_blank">Pampas</a></li>
-            <li class="link"><a href="/products/3.html" target="_blank">Terminus</a></li>
+            {% for item in site.data.navs.product %}
+            <li class="link"><a href="{{item.url}}" target="_blank">{{item.name}}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
@@ -16,10 +15,9 @@
         <div class="links">
           <div class="link-heading">解决方案</div>
           <ul class="link-list">
-            <li class="link"><a href="/solutions.html" target="_blank">B2C电商平台</a></li>
-            <li class="link"><a href="/solutions/1.html" target="_blank">B2B2C电商平台</a></li>
-            <li class="link"><a href="/solutions/2.html" target="_blank">电商数据分析</a></li>
-            <li class="link"><a href="/solutions/3.html" target="_blank">Pampas基础架构</a></li>
+            {% for item in site.data.navs.solution %}
+            <li class="link"><a href="{{item.url}}" target="_blank">{{item.name}}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
@@ -27,12 +25,9 @@
         <div class="links">
           <div class="link-heading">成功案例</div>
           <ul class="link-list">
-            <li class="link"><a href="/cases.html" target="_blank">多多宝</a></li>
-            <li class="link"><a href="/cases/1.html" target="_blank">云菜网</a></li>
-            <li class="link"><a href="/cases/2.html" target="_blank">海达源</a></li>
-            <li class="link"><a href="/cases/3.html" target="_blank">日日顺</a></li>
-            <li class="link"><a href="/cases/4.html" target="_blank">大企汇</a></li>
-            <li class="link"><a href="/cases/5.html" target="_blank">翼支付</a></li>
+            {% for item in site.data.navs.case %}
+            <li class="link"><a href="{{item.url}}" target="_blank">{{item.name}}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
@@ -40,8 +35,9 @@
         <div class="links">
           <div class="link-heading">关于我们</div>
           <ul class="link-list">
-            <li class="link"><a href="/about.html" target="_blank">公司介绍</a></li>
-            <li class="link"><a href="mailto:jobs@terminus.io">加入我们</a></li>
+            {% for item in site.data.navs.about %}
+            <li class="link"><a href="{{item.url}}" target="_blank">{{item.name}}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
