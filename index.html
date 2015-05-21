@@ -3,15 +3,7 @@ layout: default
 title: 首页
 ---
 
-<header class="top top-header">
-  <div class="container">
-    {% include header.html %}
-    <div class="hero-unit">
-      <img src="/public/images/logo.png" alt="logo" class="logo"></img>
-      <h2>面向大型企业的电子商务解决方案</h2>
-    </div>
-  </div>
-</header>
+{% include header.html bg="/public/images/logo.png" title="面向大型企业的电子商务解决方案" %}
 
 <section class="section product-section">
   <div class="container">
@@ -243,8 +235,8 @@ title: 首页
       <a href="/solutions.html" class="solution-drop top-left">B2C电商平台</a>
       <a href="/solutions/1.html" class="solution-drop top-right">B2B2C电商平台</a>
       <br>
-      <a href="solutions/2.html" class="solution-drop bottom-left">电商数据分析</a>
-      <a href="solutions/3.html" class="solution-drop bottom-right">Pampas基础架构</a>
+      <a href="/solutions/2.html" class="solution-drop bottom-left">电商数据分析</a>
+      <a href="/solutions/3.html" class="solution-drop bottom-right">Pampas基础架构</a>
     </div>
   </div>
 </section>
