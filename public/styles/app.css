@@ -1177,13 +1177,13 @@ a:hover {
 .section-sub .about-company {
   margin-top: 90px;
 }
-/* line 7, _src/styles/modules/_about.scss */
-.section-sub .about-team .title {
+/* line 6, _src/styles/modules/_about.scss */
+.section-sub .title {
   font-size: 18px;
   margin-bottom: 12px;
 }
-/* line 11, _src/styles/modules/_about.scss */
-.section-sub .about-team .title .translation {
+/* line 10, _src/styles/modules/_about.scss */
+.section-sub .title .translation {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
