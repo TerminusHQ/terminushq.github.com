@@ -998,8 +998,26 @@ a:hover {
 .screen-shot-1 {
   background: url("/public/images/cases/1.png") no-repeat top;
 }
+/* line 5, _src/styles/modules/_cases.scss */
+.screen-shot-1.screen-shot-lg {
+  background: url("/public/images/cases/lg-1.png") no-repeat top;
+}
+
+/* line 10, _src/styles/modules/_cases.scss */
+.screen-shot-1 {
+  background: url("/public/images/cases/1.png") no-repeat top;
+}
 
 /* line 2, _src/styles/modules/_cases.scss */
+.screen-shot-2 {
+  background: url("/public/images/cases/2.png") no-repeat top;
+}
+/* line 5, _src/styles/modules/_cases.scss */
+.screen-shot-2.screen-shot-lg {
+  background: url("/public/images/cases/lg-2.png") no-repeat top;
+}
+
+/* line 10, _src/styles/modules/_cases.scss */
 .screen-shot-2 {
   background: url("/public/images/cases/2.png") no-repeat top;
 }
@@ -1008,8 +1026,26 @@ a:hover {
 .screen-shot-3 {
   background: url("/public/images/cases/3.png") no-repeat top;
 }
+/* line 5, _src/styles/modules/_cases.scss */
+.screen-shot-3.screen-shot-lg {
+  background: url("/public/images/cases/lg-3.png") no-repeat top;
+}
+
+/* line 10, _src/styles/modules/_cases.scss */
+.screen-shot-3 {
+  background: url("/public/images/cases/3.png") no-repeat top;
+}
 
 /* line 2, _src/styles/modules/_cases.scss */
+.screen-shot-4 {
+  background: url("/public/images/cases/4.png") no-repeat top;
+}
+/* line 5, _src/styles/modules/_cases.scss */
+.screen-shot-4.screen-shot-lg {
+  background: url("/public/images/cases/lg-4.png") no-repeat top;
+}
+
+/* line 10, _src/styles/modules/_cases.scss */
 .screen-shot-4 {
   background: url("/public/images/cases/4.png") no-repeat top;
 }
@@ -1018,35 +1054,53 @@ a:hover {
 .screen-shot-5 {
   background: url("/public/images/cases/5.png") no-repeat top;
 }
+/* line 5, _src/styles/modules/_cases.scss */
+.screen-shot-5.screen-shot-lg {
+  background: url("/public/images/cases/lg-5.png") no-repeat top;
+}
+
+/* line 10, _src/styles/modules/_cases.scss */
+.screen-shot-5 {
+  background: url("/public/images/cases/5.png") no-repeat top;
+}
 
 /* line 2, _src/styles/modules/_cases.scss */
 .screen-shot-6 {
   background: url("/public/images/cases/6.png") no-repeat top;
 }
+/* line 5, _src/styles/modules/_cases.scss */
+.screen-shot-6.screen-shot-lg {
+  background: url("/public/images/cases/lg-6.png") no-repeat top;
+}
 
-/* line 7, _src/styles/modules/_cases.scss */
+/* line 10, _src/styles/modules/_cases.scss */
+.screen-shot-6 {
+  background: url("/public/images/cases/6.png") no-repeat top;
+}
+
+/* line 15, _src/styles/modules/_cases.scss */
 .screen-shot-lg {
   height: 660px;
 }
 
-/* line 11, _src/styles/modules/_cases.scss */
+/* line 19, _src/styles/modules/_cases.scss */
 .case-section {
   background: url("/public/images/case-bg.png") #eaeaea;
 }
-/* line 14, _src/styles/modules/_cases.scss */
+/* line 22, _src/styles/modules/_cases.scss */
 .case-section .cases {
   padding: 20px 0;
 }
-/* line 17, _src/styles/modules/_cases.scss */
+/* line 25, _src/styles/modules/_cases.scss */
 .case-section .cases .case {
   position: relative;
   margin-bottom: 40px;
 }
-/* line 22, _src/styles/modules/_cases.scss */
+/* line 30, _src/styles/modules/_cases.scss */
 .case-section .cases .case:hover .description {
   visibility: hidden;
 }
-/* line 26, _src/styles/modules/_cases.scss */
+/* line 34, _src/styles/modules/_cases.scss */
 .case-section .cases .case:hover .more {
   visibility: visible;
   -moz-transition: all 0.2s ease-in-out;
@@ -1054,11 +1108,11 @@ a:hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 32, _src/styles/modules/_cases.scss */
+/* line 40, _src/styles/modules/_cases.scss */
 .case-section .cases .case .screen-shot {
   height: 340px;
 }
-/* line 36, _src/styles/modules/_cases.scss */
+/* line 44, _src/styles/modules/_cases.scss */
 .case-section .cases .case .description {
   position: absolute;
   bottom: 0;
@@ -1068,16 +1122,16 @@ a:hover {
   *zoom: 1;
   background-color: white;
 }
-/* line 44, _src/styles/modules/_cases.scss */
+/* line 52, _src/styles/modules/_cases.scss */
 .case-section .cases .case .description .name {
   padding-left: 20px;
 }
-/* line 48, _src/styles/modules/_cases.scss */
+/* line 56, _src/styles/modules/_cases.scss */
 .case-section .cases .case .description .website {
   padding-right: 20px;
   color: #aeaeae;
 }
-/* line 54, _src/styles/modules/_cases.scss */
+/* line 62, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more {
   visibility: hidden;
   position: absolute;
@@ -1089,23 +1143,23 @@ a:hover {
   border-top: 6px solid #85c058;
   background: rgba(8, 8, 8, 0.8);
 }
-/* line 65, _src/styles/modules/_cases.scss */
+/* line 73, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .logo {
   padding-top: 12px;
   text-align: center;
 }
-/* line 70, _src/styles/modules/_cases.scss */
+/* line 78, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .introduce {
   height: 120px;
   overflow: hidden;
   padding: 0 20px;
 }
-/* line 76, _src/styles/modules/_cases.scss */
+/* line 84, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 80, _src/styles/modules/_cases.scss */
+/* line 88, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .readmore a {
   display: inline-block;
   vertical-align: middle;
@@ -1119,30 +1173,30 @@ a:hover {
   color: #a0ce7d;
 }
 
-/* line 90, _src/styles/modules/_cases.scss */
+/* line 98, _src/styles/modules/_cases.scss */
 .case-section {
   padding: 60px 0 80px 0;
 }
-/* line 93, _src/styles/modules/_cases.scss */
+/* line 101, _src/styles/modules/_cases.scss */
 .case-section .cases-table {
   border-collapse: collapse;
 }
-/* line 96, _src/styles/modules/_cases.scss */
+/* line 104, _src/styles/modules/_cases.scss */
 .case-section .cases-table td {
   padding: 0;
   border: 1px solid #fdfdfd;
 }
 @media (max-width: 550px) {
-  /* line 96, _src/styles/modules/_cases.scss */
+  /* line 104, _src/styles/modules/_cases.scss */
   .case-section .cases-table td {
     display: block;
   }
 }
-/* line 104, _src/styles/modules/_cases.scss */
+/* line 112, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot {
   height: 330px;
 }
-/* line 109, _src/styles/modules/_cases.scss */
+/* line 117, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot:hover .more {
   visibility: visible;
   -moz-transition: all 0.2s ease-in-out;
@@ -1150,7 +1204,7 @@ a:hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 115, _src/styles/modules/_cases.scss */
+/* line 123, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more {
   height: 290px;
   color: white;
@@ -1158,16 +1212,16 @@ a:hover {
   visibility: hidden;
   background: rgba(8, 8, 8, 0.8);
 }
-/* line 122, _src/styles/modules/_cases.scss */
+/* line 130, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .logo {
   text-align: center;
 }
-/* line 126, _src/styles/modules/_cases.scss */
+/* line 134, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 130, _src/styles/modules/_cases.scss */
+/* line 138, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .readmore a {
   display: inline-block;
   vertical-align: middle;
@@ -1181,12 +1235,8 @@ a:hover {
   color: #a0ce7d;
 }
 
-/* line 142, _src/styles/modules/_cases.scss */
-.section-sub .case-article {
-  padding: 20px 20px 40px 0;
-}
 @media (max-width: 550px) {
-  /* line 142, _src/styles/modules/_cases.scss */
+  /* line 150, _src/styles/modules/_cases.scss */
   .section-sub .case-article {
     padding-left: 20px;
   }

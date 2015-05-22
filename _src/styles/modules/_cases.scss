@@ -1,6 +1,14 @@
 @for $i from 1 through 6 {
   .screen-shot-#{$i} {
     background: url("/public/images/cases/#{$i}.png") no-repeat top;
+
+    &.screen-shot-lg {
+      background: url("/public/images/cases/lg-#{$i}.png") no-repeat top;
+    }
+  }
+
+  .screen-shot-#{$i} {
+    background: url("/public/images/cases/#{$i}.png") no-repeat top;
   }
 }
 
@@ -140,8 +148,6 @@
 
 .section-sub {
   .case-article {
-    padding: 20px 20px 40px 0;
-
     @media (max-width: 550px) {
       padding-left: 20px;
     }
