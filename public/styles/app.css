@@ -1139,11 +1139,18 @@ a:hover {
   position: relative;
   margin-bottom: 40px;
 }
-/* line 30, _src/styles/modules/_cases.scss */
+/* line 29, _src/styles/modules/_cases.scss */
+.case-section .cases .case .mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+/* line 37, _src/styles/modules/_cases.scss */
 .case-section .cases .case:hover .description {
   visibility: hidden;
 }
-/* line 34, _src/styles/modules/_cases.scss */
+/* line 41, _src/styles/modules/_cases.scss */
 .case-section .cases .case:hover .more {
   visibility: visible;
   -moz-transition: all 0.2s ease-in-out;
@@ -1151,11 +1158,11 @@ a:hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 40, _src/styles/modules/_cases.scss */
+/* line 47, _src/styles/modules/_cases.scss */
 .case-section .cases .case .screen-shot {
   height: 340px;
 }
-/* line 44, _src/styles/modules/_cases.scss */
+/* line 51, _src/styles/modules/_cases.scss */
 .case-section .cases .case .description {
   position: absolute;
   bottom: 0;
@@ -1165,16 +1172,16 @@ a:hover {
   *zoom: 1;
   background-color: white;
 }
-/* line 52, _src/styles/modules/_cases.scss */
+/* line 59, _src/styles/modules/_cases.scss */
 .case-section .cases .case .description .name {
   padding-left: 20px;
 }
-/* line 56, _src/styles/modules/_cases.scss */
+/* line 63, _src/styles/modules/_cases.scss */
 .case-section .cases .case .description .website {
   padding-right: 20px;
   color: #aeaeae;
 }
-/* line 62, _src/styles/modules/_cases.scss */
+/* line 69, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more {
   visibility: hidden;
   position: absolute;
@@ -1186,23 +1193,23 @@ a:hover {
   border-top: 6px solid #85c058;
   background: rgba(8, 8, 8, 0.8);
 }
-/* line 73, _src/styles/modules/_cases.scss */
+/* line 80, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .logo {
   padding-top: 12px;
   text-align: center;
 }
-/* line 78, _src/styles/modules/_cases.scss */
+/* line 85, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .introduce {
   height: 120px;
   overflow: hidden;
   padding: 0 20px;
 }
-/* line 84, _src/styles/modules/_cases.scss */
+/* line 91, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 88, _src/styles/modules/_cases.scss */
+/* line 95, _src/styles/modules/_cases.scss */
 .case-section .cases .case .more .readmore a {
   display: inline-block;
   vertical-align: middle;
@@ -1216,30 +1223,30 @@ a:hover {
   color: #a0ce7d;
 }
 
-/* line 98, _src/styles/modules/_cases.scss */
+/* line 105, _src/styles/modules/_cases.scss */
 .case-section {
   padding: 60px 0 80px 0;
 }
-/* line 101, _src/styles/modules/_cases.scss */
+/* line 108, _src/styles/modules/_cases.scss */
 .case-section .cases-table {
   border-collapse: collapse;
 }
-/* line 104, _src/styles/modules/_cases.scss */
+/* line 111, _src/styles/modules/_cases.scss */
 .case-section .cases-table td {
   padding: 0;
   border: 1px solid #fdfdfd;
 }
 @media (max-width: 550px) {
-  /* line 104, _src/styles/modules/_cases.scss */
+  /* line 111, _src/styles/modules/_cases.scss */
   .case-section .cases-table td {
     display: block;
   }
 }
-/* line 112, _src/styles/modules/_cases.scss */
+/* line 119, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot {
   height: 330px;
 }
-/* line 117, _src/styles/modules/_cases.scss */
+/* line 124, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot:hover .more {
   visibility: visible;
   -moz-transition: all 0.2s ease-in-out;
@@ -1247,7 +1254,7 @@ a:hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 123, _src/styles/modules/_cases.scss */
+/* line 130, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more {
   height: 290px;
   color: white;
@@ -1255,16 +1262,16 @@ a:hover {
   visibility: hidden;
   background: rgba(8, 8, 8, 0.8);
 }
-/* line 130, _src/styles/modules/_cases.scss */
+/* line 137, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .logo {
   text-align: center;
 }
-/* line 134, _src/styles/modules/_cases.scss */
+/* line 141, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .readmore {
   font-size: 18px;
   text-align: center;
 }
-/* line 138, _src/styles/modules/_cases.scss */
+/* line 145, _src/styles/modules/_cases.scss */
 .case-section .cases-table td .screen-shot .more .readmore a {
   display: inline-block;
   vertical-align: middle;
@@ -1279,7 +1286,7 @@ a:hover {
 }
 
 @media (max-width: 550px) {
-  /* line 150, _src/styles/modules/_cases.scss */
+  /* line 157, _src/styles/modules/_cases.scss */
   .section-sub .case-article {
     padding-left: 20px;
   }
