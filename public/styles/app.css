@@ -728,8 +728,15 @@ a:hover {
   border-bottom: 1px solid #eaeaea;
 }
 
+/* line 62, _src/styles/modules/_base.scss */
+.section-sub p {
+  font-size: 14px;
+  margin-bottom: 12px;
+  line-height: 24px;
+}
+
 @media (min-width: 1200px) {
-  /* line 61, _src/styles/modules/_base.scss */
+  /* line 70, _src/styles/modules/_base.scss */
   .container {
     width: 100%;
     max-width: 1200px;
@@ -849,8 +856,9 @@ a:hover {
 /* line 70, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub {
   text-align: center;
+  margin-bottom: 80px;
 }
-/* line 73, _src/styles/modules/_header.scss */
+/* line 74, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu {
   margin: 0;
   padding: 0;
@@ -863,7 +871,7 @@ a:hover {
   *zoom: 1;
   *display: inline;
 }
-/* line 77, _src/styles/modules/_header.scss */
+/* line 78, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li {
   list-style-image: none;
   list-style-type: none;
@@ -885,7 +893,7 @@ a:hover {
 .section-sub .navbar-sub ul.menu li.last {
   padding-right: 0;
 }
-/* line 80, _src/styles/modules/_header.scss */
+/* line 81, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -894,7 +902,7 @@ a:hover {
   *display: inline;
   padding: 2px 16px;
 }
-/* line 84, _src/styles/modules/_header.scss */
+/* line 85, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a.btn {
   color: #ffffff;
   background: #85c058;
@@ -906,11 +914,11 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
-  /* line 98, _src/styles/modules/_header.scss */
+  /* line 99, _src/styles/modules/_header.scss */
   .top-header .navbar ul.menu {
     display: none;
   }
-  /* line 102, _src/styles/modules/_header.scss */
+  /* line 103, _src/styles/modules/_header.scss */
   .top-header .navbar i.icon {
     visibility: visible;
   }
@@ -1163,15 +1171,6 @@ a:hover {
     padding-left: 20px;
   }
 }
-/* line 149, _src/styles/modules/_cases.scss */
-.section-sub .case-article p {
-  font-size: 14px;
-  margin-bottom: 12px;
-}
-/* line 155, _src/styles/modules/_cases.scss */
-.section-sub .case {
-  margin-top: 80px;
-}
 
 /* line 2, _src/styles/modules/_about.scss */
 .section-sub .about-company {
@@ -1223,15 +1222,6 @@ a:hover {
   color: #aeaeae;
   line-height: 30px;
   letter-spacing: 1px;
-}
-
-/* line 34, _src/styles/modules/_products.scss */
-.section-sub .product {
-  margin-top: 80px;
-}
-/* line 37, _src/styles/modules/_products.scss */
-.section-sub .product p {
-  margin-bottom: 1rem;
 }
 
 /* line 1, _src/styles/modules/_solutions.scss */
