@@ -1,0 +1,44 @@
+---
+layout: default
+title: 产品与服务
+---
+
+{% include header.html banner=site.data.headers.product.banner title=site.data.headers.product.title %}
+
+<section id="section" class="section section-sub">
+  <div class="container">
+    {% include nav.html items=site.data.navs.product index=2 %}
+
+    <div class="row product">
+      <div class="seven columns">
+        <h5 class="title">产品简介</h5>
+        <p>Pampas 是端点公司一直以来致力于为客户提供优质可靠的技术解决方案和咨询服务，整合前沿技术形成的一套完善基础平台。</p>
+        <h5 class="title">产品特性</h5>
+        <p>组件化的开发方式，提供快速开发、所见即所得的加强版 CMS 、前后端分离、多站点、分布式支持、国际化等特性。前端工程在开发时用更细粒度更易懂的方式进行组织，清晰的划分每一个业务组件以及它所包含的模板、行为和样式。开发时的结构可以被自动打包成部署所需的结构。</p>
+        <p>成熟的开源方案构建，分层的分布式架构，如 redis 、zookeeper 、guava 、dubbo 等等，结构清晰易于扩展和学习。得益于 Pampas 强大的容器，展现、控制和服务可以被轻松在物理和逻辑层面上分离，做到动静分离、新增服务、容量扩展、应用分层。</p>
+        <p>前后端分离，首先，支持使用多种协议来读取前端内容，包括 local 、http 、classpath 、servlet 等。其次，前端内容可以从工程中独立出来，以便做到动静分离、前后端独立发布、前端共享等。</p>
+      </div>
+      <div class="five columns">
+        <img src="/public/images/products/3.png" alt="terminus">
+      </div>
+    </div>
+
+    <div class="row product">
+      <div class="six columns">
+        <img src="/public/images/products/3-1.png" alt="terminus">
+      </div>
+      <div class="six columns">
+        <h5 class="title">性能优化，顺畅开发</h5>
+        <p>实时监视文件变化，自动完成前端打包工作。</p>
+        <p>前后端配置动态 reload ，修改配置无需重启。</p>
+        <p>前后端开发分离，不需要依赖对方即可进行。</p>
+        <p>组件化和服务化，团队协作不再冲突。</p>
+        <p>减少机械重复代码，提高开发效率。</p>
+        <p>整合高效技术，整合 CoffeeScript 、Sass 、CommonJS 等技术到开发过程中，提高效率的同时不带来额外负担。</p>
+        <h5 class="title">多站点支持，易用也易学</h5>
+        <p>Pampas 能一次运行复数个前端工程，并基于这些前端工程构建多个站点。一次运行移动端和 PC 端，为不同的业务场景提供风格和功能不同的站点内容，并且后端可以是一致的。</p>
+        <p>简洁完善的文档和教学工程，培训和技术支持。</p>
+      </div>
+    </div>
+  </div>
+</section>

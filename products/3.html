@@ -1,0 +1,27 @@
+---
+layout: default
+title: 产品与服务
+---
+
+{% include header.html banner=site.data.headers.product.banner title=site.data.headers.product.title %}
+
+<section id="section" class="section section-sub">
+  <div class="container">
+    {% include nav.html items=site.data.navs.product index=3 %}
+
+    <div class="row product">
+      <div class="six columns">
+        <h5 class="title">产品简介</h5>
+        <p>Terminus运维平台可为企业提供自动化的应用部署、监控和运维解决方案，该平台用于监控机器及应用的运行状态，可整体管控资源、合理高效的分配计算资源。</p>
+        <h5 class="title">产品特性</h5>
+        <p>简易的部署与配置机器、应用：快速的添加/删除机器、应用，快速的为机器配置软件环境，快速添加应用，并为应用添加运行环境与运行机器；</p>
+        <p>可视化的展现：图表展示机器、应用的运行状态，清晰直观，图表展示机器、应用的配置信息、运行环境，机器、应用的列表形式展现，便于搜索与全局监测；</p>
+        <p>可控的权限分配：可为不同运维人员配置不同的机器、应用管理权限；</p>
+        <p>基于 Docker的容器化开发：使用Linux内核，大量的社区及三方应用的支持，适用性强，轻便、快速，大大简化分布至云和从云开发的过程，运行性能可获得极大提升，灵活便捷，将应用和系统‘容器化’，不需添加额外的操作系统。</p>
+      </div>
+      <div class="six columns">
+        <img src="/public/images/products/4.png" alt="terminus">
+      </div>
+    </div>
+  </div>
+</section>

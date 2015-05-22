@@ -8,19 +8,50 @@ groups:
       - "_src/scripts"
       - "_vendor"
     concat:
-      "js/vendor.js": "{_vendor/**/*.{js,coffee}}"
-      "js/app.js": "{_src/scripts/**/*.{js,coffee}}"
+      "scripts/app.js": "{_src/scripts/**/*.coffee,_vendor/zepto.js}"
+    copy:
+      "scripts/": "_vendor/rem.js"
+    order:
+      - "_vendor/zepto.js"
+      - ...
+      - "_src/scripts/app.coffee"
   styles:
     paths:
       - "_src/styles"
       - "_vendor"
     concat:
-      "css/vendor.css": "{_vendor/**/*.{css,scss,sass}}"
-      "css/app.css": "{_src/styles/**/[a-z]*.{css,scss,sass}}"
+      "styles/vendor.css": "_vendor/**/*.{css,scss,sass}"
+      "styles/app.css": "_src/styles/**/[a-z]*.{css,scss,sass}"
     order:
-      - "_src/styles/global.scss"
+      - "_vendor/normalize.css"
+  fonts:
+    paths:
+      - "_src/fonts"
+    copy:
+      "fonts/": "_src/fonts/**/*"
+  images:
+    paths:
+      - "_src/images"
+    copy:
+      "images/": "_src/images/{*.png,{cases,about,products,solutions,banners}/*.png}"
 modules:
   wrapper: "CMD"
-  definition: "js/app.js"
+  definition: "scripts/app.js"
   ignored: "_vendor/**/*"
 notification: true
+bundles:
+  normalize.css:
+    version: 3.0.3
+    url: https://cdnjs.cloudflare.com/ajax/libs/ndormalize/3.0.3/normalize.css
+  _skeleton.scss:
+    version: 2.0.4
+    url: https://raw.githubusercontent.com/whatsnewsaes/Skeleton-Sass/master/scss/skeleton.scss
+  zepto.js:
+    version: 1.1.6
+    url: http://zeptojs.com/zepto.js
+  html5shiv.min.js:
+    version: 3.7.2
+    url: http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js
+  rem.min.js:
+    version: 1.3.3
+    url: https://raw.githubusercontent.com/chuckcarpenter/REM-unit-polyfill/v1.3.3/js/rem.min.js

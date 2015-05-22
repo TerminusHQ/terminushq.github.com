@@ -1,0 +1,131 @@
+.top-header{
+  color: white;
+  background: url("/public/images/focus.png") no-repeat top;
+
+  &.top-header-index {
+    .hero-unit {
+      height: 555px;
+    }
+  }
+
+  &.top-header-product {
+    background: url("/public/images/banners/1.png") no-repeat top;
+  }
+
+  &.top-header-solution {
+    background: url("/public/images/banners/2.png") no-repeat top;
+  }
+
+  &.top-header-case {
+    background: url("/public/images/banners/3.png") no-repeat top;
+  }
+
+  &.top-header-about {
+    background: url("/public/images/banners/4.png") no-repeat top;
+  }
+
+  .navbar {
+    padding-top: 40px;
+    @include clearfix();
+
+    .nav-header {
+      font-size: 32px;
+      a {
+        @include link-colors($darken-bg-color, $reverse-color);
+      }
+    }
+
+    i.icon {
+      visibility: hidden;
+      @include inline-block();
+      margin-top: -10px;
+      cursor: pointer;
+    }
+
+    ul.menu {
+      @include horizontal-list-container();
+      margin-top: 5px;
+
+      li {
+        @include horizontal-list-item(8px, left);
+
+        a {
+          @include inline-block();
+          @include link-colors($darken-bg-color, $reverse-color);
+          padding: 6px 14px;
+          border: 1px solid transparent;
+
+          &.btn {
+            border: 1px solid $reverse-color;
+            border-radius: 4px;
+
+            &:hover {
+              background-color: rgba(255, 255, 255, 0.1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hero-unit {
+    text-align: center;
+    padding-top: 72px;
+    height: 355px;
+
+    .logo {
+      margin: 60px;
+    }
+
+    h2 {
+      font-size: 3.6rem;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+.section-sub {
+  line-height: 30px;
+  padding: 60px 0 80px;
+  background: url("/public/images/case-bg.png");
+
+  .navbar-sub {
+    text-align: center;
+    margin-bottom: 80px;
+
+    ul.menu {
+      @include horizontal-list-container();
+      @include inline-block();
+
+      li {
+        @include horizontal-list-item(40px, left);
+
+        a {
+          @include inline-block();
+          padding: 2px 16px;
+          @include link-colors($body-color, $primary-color);
+
+          &.btn {
+            @include link-colors($reverse-color, $reverse-color);
+            background: $primary-color;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .top-header {
+    .navbar {
+      ul.menu {
+        display: none;
+      }
+
+      i.icon {
+        visibility: visible;
+      }
+    }
+  }
+}

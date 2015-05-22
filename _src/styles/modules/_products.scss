@@ -1,0 +1,31 @@
+.product-section {
+  background-color: $bg-color;
+
+  .products {
+    padding: 60px 0 0 0;
+
+    .product {
+      padding: 8px 0;
+
+      .icon-box {
+        width: 64px;
+        padding: 8px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border: 2px solid $darken-bg-color;
+        border-radius: 64px;
+        text-align: center;
+      }
+
+      h5 {
+        margin-bottom: 18px;
+      }
+
+      p {
+        color: $p-color;
+        line-height: 30px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

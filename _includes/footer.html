@@ -1,0 +1,66 @@
+<section class="section link-section">
+  <div class="container">
+    <div class="row">
+      <div class="two columns">
+        <div class="links">
+          <div class="link-heading">产品与服务</div>
+          <ul class="link-list">
+            {% for item in site.data.navs.product %}
+            <li class="link"><a href="{{item.url}}" target="_blank">{{item.name}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="two columns">
+        <div class="links">
+          <div class="link-heading">解决方案</div>
+          <ul class="link-list">
+            {% for item in site.data.navs.solution %}
+            <li class="link"><a href="{{item.url}}" target="_blank">{{item.name}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="two columns">
+        <div class="links">
+          <div class="link-heading">成功案例</div>
+          <ul class="link-list">
+            {% for item in site.data.navs.case %}
+            <li class="link"><a href="{{item.url}}" target="_blank">{{item.name}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="two columns">
+        <div class="links">
+          <div class="link-heading">关于我们</div>
+          <ul class="link-list">
+            {% for item in site.data.navs.about %}
+            <li class="link"><a href="{{item.url}}" target="_blank">{{item.name}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="four columns">
+        <div class="links">
+          <div class="link-heading">联系方式</div>
+          <ul class="link-list">
+            <li class="link"><span>杭州市滨江区六和路307号中控大厦E座4层</span></li>
+            <li class="link"><span>0571-56131922</span></li>
+            <li class="link"><a href="/" target="_blank">http://terminus.io</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <p class="copyright">
+        版权所有: 杭州端点网络科技有限公司  浙ICP备05004842号
+      </p>
+    </div>
+  </div>
+</footer>

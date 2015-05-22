@@ -1,173 +1,240 @@
 ---
 layout: default
+title: 首页
 ---
 
-<div class="index">
-  <section class="top">
-    <!-- <div class="top-mask"></div> -->
-    <header class="top-header row">
-      <h1 class="logo left">Terminus, Inc</h1>
-      <nav class="nav right">
-        <ul class="menu">
-          <li><a data-scroll="true" href="#summary">公司概述</a></li>
-          <li><a data-scroll="true" href="#intro">产品介绍</a></li>
-          <li><a data-scroll="true" href="#customer">我们的客户</a></li>
-          <li><a href="http://www.daqihui.com" target="_blank">员工福利</a></li>
-          <li><a href="mailto:hr@terminus.io" class="btn reverse-btn">联系我们</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="top-logo">
-      <i class="logo"></i>
-      <h1>端点</h1>
-    </div>
-    <footer class="top-footer">
-      <div class="learn-more">
-        <a data-scroll="true" href="#summary"><i class="fa fa-angle-down"></i></a>
+{% include header.html banner=site.data.headers.index.banner title=site.data.headers.index.title %}
+
+<section class="section product-section">
+  <div class="container">
+    <div class="heading">
+      <div class="heading-logo">
+        <i class="icon">&#xe60a;</i>
       </div>
-    </footer>
-  </section>
-  <section class="summary screen" id="summary">
-    <div class="section-logo">
-      <i class="fa fa-group"></i>
-      <span>公司概述</span>
+      <h6>TERMINUS ITEMS</h6>
     </div>
-    <div class="paragraph">
-      <h2>我们提供大型互联网分布式架构</h2>
-      <p>团队核心成员拥有超过 10 年的互联网行业经验，多个重量级的平台产品构建</p>
-    </div>
-    <div class="paragraph summary-spec row">
-      <div class="key left">
-        提供的服务：
+    <div class="products">
+      <div class="row">
+        <div class="six columns">
+          <div class="row product">
+            <div class="two columns">
+              <div class="icon-box">
+                <i class="icon">&#xe605;</i>
+              </div>
+            </div>
+            <div class="ten columns">
+              <h5><a href="/products.html">ECP电商平台</a></h5>
+              <p>ECP电商平台已为众多知名电子商务企业成功实施了电商系统，您可以搭建适合企业品牌形象的B2B、B2C电子商务平台，满足企业的各种需求。基于Pampas强大的开发系统和端点团队的丰富实施经验，您可以实现除了标准的站点管理、栏目管理、内容管理、模板管理、站点发布等之外的更多个性化的功能。</p>
+            </div>
+          </div>
+        </div>
+        <div class="six columns">
+          <div class="row product">
+            <div class="two columns">
+              <div class="icon-box">
+                <i class="icon">&#xe600;</i>
+              </div>
+            </div>
+            <div class="ten columns">
+              <h5><a href="/products/1.html">ECP电商平台数据中心</a></h5>
+              <p>为电商网站提供精准高效的数据分析，可涵盖流量、交易、用户等各类数据，可提供基于地理位置、来源、用户兴趣等多维度的细分精确分析，帮助企业监控销售动态、制定运营与销售计划。</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="value left">
-        <p>
-          分布式系统架构及研发平台<br>
-          标准互联网应用研发体系
-        </p>
+
+      <div class="row">
+        <div class="six columns">
+          <div class="row product">
+            <div class="two columns">
+              <div class="icon-box">
+                <i class="icon">&#xe60c;</i>
+              </div>
+            </div>
+            <div class="ten columns">
+              <h5><a href="/products/2.html">Pampas分布式系统架构及研发平台</a></h5>
+              <p>帮助企业更轻松的构建分布式的、易与扩展和维护的互联网应用，提供快速开发和所见即所得的站点管理等特性。</p>
+            </div>
+          </div>
+        </div>
+        <div class="six columns">
+          <div class="row product">
+            <div class="two columns">
+              <div class="icon-box">
+                <i class="icon">&#xe609;</i>
+              </div>
+            </div>
+            <div class="ten columns">
+              <h5><a href="/products/3.html">Terminus运维管理平台</a></h5>
+              <p>为企业提供自动化的应用部署、监控和运维解决方案，帮助企业整体管控资源、更加合理高效的分配计算资源。</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="paragraph summary-spec row">
-      <div class="key left">
-        我们的优势：
+  </div>
+</section>
+
+<section class="section case-section">
+  <div class="container">
+    <div class="heading">
+      <div class="heading-logo">
+        <i class="icon">&#xe603;</i>
       </div>
-      <div class="value left">
-        <p>
-          提供可运维的平台级解决方案，更好的扩展性和稳定性<br>
-          拥有超大型系统的设计实现及实施经验<br>
-          创造一流的用户体验与视觉设计
-        </p>
+      <h6>TERMINUS CASE OF</h6>
+    </div>
+    <div class="cases">
+      <div class="row">
+        <div class="four columns">
+          <div class="case">
+            <div class="screen-shot screen-shot-1">
+            </div>
+            <div class="description">
+              <span class="u-pull-left name">多多宝</span>
+              <span class="u-pull-right website">www.ddbao.com</span>
+            </div>
+            <div class="more">
+              <div class="logo">
+                <img src="/public/images/cases/logo-1.png" alt="logo" class="logo"></img>
+                <h6>www.ddbao.com</h6>
+              </div>
+              <div class="introduce">
+                <p>多多宝是O2O集约化商户经营系统，为线下商家提供基于POS的管理平台，以及商家之间的联盟互动营销。</p>
+              </div>
+              <div class="readmore">
+                <a href="/cases.html">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="case">
+            <div class="screen-shot screen-shot-2">
+            </div>
+            <div class="description">
+              <span class="u-pull-left name">云菜网</span>
+              <span class="u-pull-right website">www.hyuncai.com</span>
+            </div>
+            <div class="more">
+              <div class="logo">
+                <img src="/public/images/cases/logo-2.png" alt="logo" class="logo"></img>
+                <h6>www.hyuncai.com</h6>
+              </div>
+              <div class="introduce">
+                <p>云菜网依托于海尔地产的大战略资源、优质海客会会员及海尔地产深耕地产行业十二年的专业能力的沉淀，将地产行业、家装行业的优质资源进行整合优化，为合作方、业主、第三方需求者搭建了一个服务型的交互交易平台。</p>
+              </div>
+              <div class="readmore">
+                <a href="/cases/1.html">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="case">
+            <div class="screen-shot screen-shot-3">
+            </div>
+            <div class="description">
+              <span class="u-pull-left name">海达源</span>
+              <span class="u-pull-right website">l.ihaier.com</span>
+            </div>
+            <div class="more">
+              <div class="logo">
+                <img src="/public/images/cases/logo-3.png" alt="logo" class="logo"></img>
+                <h6>l.ihaier.com</h6>
+              </div>
+              <div class="introduce">
+                <p>海达源创建供应商与用户零距离交互生态圈，快速配置资源，满足用户最佳体验。</p>
+              </div>
+              <div class="readmore">
+                <a href="/cases/2.html">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <div class="case">
+            <div class="screen-shot screen-shot-4"></div>
+            <div class="description">
+              <span class="u-pull-left name">日日顺</span>
+              <span class="u-pull-right website">www.rrs.com</span>
+            </div>
+            <div class="more">
+              <div class="logo">
+                <img src="/public/images/cases/logo-4.png" alt="logo" class="logo"></img>
+                <h6>www.rrs.com</h6>
+              </div>
+              <div class="introduce">
+                <p>海尔RRS.COM电商平台搭建要求以用户体验为核心、以电子商务精细化运营为基础、以搭建第三方交易平台为准则进行设计开发，精准高效的帮助用户、引导用户、转化用户，帮助商城商铺和商城平台管理、运营人员便捷操作。</p>
+              </div>
+              <div class="readmore">
+                <a href="/cases/3.html">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="case">
+            <div class="screen-shot screen-shot-5"></div>
+            <div class="description">
+              <span class="u-pull-left name">大企汇</span>
+              <span class="u-pull-right website">www.daqihui.com</span>
+            </div>
+            <div class="more">
+              <div class="logo">
+                <img src="/public/images/cases/logo-5.png" alt="logo" class="logo"></img>
+                <h6>www.daqihui.com</h6>
+              </div>
+              <div class="introduce">
+                <p>从带运营的环境来看,电子商务的氛围还未形成,从带运营的环境来看,电子商务的氛围还未形成从带运营的环境来看,电子商务的氛围还未形成从带运营的环境来看,电子商务的氛围还未形成</p>
+              </div>
+              <div class="readmore">
+                <a href="/cases/4.html">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="case">
+            <div class="screen-shot screen-shot-6"></div>
+            <div class="description">
+              <span class="u-pull-left name">翼支付</span>
+              <span class="u-pull-right website">www.bestpay.com.cn</span>
+            </div>
+            <div class="more">
+              <div class="logo">
+                <img src="/public/images/cases/logo-6.png" alt="logo" class="logo"></img>
+                <h6>www.bestpay.com.cn</h6>
+              </div>
+              <div class="introduce">
+                <p>翼支付平台的系统架构重构，抛弃传统一体化开发和技术体系，采用分布式系统开发思想，基于端点公司自主研发的分布式系统技术平台Pampas平台对翼支付平台进行了重构。</p>
+              </div>
+              <div class="readmore">
+                <a href="/cases/5.html">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
-  <section class="intro screen" id="intro">
-    <div class="section-logo">
-      <i class="fa fa-cubes"></i>
-      <span>产品介绍</span>
-    </div>
-    <div class="paragraph">
-      <h2>大型电商整体解决方案</h2>
-      <p>
-        核心系统包括<br>
-        商品类目体系、建站/店铺体系、交易/结算系统、营销体系、会员体系、物流等，整体架构可线性扩展，支持过亿 PV
-      </p>
-    </div>
-    <div class="paragraph">
-      <p>
-        可服务于<br>
-        B2B/B2C 垂直领域电商：搭建电子商务平台网站<br>
-        淘宝大卖家：搭建电商独立网站
-      </p>
-    </div>
-    <div class="paragraph intro-example hide">
-      <div class="example-logo">
-        案例
+  </div>
+</section>
+
+<section class="section solution-section">
+  <div class="container">
+    <div class="heading">
+      <div class="heading-logo">
+        <i class="icon">&#xe602;</i>
       </div>
-      <p class="logo-rrs">
-        <a href="http://tuan.haier.com">海尔企业团购</a>
-      </p>
+      <h6>TERMINUS SOLUTION CENTER</h6>
     </div>
-    <div class="paragraph rrs-desc hide">
-      海尔企业团购（ tuan.haier.com ）是面向高端集团型企业的营销平台，基于集团型企业兼具制造商和超大消费群的双重特征，形成互联网2.0时代的互惠型销售与采买关系，建立优质商品和高端消费人群的双向流通关系圈，通过精准销售额降低产品预期利润，真正让利终端用户，旨在将最优质的商品以企业集采方式0利润直供给集团员工，承诺所有商品 全网最低，品牌直供，100%正品，售后无忧。
+    <div class="solutions">
+      <a href="/solutions.html" class="solution-drop top-left">B2C电商平台</a>
+      <a href="/solutions/1.html" class="solution-drop top-right">B2B2C电商平台</a>
+      <br>
+      <a href="/solutions/2.html" class="solution-drop bottom-left">电商数据分析</a>
+      <a href="/solutions/3.html" class="solution-drop bottom-right">Pampas基础架构</a>
     </div>
-    <div class="paragraph hide">
-      <i class="img-daqihui-example"></i>
-    </div>
-    <div class="paragraph intro-example">
-      <div class="example-logo">
-        案例
-      </div>
-      <p class="logo-rrs">
-        <a href="http://rrs.com">RRS.COM 日日顺</a>
-      </p>
-    </div>
-    <div class="paragraph rrs-desc">
-      日日顺家居城（ rrs.com ）是日日顺品牌在互联网时代虚实融合的家居解决方案开放平台，吸引行业领先的家电、家居、家装、家饰品牌供应商，整合日日顺四网融合优势，为消费者提供家电、家居、家装、家饰一站式购物体验，亦为用户提供在线的家居设计、互动体验、产品定制、送装同步等一站式家居解决方案。
-    </div>
-    <div class="paragraph">
-      <i class="img-rrs-example"></i>
-    </div>
-    <div class="intro-divider"></div>
-    <div class="paragraph">
-      <h2>CRM 云服务</h2>
-      <p>
-        核心功能<br>
-        线上为商家提供管理与营销系统，线下对接 POS 实现 O2O 闭环，消费者通过刷卡或手机号进行消费跟踪
-      </p>
-    </div>
-    <!-- <div class="paragraph">
-      <i class="img-ddbao-ad"></i>
-    </div> -->
-    <div class="paragraph intro-example">
-      <div class="example-logo">
-        案例
-      </div>
-      <a href="http://ddbao.com"><i class="logo-ddbao"></i></a>
-    </div>
-    <div class="paragraph">
-      <i class="img-ddbao-example"></i>
-    </div>
-  </section>
-  <section class="customer screen" id="customer">
-    <div class="section-logo">
-      <i class="fa fa-comment-o"></i>
-      <span>我们的客户</span>
-    </div>
-    <div class="paragraph">
-      <table class="customer-list">
-        <tr>
-          <th><i class="img-haier-logo"></i></th>
-          <th><i class="img-dianxin-logo"></i></th>
-          <th><i class="img-bestpay-logo"></i></th>
-          <th><i class="img-sumpay-logo"></i></th>
-        </tr>
-        <tr>
-          <td>
-            rrs.com 重构<br>
-            互联网化的 SRM 平台<br>
-            整体架构重构
-          </td>
-          <td>
-            iSale 系统重构<br>
-            整体架构重构
-          </td>
-          <td>
-            bestpay.com.cn 重构<br>
-            整体架构重构
-          </td>
-          <td>
-            sumpay.cn 重构
-          </td>
-        </tr>
-      </table>
-    </div>
-  </section>
-  <section class="bottom screen">
-    <p class="copyright">
-      © 2014 <strong>Terminus, Inc</strong>. All Rights Reserverd.
-    </p>
-    <p class="faith">
-      We believe the only way to make things right is to make things best.
-    </p>
-  </section>
-</div>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+<div class="navbar-sub">
+  <ul class="menu">
+    {% for item in include.items %}
+    <li>
+      <a href="{{item.url}}" {% if include.index == forloop.index0 %}class="btn"{% endif %}>{{item.name}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

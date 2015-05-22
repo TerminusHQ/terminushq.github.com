@@ -1,0 +1,15 @@
+.section-sub {
+  .about-company {
+    margin-top: 60px;
+  }
+
+  .title {
+    font-size: 18px;
+    margin-bottom: 12px;
+
+    .translation {
+      @include inline-block(baseline);
+      margin-left: 10px;
+    }
+  }
+}

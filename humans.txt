@@ -1,0 +1,28 @@
+/* humanstxt.org */
+
+/* TEAM */
+
+Name: terminus
+Site: http://terminus.io
+Designer: @zhaohuan
+Developer: @saitowu @anson0370
+Contact: hr@terminus.io
+Location: HangZhou, China
+
+
+/* SITE */
+
+Development Tools:
+Photoshop CC, Atom
+
+Server:
+Github Pages
+
+Last Updated:
+2015/05/16 12:30 AM
+
+
+/* Components */
+
+Linner: https://github.com/SaitoWu/linner
+Skeleton: https://github.com/dhg/Skeleton

@@ -1,32 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" >
   <head>
       <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Terminus{% if page.title %} - {{ page.title }}{% endif %}</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>{% if page.title %}{{ page.title }} - {% endif %} Terminus</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-
+      {% if page.path == "index.html" %}
+      <meta name="keywords" content="杭州端点网络科技有限公司,Terminus Inc,Pampas,Terminus,ECP,ECP电商平台,ECP电商数据分析平台,互联网软件,互联网的生态圈">
+      <meta name="description" content="杭州端点网络科技有限公司是一家互联网软件公司，致力于打造企业互联网的生态圈。通过互联网技术来推动企业的发展与变革，为企业创造新的赢利点，为社会创造价值。公司以互联网架构和技术为核心，提供互联网应用开发平台以及电商平台综合解决方案，先后推出了互联网分布式系统开发平台Pampas平台、端点电商平台 、数据监控与分析Terminus平台。">
+      {% endif %}
       <!--[if lt IE 9]>
-      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="/public/scripts/html5shiv.min.js"></script>
+      <script src="/public/scripts/rem.min.js"></script>
       <![endif]-->
 
-      <!-- font awesome -->
-      <link href="http://cdn.bootcss.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-      <!-- syntax highlighting CSS -->
-      <link rel="stylesheet" href="/css/syntax.css">
-
-      <!-- vendor CSS -->
-      <link rel="stylesheet" href="/public/css/vendor.css">
-
       <!-- Custom CSS -->
-      <link rel="stylesheet" href="/public/css/app.css">
+      <link rel="stylesheet" href="/public/styles/vendor.css">
+      <link rel="stylesheet" href="/public/styles/app.css">
   </head>
   <body>
+    <div class="navigation">
+      <ul class="menu">
+        <li><a href="/" target="_blank">首页</a></li>
+        <li><a href="/products.html" target="_blank">产品与服务</a></li>
+        <li><a href="/solutions.html" target="_blank">解决方案</a></li>
+        <li><a href="/cases.html" target="_blank">成功案例</a></li>
+        <li><a href="/about.html" target="_blank">关于我们</a></li>
+        <li><a href="mailto:support@terminus.io" class="btn">联系我们</a></li>
+      </ul>
+    </div>
     {{ content }}
-    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/public/js/vendor.js"></script>
-    <script src="/public/js/app.js"></script>
+    {% include footer.html %}
+    <script src="/public/scripts/app.js"></script>
     <script>require("app")</script>
+    <script type="text/javascript">
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+      analytics.load("FWCF1ssRU8EeoZUqNPVzciEjhviZS1Q6");
+      analytics.page()
+      }}();
+    </script>
   </body>
 </html>
