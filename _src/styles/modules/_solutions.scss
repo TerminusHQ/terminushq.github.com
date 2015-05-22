@@ -1,6 +1,10 @@
 .solution-section {
   background: url("/public/images/solution-bg.png");
 
+  .heading {
+    border-bottom: 0;
+  }
+
   .solutions {
     text-align: center;
     margin-bottom: 80px;

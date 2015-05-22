@@ -100,6 +100,10 @@
       li {
         @include horizontal-list-item(40px, left);
 
+        @media (max-width: 550px) {
+          @include horizontal-list-item(0, left);
+        }
+
         a {
           @include inline-block();
           padding: 2px 16px;

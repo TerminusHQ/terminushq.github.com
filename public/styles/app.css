@@ -928,7 +928,31 @@ a:hover {
 .section-sub .navbar-sub ul.menu li.last {
   padding-right: 0;
 }
-/* line 103, _src/styles/modules/_header.scss */
+@media (max-width: 550px) {
+  /* line 100, _src/styles/modules/_header.scss */
+  .section-sub .navbar-sub ul.menu li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 49, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  .section-sub .navbar-sub ul.menu li:first-child {
+    padding-left: 0;
+  }
+  /* line 50, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  .section-sub .navbar-sub ul.menu li:last-child {
+    padding-right: 0;
+  }
+  /* line 52, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  .section-sub .navbar-sub ul.menu li.last {
+    padding-right: 0;
+  }
+}
+/* line 107, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -942,7 +966,7 @@ a:hover {
 .section-sub .navbar-sub ul.menu li a:hover {
   color: #85c058;
 }
-/* line 108, _src/styles/modules/_header.scss */
+/* line 112, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a.btn {
   color: #ffffff;
   background: #85c058;
@@ -954,11 +978,11 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
-  /* line 122, _src/styles/modules/_header.scss */
+  /* line 126, _src/styles/modules/_header.scss */
   .top-header .navbar ul.menu {
     display: none;
   }
-  /* line 126, _src/styles/modules/_header.scss */
+  /* line 130, _src/styles/modules/_header.scss */
   .top-header .navbar i.icon {
     visibility: visible;
   }
@@ -1318,11 +1342,15 @@ a:hover {
   background: url("/public/images/solution-bg.png");
 }
 /* line 4, _src/styles/modules/_solutions.scss */
+.solution-section .heading {
+  border-bottom: 0;
+}
+/* line 8, _src/styles/modules/_solutions.scss */
 .solution-section .solutions {
   text-align: center;
   margin-bottom: 80px;
 }
-/* line 8, _src/styles/modules/_solutions.scss */
+/* line 12, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop {
   display: inline-block;
   vertical-align: middle;
@@ -1343,13 +1371,13 @@ a:hover {
   transition: all 0.3s ease;
 }
 @media (max-width: 550px) {
-  /* line 8, _src/styles/modules/_solutions.scss */
+  /* line 12, _src/styles/modules/_solutions.scss */
   .solution-section .solutions .solution-drop {
     width: 110px;
     padding: 50px 18px;
   }
 }
-/* line 25, _src/styles/modules/_solutions.scss */
+/* line 29, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop:hover {
   background: #85c058;
   color: #ffffff;
@@ -1358,51 +1386,51 @@ a:hover {
 .solution-section .solutions .solution-drop:hover:hover {
   color: #ffffff;
 }
-/* line 30, _src/styles/modules/_solutions.scss */
+/* line 34, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.top-left {
   margin-left: 4px;
   margin-bottom: 10px;
   border-bottom-right-radius: 4px;
 }
-/* line 34, _src/styles/modules/_solutions.scss */
+/* line 38, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.top-left:hover {
   -moz-transform: translateX(-20px) translateY(-20px);
   -ms-transform: translateX(-20px) translateY(-20px);
   -webkit-transform: translateX(-20px) translateY(-20px);
   transform: translateX(-20px) translateY(-20px);
 }
-/* line 39, _src/styles/modules/_solutions.scss */
+/* line 43, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.top-right {
   margin-left: 16px;
   margin-bottom: 10px;
   border-bottom-left-radius: 4px;
 }
-/* line 43, _src/styles/modules/_solutions.scss */
+/* line 47, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.top-right:hover {
   -moz-transform: translateX(20px) translateY(-20px);
   -ms-transform: translateX(20px) translateY(-20px);
   -webkit-transform: translateX(20px) translateY(-20px);
   transform: translateX(20px) translateY(-20px);
 }
-/* line 48, _src/styles/modules/_solutions.scss */
+/* line 52, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.bottom-left {
   margin-top: 10px;
   border-top-right-radius: 4px;
 }
-/* line 51, _src/styles/modules/_solutions.scss */
+/* line 55, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.bottom-left:hover {
   -moz-transform: translateX(-20px) translateY(20px);
   -ms-transform: translateX(-20px) translateY(20px);
   -webkit-transform: translateX(-20px) translateY(20px);
   transform: translateX(-20px) translateY(20px);
 }
-/* line 56, _src/styles/modules/_solutions.scss */
+/* line 60, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.bottom-right {
   margin-top: 10px;
   margin-left: 16px;
   border-top-left-radius: 4px;
 }
-/* line 60, _src/styles/modules/_solutions.scss */
+/* line 64, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.bottom-right:hover {
   -moz-transform: translateX(20px) translateY(20px);
   -ms-transform: translateX(20px) translateY(20px);
