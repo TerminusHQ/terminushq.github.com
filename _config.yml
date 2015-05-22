@@ -2,7 +2,7 @@ name: "Terminus, Inc"
 markdown: redcarpet
 redcarpet:
   extensions: ["tables", "strikethrough", "footnotes"]
-highlighter: true
+highlighter: pygments
 exclude: ["Linnerfile"]
 gems:
   - jekyll-sitemap
