@@ -103,6 +103,7 @@
         a {
           @include inline-block();
           padding: 2px 16px;
+          @include link-colors($body-color, $primary-color);
 
           &.btn {
             @include link-colors($reverse-color, $reverse-color);

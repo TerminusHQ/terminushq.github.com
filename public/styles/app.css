@@ -734,9 +734,17 @@ a:hover {
   margin-bottom: 12px;
   line-height: 24px;
 }
+/* line 68, _src/styles/modules/_base.scss */
+.section-sub a {
+  color: #85c058;
+}
+/* line 24, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.section-sub a:hover {
+  color: #85c058;
+}
 
 @media (min-width: 1200px) {
-  /* line 70, _src/styles/modules/_base.scss */
+  /* line 74, _src/styles/modules/_base.scss */
   .container {
     width: 100%;
     max-width: 1200px;
@@ -921,8 +929,13 @@ a:hover {
   *zoom: 1;
   *display: inline;
   padding: 2px 16px;
+  color: #484848;
 }
-/* line 107, _src/styles/modules/_header.scss */
+/* line 24, /Users/saito/.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.section-sub .navbar-sub ul.menu li a:hover {
+  color: #85c058;
+}
+/* line 108, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a.btn {
   color: #ffffff;
   background: #85c058;
@@ -934,11 +947,11 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
-  /* line 121, _src/styles/modules/_header.scss */
+  /* line 122, _src/styles/modules/_header.scss */
   .top-header .navbar ul.menu {
     display: none;
   }
-  /* line 125, _src/styles/modules/_header.scss */
+  /* line 126, _src/styles/modules/_header.scss */
   .top-header .navbar i.icon {
     visibility: visible;
   }
