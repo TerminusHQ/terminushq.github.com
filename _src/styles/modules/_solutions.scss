@@ -17,6 +17,11 @@
       border-radius: 120px;
       @include transition(all 0.3s ease);
 
+      @media (max-width: 550px) {
+        width: 110px;
+        padding: 50px 18px;
+      }
+
       &:hover {
         background: $primary-color;
         @include link-colors($reverse-color, $reverse-color);

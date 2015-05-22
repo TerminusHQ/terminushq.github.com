@@ -1335,7 +1335,14 @@ a:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 20, _src/styles/modules/_solutions.scss */
+@media (max-width: 550px) {
+  /* line 8, _src/styles/modules/_solutions.scss */
+  .solution-section .solutions .solution-drop {
+    width: 110px;
+    padding: 50px 18px;
+  }
+}
+/* line 25, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop:hover {
   background: #85c058;
   color: #ffffff;
@@ -1344,51 +1351,51 @@ a:hover {
 .solution-section .solutions .solution-drop:hover:hover {
   color: #ffffff;
 }
-/* line 25, _src/styles/modules/_solutions.scss */
+/* line 30, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.top-left {
   margin-left: 4px;
   margin-bottom: 10px;
   border-bottom-right-radius: 4px;
 }
-/* line 29, _src/styles/modules/_solutions.scss */
+/* line 34, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.top-left:hover {
   -moz-transform: translateX(-20px) translateY(-20px);
   -ms-transform: translateX(-20px) translateY(-20px);
   -webkit-transform: translateX(-20px) translateY(-20px);
   transform: translateX(-20px) translateY(-20px);
 }
-/* line 34, _src/styles/modules/_solutions.scss */
+/* line 39, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.top-right {
   margin-left: 16px;
   margin-bottom: 10px;
   border-bottom-left-radius: 4px;
 }
-/* line 38, _src/styles/modules/_solutions.scss */
+/* line 43, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.top-right:hover {
   -moz-transform: translateX(20px) translateY(-20px);
   -ms-transform: translateX(20px) translateY(-20px);
   -webkit-transform: translateX(20px) translateY(-20px);
   transform: translateX(20px) translateY(-20px);
 }
-/* line 43, _src/styles/modules/_solutions.scss */
+/* line 48, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.bottom-left {
   margin-top: 10px;
   border-top-right-radius: 4px;
 }
-/* line 46, _src/styles/modules/_solutions.scss */
+/* line 51, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.bottom-left:hover {
   -moz-transform: translateX(-20px) translateY(20px);
   -ms-transform: translateX(-20px) translateY(20px);
   -webkit-transform: translateX(-20px) translateY(20px);
   transform: translateX(-20px) translateY(20px);
 }
-/* line 51, _src/styles/modules/_solutions.scss */
+/* line 56, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.bottom-right {
   margin-top: 10px;
   margin-left: 16px;
   border-top-left-radius: 4px;
 }
-/* line 55, _src/styles/modules/_solutions.scss */
+/* line 60, _src/styles/modules/_solutions.scss */
 .solution-section .solutions .solution-drop.bottom-right:hover {
   -moz-transform: translateX(20px) translateY(20px);
   -ms-transform: translateX(20px) translateY(20px);
