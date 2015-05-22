@@ -1,15 +1,15 @@
 index:
-  banner: /public/images/logo.png
+  banner: index
   title: 面向大型企业的电子商务解决方案
 product:
-  banner: /public/images/logo.png
+  banner: product
   title: 面向大型企业的电子商务解决方案
 solution:
-  banner: /public/images/logo.png
+  banner: solution
   title: 面向大型企业的电子商务解决方案
 case:
-  banner: /public/images/logo.png
+  banner: case
   title: 面向大型企业的电子商务解决方案
 about:
-  banner: /public/images/logo.png
+  banner: about
   title: 面向大型企业的电子商务解决方案

@@ -1,4 +1,4 @@
-<header class="top top-header">
+<header class="top top-header top-header-{{include.banner}}">
   <div class="container">
     <div class="navbar" role="navigation">
       <h1 class="nav-header u-pull-left"><a href="/">Terminus, Inc</a></h1>
@@ -15,8 +15,10 @@
       </nav>
     </div>
     <div class="hero-unit">
-      <img src="{{include.banner}}" class="logo"></img>
+      {% if include.banner == "index" %}
+      <img src="/public/images/logo.png" class="logo"></img>
       <h2>{{include.title}}</h2>
+      {% endif %}
     </div>
   </div>
 </header>

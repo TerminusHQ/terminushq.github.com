@@ -2,6 +2,28 @@
   color: white;
   background: url("/public/images/focus.png") no-repeat top;
 
+  &.top-header-index {
+    .hero-unit {
+      height: 555px;
+    }
+  }
+
+  &.top-header-product {
+    background: url("/public/images/banners/1.png") no-repeat top;
+  }
+
+  &.top-header-solution {
+    background: url("/public/images/banners/2.png") no-repeat top;
+  }
+
+  &.top-header-case {
+    background: url("/public/images/banners/3.png") no-repeat top;
+  }
+
+  &.top-header-about {
+    background: url("/public/images/focus.png") no-repeat top;
+  }
+
   .navbar {
     padding-top: 40px;
     @include clearfix();
@@ -49,7 +71,7 @@
   .hero-unit {
     text-align: center;
     padding-top: 72px;
-    height: 555px;
+    height: 355px;
 
     .logo {
       margin: 60px;
