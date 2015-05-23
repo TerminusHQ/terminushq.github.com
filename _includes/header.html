@@ -1,7 +1,12 @@
 <header class="top top-header top-header-{{include.banner}}">
   <div class="container">
     <div class="navbar" role="navigation">
-      <h1 class="nav-header u-pull-left"><a href="/">Terminus, Inc</a></h1>
+      <h1 class="nav-header u-pull-left">
+        <a href="/">
+          <img src="/public/images/logo.png" alt="logo" />
+          <span>端点科技</span>
+        </a>
+      </h1>
       <nav class="nav u-pull-right">
         <ul class="menu">
           <li><a href="/" target="_blank">首页</a></li>
@@ -16,7 +21,6 @@
     </div>
     <div class="hero-unit">
       {% if include.banner == "index" %}
-      <img src="/public/images/logo.png" class="logo"></img>
       <h2>{{include.title}}</h2>
       {% endif %}
     </div>

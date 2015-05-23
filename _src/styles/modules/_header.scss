@@ -30,6 +30,18 @@
 
     .nav-header {
       font-size: 32px;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      span {
+        @include inline-block(text-top);
+        font-size: 24px;
+        margin-left: 8px;
+      }
+
       a {
         @include link-colors($darken-bg-color, $reverse-color);
       }
@@ -73,12 +85,9 @@
     padding-top: 72px;
     height: 355px;
 
-    .logo {
-      margin: 60px;
-    }
-
     h2 {
-      font-size: 3.6rem;
+      margin: 150px;
+      font-size: 4.8rem;
       letter-spacing: 2px;
     }
   }

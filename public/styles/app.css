@@ -792,7 +792,22 @@ a:hover {
 .top-header .navbar .nav-header {
   font-size: 32px;
 }
-/* line 33, _src/styles/modules/_header.scss */
+/* line 34, _src/styles/modules/_header.scss */
+.top-header .navbar .nav-header img {
+  width: 40px;
+  height: 40px;
+}
+/* line 39, _src/styles/modules/_header.scss */
+.top-header .navbar .nav-header span {
+  display: inline-block;
+  vertical-align: text-top;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  font-size: 24px;
+  margin-left: 8px;
+}
+/* line 45, _src/styles/modules/_header.scss */
 .top-header .navbar .nav-header a {
   color: #eaeaea;
 }
@@ -800,7 +815,7 @@ a:hover {
 .top-header .navbar .nav-header a:hover {
   color: #ffffff;
 }
-/* line 38, _src/styles/modules/_header.scss */
+/* line 50, _src/styles/modules/_header.scss */
 .top-header .navbar i.icon {
   visibility: hidden;
   display: inline-block;
@@ -811,7 +826,7 @@ a:hover {
   margin-top: -10px;
   cursor: pointer;
 }
-/* line 45, _src/styles/modules/_header.scss */
+/* line 57, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu {
   margin: 0;
   padding: 0;
@@ -820,7 +835,7 @@ a:hover {
   *zoom: 1;
   margin-top: 5px;
 }
-/* line 49, _src/styles/modules/_header.scss */
+/* line 61, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li {
   list-style-image: none;
   list-style-type: none;
@@ -842,7 +857,7 @@ a:hover {
 .top-header .navbar ul.menu li.last {
   padding-right: 0;
 }
-/* line 52, _src/styles/modules/_header.scss */
+/* line 64, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -857,43 +872,40 @@ a:hover {
 .top-header .navbar ul.menu li a:hover {
   color: #ffffff;
 }
-/* line 58, _src/styles/modules/_header.scss */
+/* line 70, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a.btn {
   border: 1px solid #ffffff;
   border-radius: 4px;
 }
-/* line 62, _src/styles/modules/_header.scss */
+/* line 74, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a.btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* line 71, _src/styles/modules/_header.scss */
+/* line 83, _src/styles/modules/_header.scss */
 .top-header .hero-unit {
   text-align: center;
   padding-top: 72px;
   height: 355px;
 }
-/* line 76, _src/styles/modules/_header.scss */
-.top-header .hero-unit .logo {
-  margin: 60px;
-}
-/* line 80, _src/styles/modules/_header.scss */
+/* line 88, _src/styles/modules/_header.scss */
 .top-header .hero-unit h2 {
-  font-size: 3.6rem;
+  margin: 150px;
+  font-size: 4.8rem;
   letter-spacing: 2px;
 }
 
-/* line 87, _src/styles/modules/_header.scss */
+/* line 96, _src/styles/modules/_header.scss */
 .section-sub {
   line-height: 30px;
   padding: 60px 0 80px;
   background: url("/public/images/case-bg.png");
 }
-/* line 92, _src/styles/modules/_header.scss */
+/* line 101, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub {
   text-align: center;
   margin-bottom: 80px;
 }
-/* line 96, _src/styles/modules/_header.scss */
+/* line 105, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu {
   margin: 0;
   padding: 0;
@@ -906,7 +918,7 @@ a:hover {
   *zoom: 1;
   *display: inline;
 }
-/* line 100, _src/styles/modules/_header.scss */
+/* line 109, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li {
   list-style-image: none;
   list-style-type: none;
@@ -929,7 +941,7 @@ a:hover {
   padding-right: 0;
 }
 @media (max-width: 550px) {
-  /* line 100, _src/styles/modules/_header.scss */
+  /* line 109, _src/styles/modules/_header.scss */
   .section-sub .navbar-sub ul.menu li {
     list-style-image: none;
     list-style-type: none;
@@ -952,7 +964,7 @@ a:hover {
     padding-right: 0;
   }
 }
-/* line 107, _src/styles/modules/_header.scss */
+/* line 116, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -966,7 +978,7 @@ a:hover {
 .section-sub .navbar-sub ul.menu li a:hover {
   color: #85c058;
 }
-/* line 112, _src/styles/modules/_header.scss */
+/* line 121, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a.btn {
   color: #ffffff;
   background: #85c058;
@@ -978,11 +990,11 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
-  /* line 126, _src/styles/modules/_header.scss */
+  /* line 135, _src/styles/modules/_header.scss */
   .top-header .navbar ul.menu {
     display: none;
   }
-  /* line 130, _src/styles/modules/_header.scss */
+  /* line 139, _src/styles/modules/_header.scss */
   .top-header .navbar i.icon {
     visibility: visible;
   }
