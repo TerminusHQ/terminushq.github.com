@@ -877,25 +877,26 @@ a:hover {
   text-align: center;
   height: 500px;
 }
-/* line 80, _src/styles/modules/_header.scss */
-.top-header .hero-unit h2 {
-  margin: 150px;
-  font-size: 4.8rem;
-  letter-spacing: 2px;
+@media (max-width: 550px) {
+  /* line 81, _src/styles/modules/_header.scss */
+  .top-header .hero-unit img {
+    margin-top: 60px;
+    width: 100%;
+  }
 }
 
-/* line 88, _src/styles/modules/_header.scss */
+/* line 89, _src/styles/modules/_header.scss */
 .section-sub {
   line-height: 30px;
   padding: 60px 0 80px;
   background: url("/public/images/case-bg.png");
 }
-/* line 93, _src/styles/modules/_header.scss */
+/* line 94, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub {
   text-align: center;
   margin-bottom: 80px;
 }
-/* line 97, _src/styles/modules/_header.scss */
+/* line 98, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu {
   margin: 0;
   padding: 0;
@@ -908,7 +909,7 @@ a:hover {
   *zoom: 1;
   *display: inline;
 }
-/* line 101, _src/styles/modules/_header.scss */
+/* line 102, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li {
   list-style-image: none;
   list-style-type: none;
@@ -931,7 +932,7 @@ a:hover {
   padding-right: 0;
 }
 @media (max-width: 550px) {
-  /* line 101, _src/styles/modules/_header.scss */
+  /* line 102, _src/styles/modules/_header.scss */
   .section-sub .navbar-sub ul.menu li {
     list-style-image: none;
     list-style-type: none;
@@ -954,7 +955,7 @@ a:hover {
     padding-right: 0;
   }
 }
-/* line 108, _src/styles/modules/_header.scss */
+/* line 109, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -968,7 +969,7 @@ a:hover {
 .section-sub .navbar-sub ul.menu li a:hover {
   color: #85c058;
 }
-/* line 113, _src/styles/modules/_header.scss */
+/* line 114, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a.btn {
   color: #ffffff;
   background: #85c058;
@@ -980,11 +981,11 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
-  /* line 127, _src/styles/modules/_header.scss */
+  /* line 128, _src/styles/modules/_header.scss */
   .top-header .navbar ul.menu {
     display: none;
   }
-  /* line 131, _src/styles/modules/_header.scss */
+  /* line 132, _src/styles/modules/_header.scss */
   .top-header .navbar i.icon {
     display: inline-block;
     vertical-align: middle;

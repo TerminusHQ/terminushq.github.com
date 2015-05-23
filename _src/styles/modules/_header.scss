@@ -77,10 +77,11 @@
     text-align: center;
     height: 500px;
 
-    h2 {
-      margin: 150px;
-      font-size: 4.8rem;
-      letter-spacing: 2px;
+    @media (max-width: 550px) {
+      img {
+        margin-top: 60px;
+        width: 100%;
+      }
     }
   }
 }
