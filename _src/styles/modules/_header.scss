@@ -2,12 +2,6 @@
   color: white;
   background: url("/public/images/focus.png") no-repeat top;
 
-  &.top-header-index {
-    .hero-unit {
-      height: 555px;
-    }
-  }
-
   &.top-header-product {
     background: url("/public/images/banners/1.png") no-repeat top;
   }
@@ -25,7 +19,7 @@
   }
 
   .navbar {
-    padding-top: 40px;
+    padding-top: 28px;
     @include clearfix();
 
     .nav-header {
@@ -48,8 +42,7 @@
     }
 
     i.icon {
-      visibility: hidden;
-      @include inline-block();
+      display: none;
       margin-top: -10px;
       cursor: pointer;
     }
@@ -82,8 +75,7 @@
 
   .hero-unit {
     text-align: center;
-    padding-top: 72px;
-    height: 355px;
+    height: 500px;
 
     h2 {
       margin: 150px;
@@ -137,7 +129,7 @@
       }
 
       i.icon {
-        visibility: visible;
+        @include inline-block();
       }
     }
   }

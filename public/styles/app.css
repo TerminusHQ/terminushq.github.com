@@ -762,42 +762,38 @@ a:hover {
   color: white;
   background: url("/public/images/focus.png") no-repeat top;
 }
-/* line 6, _src/styles/modules/_header.scss */
-.top-header.top-header-index .hero-unit {
-  height: 555px;
-}
-/* line 11, _src/styles/modules/_header.scss */
+/* line 5, _src/styles/modules/_header.scss */
 .top-header.top-header-product {
   background: url("/public/images/banners/1.png") no-repeat top;
 }
-/* line 15, _src/styles/modules/_header.scss */
+/* line 9, _src/styles/modules/_header.scss */
 .top-header.top-header-solution {
   background: url("/public/images/banners/2.png") no-repeat top;
 }
-/* line 19, _src/styles/modules/_header.scss */
+/* line 13, _src/styles/modules/_header.scss */
 .top-header.top-header-case {
   background: url("/public/images/banners/3.png") no-repeat top;
 }
-/* line 23, _src/styles/modules/_header.scss */
+/* line 17, _src/styles/modules/_header.scss */
 .top-header.top-header-about {
   background: url("/public/images/banners/4.png") no-repeat top;
 }
-/* line 27, _src/styles/modules/_header.scss */
+/* line 21, _src/styles/modules/_header.scss */
 .top-header .navbar {
-  padding-top: 40px;
+  padding-top: 28px;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 31, _src/styles/modules/_header.scss */
+/* line 25, _src/styles/modules/_header.scss */
 .top-header .navbar .nav-header {
   font-size: 32px;
 }
-/* line 34, _src/styles/modules/_header.scss */
+/* line 28, _src/styles/modules/_header.scss */
 .top-header .navbar .nav-header img {
   width: 40px;
   height: 40px;
 }
-/* line 39, _src/styles/modules/_header.scss */
+/* line 33, _src/styles/modules/_header.scss */
 .top-header .navbar .nav-header span {
   display: inline-block;
   vertical-align: text-top;
@@ -807,7 +803,7 @@ a:hover {
   font-size: 24px;
   margin-left: 8px;
 }
-/* line 45, _src/styles/modules/_header.scss */
+/* line 39, _src/styles/modules/_header.scss */
 .top-header .navbar .nav-header a {
   color: #eaeaea;
 }
@@ -815,18 +811,13 @@ a:hover {
 .top-header .navbar .nav-header a:hover {
   color: #ffffff;
 }
-/* line 50, _src/styles/modules/_header.scss */
+/* line 44, _src/styles/modules/_header.scss */
 .top-header .navbar i.icon {
-  visibility: hidden;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
+  display: none;
   margin-top: -10px;
   cursor: pointer;
 }
-/* line 57, _src/styles/modules/_header.scss */
+/* line 50, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu {
   margin: 0;
   padding: 0;
@@ -835,7 +826,7 @@ a:hover {
   *zoom: 1;
   margin-top: 5px;
 }
-/* line 61, _src/styles/modules/_header.scss */
+/* line 54, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li {
   list-style-image: none;
   list-style-type: none;
@@ -857,7 +848,7 @@ a:hover {
 .top-header .navbar ul.menu li.last {
   padding-right: 0;
 }
-/* line 64, _src/styles/modules/_header.scss */
+/* line 57, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -872,40 +863,39 @@ a:hover {
 .top-header .navbar ul.menu li a:hover {
   color: #ffffff;
 }
-/* line 70, _src/styles/modules/_header.scss */
+/* line 63, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a.btn {
   border: 1px solid #ffffff;
   border-radius: 4px;
 }
-/* line 74, _src/styles/modules/_header.scss */
+/* line 67, _src/styles/modules/_header.scss */
 .top-header .navbar ul.menu li a.btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* line 83, _src/styles/modules/_header.scss */
+/* line 76, _src/styles/modules/_header.scss */
 .top-header .hero-unit {
   text-align: center;
-  padding-top: 72px;
-  height: 355px;
+  height: 500px;
 }
-/* line 88, _src/styles/modules/_header.scss */
+/* line 80, _src/styles/modules/_header.scss */
 .top-header .hero-unit h2 {
   margin: 150px;
   font-size: 4.8rem;
   letter-spacing: 2px;
 }
 
-/* line 96, _src/styles/modules/_header.scss */
+/* line 88, _src/styles/modules/_header.scss */
 .section-sub {
   line-height: 30px;
   padding: 60px 0 80px;
   background: url("/public/images/case-bg.png");
 }
-/* line 101, _src/styles/modules/_header.scss */
+/* line 93, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub {
   text-align: center;
   margin-bottom: 80px;
 }
-/* line 105, _src/styles/modules/_header.scss */
+/* line 97, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu {
   margin: 0;
   padding: 0;
@@ -918,7 +908,7 @@ a:hover {
   *zoom: 1;
   *display: inline;
 }
-/* line 109, _src/styles/modules/_header.scss */
+/* line 101, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li {
   list-style-image: none;
   list-style-type: none;
@@ -941,7 +931,7 @@ a:hover {
   padding-right: 0;
 }
 @media (max-width: 550px) {
-  /* line 109, _src/styles/modules/_header.scss */
+  /* line 101, _src/styles/modules/_header.scss */
   .section-sub .navbar-sub ul.menu li {
     list-style-image: none;
     list-style-type: none;
@@ -964,7 +954,7 @@ a:hover {
     padding-right: 0;
   }
 }
-/* line 116, _src/styles/modules/_header.scss */
+/* line 108, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -978,7 +968,7 @@ a:hover {
 .section-sub .navbar-sub ul.menu li a:hover {
   color: #85c058;
 }
-/* line 121, _src/styles/modules/_header.scss */
+/* line 113, _src/styles/modules/_header.scss */
 .section-sub .navbar-sub ul.menu li a.btn {
   color: #ffffff;
   background: #85c058;
@@ -990,13 +980,17 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
-  /* line 135, _src/styles/modules/_header.scss */
+  /* line 127, _src/styles/modules/_header.scss */
   .top-header .navbar ul.menu {
     display: none;
   }
-  /* line 139, _src/styles/modules/_header.scss */
+  /* line 131, _src/styles/modules/_header.scss */
   .top-header .navbar i.icon {
-    visibility: visible;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
   }
 }
 /* line 1, _src/styles/modules/_footer.scss */
