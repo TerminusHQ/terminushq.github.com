@@ -3,7 +3,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables", "strikethrough", "footnotes"]
 highlighter: pygments
-exclude: ["Linnerfile"]
+exclude: ["bin","Linnerfile"]
 gems:
   - jekyll-sitemap
 
