@@ -28,10 +28,12 @@
 
 .footer {
   color: white;
+  padding: 18px 0;
   background-color: $footer-bg-color;
 
-  .copyright {
+  p {
     margin: 0;
-    padding: 12px 0;
+    line-height: 24px;
+    @include inline-block();
   }
 }

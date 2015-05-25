@@ -1036,12 +1036,18 @@ a:hover {
 /* line 29, _src/styles/modules/_footer.scss */
 .footer {
   color: white;
+  padding: 18px 0;
   background-color: rgba(8, 8, 8, 0.8);
 }
-/* line 33, _src/styles/modules/_footer.scss */
-.footer .copyright {
+/* line 34, _src/styles/modules/_footer.scss */
+.footer p {
   margin: 0;
-  padding: 12px 0;
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
 }
 
 /* line 2, _src/styles/modules/_cases.scss */
