@@ -662,17 +662,19 @@ body {
   left: 0;
   color: #484848;
   font-family: "Raleway", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 10, _src/styles/modules/_base.scss */
+/* line 13, _src/styles/modules/_base.scss */
 body.slide {
   left: -165px;
 }
 
-/* line 15, _src/styles/modules/_base.scss */
+/* line 18, _src/styles/modules/_base.scss */
 a {
   text-decoration: none;
   color: #484848;
@@ -682,7 +684,7 @@ a:hover {
   color: #85c058;
 }
 
-/* line 20, _src/styles/modules/_base.scss */
+/* line 23, _src/styles/modules/_base.scss */
 .navigation {
   position: fixed;
   height: 100%;
@@ -694,18 +696,18 @@ a:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 28, _src/styles/modules/_base.scss */
+/* line 31, _src/styles/modules/_base.scss */
 .navigation.slide {
   right: 0;
 }
-/* line 34, _src/styles/modules/_base.scss */
+/* line 37, _src/styles/modules/_base.scss */
 .navigation ul.menu li {
   list-style: none;
   margin-bottom: 0;
   border-bottom: solid 1px rgba(0, 0, 0, 0.1);
   border-top: solid 1px rgba(255, 255, 255, 0.05);
 }
-/* line 40, _src/styles/modules/_base.scss */
+/* line 43, _src/styles/modules/_base.scss */
 .navigation ul.menu li a {
   display: block;
   padding: 15px;
@@ -717,24 +719,24 @@ a:hover {
   color: #ffffff;
 }
 
-/* line 50, _src/styles/modules/_base.scss */
+/* line 53, _src/styles/modules/_base.scss */
 .section {
   padding: 20px 0;
 }
-/* line 53, _src/styles/modules/_base.scss */
+/* line 56, _src/styles/modules/_base.scss */
 .section .heading {
   padding: 20px 0 28px 0;
   text-align: center;
   border-bottom: 1px solid #eaeaea;
 }
 
-/* line 62, _src/styles/modules/_base.scss */
+/* line 65, _src/styles/modules/_base.scss */
 .section-sub p {
   font-size: 14px;
   margin-bottom: 12px;
   line-height: 24px;
 }
-/* line 68, _src/styles/modules/_base.scss */
+/* line 71, _src/styles/modules/_base.scss */
 .section-sub a {
   color: #85c058;
 }
@@ -743,7 +745,7 @@ a:hover {
   color: #85c058;
 }
 @media (max-width: 550px) {
-  /* line 73, _src/styles/modules/_base.scss */
+  /* line 76, _src/styles/modules/_base.scss */
   .section-sub img {
     width: 100%;
     height: 100%;
@@ -751,7 +753,7 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
-  /* line 81, _src/styles/modules/_base.scss */
+  /* line 84, _src/styles/modules/_base.scss */
   .container {
     width: 100%;
     max-width: 1200px;

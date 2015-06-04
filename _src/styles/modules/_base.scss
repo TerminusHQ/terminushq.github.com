@@ -5,7 +5,10 @@ body {
   left: 0;
   color: $body-color;
   font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   @include transition(all 0.3s ease);
+
 
   &.slide {
     left: -165px;
