@@ -2,7 +2,7 @@ $(".slide-menu").on "click touchend", ->
   $("body").toggleClass("slide")
   $(".navigation").toggleClass("slide")
 
-console.log("%cWelcome%chttp://terminus.io/about",
+console.log("%c加入我们%cjobs@terminus.io",
   "line-height: 30px;
   border-radius: 5px 0 0 5px;
   background-color: #666;
