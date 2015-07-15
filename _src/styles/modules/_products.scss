@@ -29,3 +29,39 @@
     }
   }
 }
+
+.product-parana {
+  .product {
+    margin: 40px 0;
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+
+  .product-intro {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    &.right {
+      text-align: right;
+    }
+
+    h4 {
+      margin: 0;
+    }
+    h5 {
+      margin: 0;
+    }
+    p {
+      color: $p-color;
+      margin-top: 32px;
+      font-size: 1.5rem;
+    }
+  }
+
+  .divider {
+    border-bottom: 1px solid $darken-bg-color;
+  }
+}

@@ -20,7 +20,7 @@ groups:
       - "_src/styles"
       - "_vendor"
     concat:
-      "styles/vendor.css": "_vendor/**/*.{css,scss,sass}"
+      "styles/vendor.css": "_vendor/**/[a-z]*.{css,scss,sass}"
       "styles/app.css": "_src/styles/**/[a-z]*.{css,scss,sass}"
     order:
       - "_vendor/normalize.css"
@@ -33,7 +33,12 @@ groups:
     paths:
       - "_src/images"
     copy:
-      "images/": "_src/images/{*.png,{cases,about,products,solutions,banners}/*.png}"
+      "images/": "_src/images/{*.{png,jpg},{cases,about,products,solutions,banners}/*.{png,jpg}}"
+  files:
+    paths:
+      - "_src/files"
+    copy:
+      "files/": "_src/files/**/*.*"
 modules:
   wrapper: "CMD"
   definition: "scripts/app.js"
